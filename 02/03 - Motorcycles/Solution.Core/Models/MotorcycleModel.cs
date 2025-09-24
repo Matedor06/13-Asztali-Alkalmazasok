@@ -3,37 +3,46 @@
 public partial class MotorcycleModel : ObservableObject
 {
     [ObservableProperty]
+    [JsonPropertyName("id")]//Nem kötelező, mappolásnál segít
     private string id;
 
     [ObservableProperty]
+    [JsonPropertyName("imageId")]
     private string imageId;
 
     [ObservableProperty]
+    [JsonPropertyName("webContentLink")]
     private string webContentLink;
 
     [ObservableProperty]
+    [JsonPropertyName("manufacturer")]
     private ManufacturerModel manufacturer;
 
     [ObservableProperty]
+    [JsonPropertyName("type")]
     private TypeModel type;
 
     [ObservableProperty]
+    [JsonPropertyName("model")]
     private string model;
 
     [ObservableProperty]
+    [JsonPropertyName("cubic")]
     private int? cubic;
 
     [ObservableProperty]
+    [JsonPropertyName("releaseYear")]
     private int? releaseYear;
 
     [ObservableProperty]
+    [JsonPropertyName("numberOfCylinders")]
     private int? numberOfCylinders;
 
     public MotorcycleModel()
     {
     }
 
-    public MotorcycleModel(MotorcycleEntity entity):this()
+    public MotorcycleModel(MotorcycleEntity entity)
     {
         this.Id = entity.PublicId;
         this.ImageId = entity.ImageId;
@@ -41,9 +50,9 @@ public partial class MotorcycleModel : ObservableObject
         this.Manufacturer = new ManufacturerModel(entity.Manufacturer);
         this.Type = new TypeModel(entity.Type);
         this.Model = entity.Model;
-        this.Cubic = Cubic.Value;
-        this.ReleaseYear = ReleaseYear.Value;
-        this.NumberOfCylinders = NumberOfCylinders.Value;
+        this.Cubic = entity.Cubic;
+        this.ReleaseYear = entity.ReleaseYear;
+        this.NumberOfCylinders = entity.Cylinders;
     }
 
     public MotorcycleEntity ToEntity()

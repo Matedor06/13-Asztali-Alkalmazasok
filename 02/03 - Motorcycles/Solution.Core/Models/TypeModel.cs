@@ -1,5 +1,4 @@
-﻿
-namespace Solution.Core.Models;
+﻿namespace Solution.Core.Models;
 
 public partial class TypeModel: ObservableObject
 {
@@ -30,4 +29,18 @@ public partial class TypeModel: ObservableObject
         Name = entity.Name;
     }
 
+    public MotorcycleTypeEntity ToEntity()
+    {
+        return new MotorcycleTypeEntity
+        {
+            Id = this.Id,
+            Name = this.Name
+        };
+    }
+
+    public void ToEntity(MotorcycleTypeEntity entity)
+    {
+        entity.Id = this.Id;
+        entity.Name = this.Name;
+    }
 }

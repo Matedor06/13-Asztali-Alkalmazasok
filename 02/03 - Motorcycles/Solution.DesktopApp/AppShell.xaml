@@ -20,23 +20,32 @@
 
     <Shell.MenuBarItems>
         <MenuBarItem Text="File">
-          <MenuFlyoutItem Text="Exit" Command="{Binding ExitCommand}" />
+            <MenuFlyoutItem Text="Exit" Command="{Binding ExitCommand}" />
         </MenuBarItem>
 
         <MenuBarItem Text="Motocycle">
-          <MenuFlyoutItem Text="Add New" Command="{Binding AddNewMotorcycleCommand}">
-            <MenuFlyoutItem.IconImageSource>
-              <FontImageSource Glyph="&#x25B6;" FontFamily="Arial" Color="Black"/>
-            </MenuFlyoutItem.IconImageSource>
-          </MenuFlyoutItem>
-      
-          <MenuFlyoutItem Text="List All" Command="{Binding ListAllMotorcyclesCommand}">
-            <MenuFlyoutItem.IconImageSource>
-              <FontImageSource Glyph="&#x25B6;" FontFamily="Arial" Color="Black" />
-            </MenuFlyoutItem.IconImageSource>
-          </MenuFlyoutItem>
+            <MenuFlyoutItem Text="Add New" Command="{Binding AddNewMotorcycleCommand}">
+                <MenuFlyoutItem.IconImageSource>
+                    <FontImageSource Glyph="&#x25B6;" FontFamily="Arial" Color="Black"/>
+                </MenuFlyoutItem.IconImageSource>
+            </MenuFlyoutItem>
+
+            <MenuFlyoutItem Text="List All" Command="{Binding ListAllMotorcyclesCommand}">
+                <MenuFlyoutItem.IconImageSource>
+                    <FontImageSource Glyph="&#x25B6;" FontFamily="Arial" Color="Black" />
+                </MenuFlyoutItem.IconImageSource>
+            </MenuFlyoutItem>
         </MenuBarItem>
-      </Shell.MenuBarItems>
+        
+        <MenuBarItem Text="Type">
+        <MenuFlyoutItem Text="Add Type" Command="{Binding AddNewTypeCommand}" />
+        </MenuBarItem>
+
+        <MenuBarItem Text="Manufacturer">
+            <MenuFlyoutItem Text="Add Manufacturer" Command="{Binding AddNewManufacturerCommand}" />
+        </MenuBarItem>
+    </Shell.MenuBarItems>
+    
 
     <ShellContent ContentTemplate="{DataTemplate local:MainView}"
                   Route="MainView" />

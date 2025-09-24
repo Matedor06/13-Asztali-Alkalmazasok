@@ -3,10 +3,12 @@
 public partial class ManufacturerModel : ObservableObject
 {
     [ObservableProperty]
+    [JsonPropertyName("id")]
     private int id;
 
 
     [ObservableProperty]
+    [JsonPropertyName("name")]
     private string name;
 
     public ManufacturerModel()
@@ -28,6 +30,26 @@ public partial class ManufacturerModel : ObservableObject
 
         Id = entity.Id;
         Name = entity.Name;
+    }
+
+    public ManufacturerEntity ToEntity()
+    {
+        return new ManufacturerEntity
+        {
+            Id = this.Id,
+            Name = this.Name
+        };
+    }
+
+    public void ToEntity(ManufacturerEntity entity)
+    {
+        if (entity is null)
+        {
+            return;
+        }
+
+        entity.Id = this.Id;
+        entity.Name = this.Name;
     }
 
     public override bool Equals(object? obj)

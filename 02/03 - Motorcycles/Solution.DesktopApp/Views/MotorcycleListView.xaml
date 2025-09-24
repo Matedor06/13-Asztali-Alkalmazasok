@@ -6,11 +6,17 @@
              xmlns:viewModels="clr-namespace:Solution.DesktopApp.ViewModels"
              xmlns:components="clr-namespace:Solution.DesktopApp.Components"
              xmlns:models="clr-namespace:Solution.Core.Models;assembly=Solution.Core"
-             x:DataType="viewModels:MotorcycleListViewModel">
+             x:DataType="viewModels:MotorcycleListViewModel"
+             x:Name="this">
 
     <ContentPage.Behaviors>
-        <toolkit:EventToCommandBehavior Command="{Binding AppearingCommand}" EventName="Appearing"/>
-        <toolkit:EventToCommandBehavior Command="{Binding DisappearingCommand}" EventName="Disappearing" />
+        <toolkit:EventToCommandBehavior Command="{Binding AppearingCommand}"
+                                        EventName="Appearing"
+                                        BindingContext="{Binding Source={x:Reference this}, Path=BindingContext}"/>
+
+        <toolkit:EventToCommandBehavior Command="{Binding DisappearingCommand}"
+                                        EventName="Disappearing" 
+                                        BindingContext="{Binding Source={x:Reference this}, Path=BindingContext}"/>
     </ContentPage.Behaviors>
 
     <Grid>
@@ -22,7 +28,7 @@
         <Label Grid.Row="0"
                Text="MOTORCYCLES"
                Style="{x:StaticResource PageTitle}" />
-       
+
         <ScrollView Grid.Row="1">
             <CollectionView ItemsSource="{Binding Motorcycles}" Margin="50,0,50,0">
                 <CollectionView.Header>
@@ -89,6 +95,6 @@
                 </CollectionView.Footer>
             </CollectionView>
         </ScrollView>
-        
+
     </Grid>
 </ContentPage>

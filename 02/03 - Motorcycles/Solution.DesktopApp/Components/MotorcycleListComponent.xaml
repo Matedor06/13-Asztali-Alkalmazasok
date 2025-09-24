@@ -26,36 +26,46 @@
                 </Image.Source>
             </Image>
             <Label Grid.Column="1"
-                   Text="{Binding Motorcycle.Manufacturer.Value.Name, Source={x:Reference this}}" 
+                   Text="{Binding Motorcycle.Manufacturer.Name, Source={x:Reference this}}" 
                    HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
             <Label Grid.Column="2"
-                   Text="{Binding Motorcycle.Model.Value, Source={x:Reference this}}" 
+                   Text="{Binding Motorcycle.Model, Source={x:Reference this}}" 
                    HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
             <Label Grid.Column="3"
-                   Text="{Binding Motorcycle.Type.Value.Name, Source={x:Reference this}}" 
+                   Text="{Binding Motorcycle.Type.Name, Source={x:Reference this}}" 
                    HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
             <Label Grid.Column="4"
-                   Text="{Binding Motorcycle.ReleaseYear.Value, Source={x:Reference this}}" 
+                   Text="{Binding Motorcycle.ReleaseYear, Source={x:Reference this}}" 
                    HorizontalTextAlignment="End" VerticalTextAlignment="Center" />
             <Label Grid.Column="5"
-                   Text="{Binding Motorcycle.NumberOfCylinders.Value, Source={x:Reference this}}" 
+                   Text="{Binding Motorcycle.NumberOfCylinders, Source={x:Reference this}}" 
                    HorizontalTextAlignment="End" VerticalTextAlignment="Center"/>
             <Label Grid.Column="6"
-                   Text="{Binding Motorcycle.Cubic.Value, Source={x:Reference this}}" 
-                   HorizontalTextAlignment="End" VerticalTextAlignment="Center" />
+                   Text="{Binding Motorcycle.Cubic, Source={x:Reference this}}" 
+                   HorizontalTextAlignment="End" VerticalTextAlignment="Center"/>
             <ImageButton Grid.Column="7"
                          Source="{AppThemeBinding Light=edit_dark.png, Dark=edit_light.png}"
                          Command="{Binding EditCommand, Source={x:Reference this}}"
                          HorizontalOptions="End" VerticalOptions="Center" 
                          BackgroundColor="Transparent"
-                         WidthRequest="25" HeightRequest="25"/>
+                         WidthRequest="25" HeightRequest="25">
+                <!--<ImageButton.GestureRecognizers>
+                    <PointerGestureRecognizer PointerEntered="OnPointerEntered"
+                                                PointerExited="OnPointerExited" />
+                </ImageButton.GestureRecognizers>-->
+            </ImageButton>
             <ImageButton Grid.Column="8"
                          Source="{AppThemeBinding Light=delete_dark.png, Dark=delete_light.png}"
                          Command="{Binding DeleteCommand, Source={x:Reference this}}"
                          CommandParameter="{Binding Motorcycle.Id, Source={x:Reference this}}"
                          HorizontalOptions="End" VerticalOptions="Center" 
                          BackgroundColor="Transparent"
-                         WidthRequest="25" HeightRequest="25"/>
+                         WidthRequest="25" HeightRequest="25">
+                <!--<ImageButton.GestureRecognizers>
+                    <PointerGestureRecognizer PointerEntered="OnPointerEntered"
+                                  PointerExited="OnPointerExited" />
+                </ImageButton.GestureRecognizers>-->
+            </ImageButton>
         </Grid>
     </Border>
 

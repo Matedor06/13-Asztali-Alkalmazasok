@@ -20,7 +20,7 @@ public partial class CreateOrEditMotorcycleViewModel(
     public IAsyncRelayCommand ImageSelectCommand => new AsyncRelayCommand(OnImageSelectAsync);
     #endregion
 
-    private MotorcycleModelValidator validator => new MotorcycleModelValidator();
+    private MotorcycleModelValidator validator => new MotorcycleModelValidator(null);
 
     [ObservableProperty]
     private ValidationResult validationResult = new ValidationResult();
