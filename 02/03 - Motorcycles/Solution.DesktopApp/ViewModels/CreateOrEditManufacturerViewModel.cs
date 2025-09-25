@@ -21,7 +21,7 @@ public partial class CreateOrEditManufacturerViewModel(
     public IAsyncRelayCommand SubmitCommand => new AsyncRelayCommand(OnSubmitAsync);
     #endregion
 
-    private ManufacturerModelValidator validator => new ManufacturerModelValidator();
+    private ManufacturerModelValidator validator => new ManufacturerModelValidator(null);
 
     [ObservableProperty]
     private ValidationResult validationResult = new ValidationResult();

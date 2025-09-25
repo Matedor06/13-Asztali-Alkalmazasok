@@ -4,6 +4,9 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    xmlns:sfEditor="clr-namespace:Syncfusion.Maui.Toolkit.TextInputLayout;assembly=Syncfusion.Maui.Toolkit"
+    xmlns:sfNumericEntry="clr-namespace:Syncfusion.Maui.Toolkit.NumericEntry;assembly=Syncfusion.Maui.Toolkit"
+    
 >
     <Style x:Key="ValidationErrorLabelStyle" TargetType="Label">
         <Setter Property="TextColor" Value="Red" />
@@ -38,6 +41,16 @@
         <Setter Property="FontSize" Value="16" />
         <Setter Property="TextColor" Value="{AppThemeBinding Light=WhiteSmoke, Dark=Black}" />
         <Setter Property="FontAttributes" Value="Bold" />
+    </Style>
+    <Style TargetType="sfEditor:SfTextInputLayout">
+        <Setter Property="HintLabelStyle">
+            <Setter.Value>
+                <sfEditor:LabelStyle TextColor="{AppThemeBinding Dark=White, Light=Black}"/>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style TargetType="sfNumericEntry:SfNumericEntry">
+        <Setter Property="TextColor" Value="{AppThemeBinding Dark=White, Light=Black}"/>
     </Style>
 
 </ResourceDictionary>

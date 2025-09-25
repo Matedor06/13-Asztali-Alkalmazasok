@@ -43,6 +43,7 @@
 
         <MenuBarItem Text="Manufacturer">
             <MenuFlyoutItem Text="Add Manufacturer" Command="{Binding AddNewManufacturerCommand}" />
+            <MenuFlyoutItem Text="List All" Command="{Binding ListAllManufacturersCommand}"/>
         </MenuBarItem>
     </Shell.MenuBarItems>
     

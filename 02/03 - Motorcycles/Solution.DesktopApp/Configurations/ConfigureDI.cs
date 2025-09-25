@@ -13,6 +13,7 @@ public static class ConfigureDI
 
         builder.Services.AddTransient<MainView>();
         builder.Services.AddTransient<MotorcycleListView>();
+        builder.Services.AddTransient<ManufacturerListView>();
         builder.Services.AddTransient<CreateOrEditMotorcycleView>();
         builder.Services.AddTransient<CreateOrEditTypeView>();
         builder.Services.AddTransient<CreateOrEditManufacturerView>();

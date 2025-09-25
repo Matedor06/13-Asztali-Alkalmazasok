@@ -28,6 +28,7 @@ namespace Solution.Validators
             RuleFor(x => x.Cubic).NotNull().WithMessage("Cubic is required")
                                  .GreaterThan(0).WithMessage("Cubic has to be greater then 0");
             RuleFor(x => x.Manufacturer).NotNull().WithMessage("Manufacturer is required");
+           
             RuleFor(x => x.Manufacturer.Id).GreaterThan(0).WithMessage("Manufacturer Id can not be 0");
             //validalni hogy letezik e ilyen id-jű gyártó
             RuleFor(x => x.NumberOfCylinders).NotNull().WithMessage("Cylinders are required")

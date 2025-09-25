@@ -12,7 +12,6 @@ namespace Solution.Validators
             if (IsPutMethod)
             {
                 RuleFor(x => x.Id).NotEmpty().WithMessage("Id is required for update");
-                //validalni hogy az id letezik
             }
 
             RuleFor(x => x.Name)

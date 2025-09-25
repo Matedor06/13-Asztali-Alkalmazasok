@@ -12,4 +12,4 @@ public partial class MotorcycleListView : ContentPage
 
 		InitializeComponent();
 	}
-}
+}	

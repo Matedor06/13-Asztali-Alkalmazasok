@@ -1,0 +1,15 @@
+namespace Solution.DesktopApp.Views;
+
+public partial class ManufacturerListView : ContentView
+{
+	public ManufacturerListViewModel ViewModel => this.BindingContext as ManufacturerListViewModel;
+
+	public static string Name => nameof(ManufacturerListView);
+	public ManufacturerListView(ManufacturerListViewModel viewModel)
+	{
+		this.BindingContext = viewModel;
+		InitializeComponent();
+    }
+
+
+}

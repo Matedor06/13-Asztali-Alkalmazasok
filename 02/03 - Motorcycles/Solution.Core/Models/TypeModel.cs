@@ -43,4 +43,5 @@ public partial class TypeModel: ObservableObject
         entity.Id = this.Id;
         entity.Name = this.Name;
     }
+
 }

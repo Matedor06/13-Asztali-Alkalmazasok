@@ -17,7 +17,7 @@ public partial class CreateOrEditTypeViewModel(
     public IAsyncRelayCommand SubmitCommand => new AsyncRelayCommand(OnSubmitAsync);
     #endregion
 
-    private TypeModelValidator validator => new TypeModelValidator();
+    private TypeModelValidator validator => new TypeModelValidator(null);
 
     [ObservableProperty]
     private ValidationResult validationResult = new ValidationResult();
