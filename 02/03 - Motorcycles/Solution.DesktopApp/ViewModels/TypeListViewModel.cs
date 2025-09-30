@@ -1,4 +1,4 @@
-﻿using Solution.Core.Interfaces;
+using Solution.Core.Interfaces;
 using Solution.Services;
 using System;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace Solution.DesktopApp.ViewModels;
 
 [ObservableObject]
-public partial class ManufacturerListViewModel(IManufacturerService manufacturerService)
+public partial class TypeListViewModel(ITypeService typeService)
 {
 
     #region life cycle commands
@@ -27,18 +27,18 @@ public partial class ManufacturerListViewModel(IManufacturerService manufacturer
     #endregion
 
     [ObservableProperty]
-    private ObservableCollection<ManufacturerModel> manufacturers;
+    private ObservableCollection<TypeModel> types;
 
     private int page = 1;
     private bool isLoading = false;
     private bool hasNextPage = false;
-    private int numberOfManufacturersInDB = 0;
+    private int numberOfTypesInDB = 0;
 
     private async Task OnAppearingAsync()
     {
         PreviousPageCommand = new Command(async () => await OnPreviousPageAsync(), () => page > 1 && !isLoading);
         NextPageCommand = new Command(async () => await OnNextPageAsync(), () => !isLoading && hasNextPage);
-        await LoadManufacturersAsync();
+        await LoadTypesAsync();
 
     }
     private async Task OnDisappearingAsync()
@@ -49,7 +49,7 @@ public partial class ManufacturerListViewModel(IManufacturerService manufacturer
         if (isLoading) return;
 
         page = page <= 1 ? 1 : --page;
-        await LoadManufacturersAsync();
+        await LoadTypesAsync();
     }
 
     private async Task OnNextPageAsync()
@@ -57,25 +57,25 @@ public partial class ManufacturerListViewModel(IManufacturerService manufacturer
         if (isLoading) return;
 
         page++;
-        await LoadManufacturersAsync();
+        await LoadTypesAsync();
     }
 
-    private async Task LoadManufacturersAsync()
+    private async Task LoadTypesAsync()
     {
         isLoading = true;
 
-        var result = await manufacturerService.GetPagedAsync(page);
+        var result = await typeService.GetPagedAsync(page);
 
         if (result.IsError)
         {
-            await Application.Current.MainPage.DisplayAlert("Error", "Manufacturers not loaded!", "OK");
+            await Application.Current.MainPage.DisplayAlert("Error", "Types not loaded!", "OK");
             return;
         }
 
-        Manufacturers = new ObservableCollection<ManufacturerModel>(result.Value.Items);
-        numberOfManufacturersInDB = result.Value.Count;
+        Types = new ObservableCollection<TypeModel>(result.Value.Items);
+        numberOfTypesInDB = result.Value.Count;
 
-        hasNextPage = numberOfManufacturersInDB - (page * 10) > 0;
+        hasNextPage = numberOfTypesInDB - (page * 10) > 0;
         isLoading = false;
 
         ((Command)PreviousPageCommand).ChangeCanExecute();
@@ -84,19 +84,19 @@ public partial class ManufacturerListViewModel(IManufacturerService manufacturer
 
     private async Task OnDeleteAsync(int id)
     {
-        var result = await manufacturerService.DeleteAsync(id);
+        var result = await typeService.DeleteAsync(id);
 
-        var message = result.IsError ? result.FirstError.Description : "Manufacturer deleted.";
+        var message = result.IsError ? result.FirstError.Description : "Type deleted.";
         var title = result.IsError ? "Error" : "Information";
 
         if (!result.IsError)
         {
-            var manufacturer = manufacturers.SingleOrDefault(x => x.Id == id);
-            manufacturers.Remove(manufacturer);
+            var type = Types.SingleOrDefault(x => x.Id == id);
+            Types.Remove(type);
 
-            if (manufacturers.Count == 0)
+            if (Types.Count == 0)
             {
-                await LoadManufacturersAsync();
+                await LoadTypesAsync();
             }
         }
 

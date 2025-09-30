@@ -38,7 +38,8 @@
         </MenuBarItem>
         
         <MenuBarItem Text="Type">
-        <MenuFlyoutItem Text="Add Type" Command="{Binding AddNewTypeCommand}" />
+            <MenuFlyoutItem Text="Add Type" Command="{Binding AddNewTypeCommand}" />
+            <MenuFlyoutItem Text="List All" Command="{Binding ListAllTypesCommand}"/>
         </MenuBarItem>
 
         <MenuBarItem Text="Manufacturer">

@@ -6,6 +6,8 @@ public static class ConfigureDI
 	{
 		builder.Services.AddTransient<MainViewModel>();
         builder.Services.AddTransient<MotorcycleListViewModel>();
+        builder.Services.AddTransient<ManufacturerListViewModel>();
+        builder.Services.AddTransient<TypeListViewModel>();
         builder.Services.AddTransient<CreateOrEditMotorcycleViewModel>();
         builder.Services.AddTransient<CreateOrEditTypeViewModel>();
         builder.Services.AddTransient<CreateOrEditManufacturerViewModel>();
@@ -14,6 +16,7 @@ public static class ConfigureDI
         builder.Services.AddTransient<MainView>();
         builder.Services.AddTransient<MotorcycleListView>();
         builder.Services.AddTransient<ManufacturerListView>();
+        builder.Services.AddTransient<TypeListView>();
         builder.Services.AddTransient<CreateOrEditMotorcycleView>();
         builder.Services.AddTransient<CreateOrEditTypeView>();
         builder.Services.AddTransient<CreateOrEditManufacturerView>();
