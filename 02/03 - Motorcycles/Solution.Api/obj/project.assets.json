@@ -2922,6 +2922,65 @@
         "runtime": {
           "bin/placeholder/Solution.Database.dll": {}
         }
+      },
+      "Solution.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.0",
+          "ErrorOr": "2.0.1",
+          "FluentValidation": "12.0.0",
+          "FluentValidation.AspNetCore": "11.3.1",
+          "FluentValidation.DependencyInjectionExtensions": "12.0.0",
+          "Google.Apis": "1.69.0",
+          "Google.Apis.Auth": "1.69.0",
+          "Google.Apis.Drive.v3": "1.68.0.3627",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "9.0.0",
+          "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "9.0.0",
+          "Microsoft.AspNetCore.Identity": "2.2.0",
+          "Microsoft.EntityFrameworkCore": "9.0.0",
+          "Microsoft.EntityFrameworkCore.Abstractions": "9.0.0",
+          "Microsoft.EntityFrameworkCore.Relational": "9.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0",
+          "Microsoft.Extensions.Configuration": "9.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "9.0.0",
+          "Microsoft.Extensions.Configuration.Json": "9.0.0",
+          "Microsoft.Extensions.DependencyInjection": "9.0.9",
+          "Microsoft.Extensions.Logging.Debug": "9.0.0",
+          "Microsoft.Maui.Essentials": "9.0.110",
+          "Solution.Core": "1.0.0",
+          "Solution.Database": "1.0.0",
+          "System.Private.Uri": "4.3.2"
+        },
+        "compile": {
+          "bin/placeholder/Solution.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Solution.Services.dll": {}
+        }
+      },
+      "Solution.Validators/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.0",
+          "FluentValidation": "12.0.0",
+          "FluentValidation.AspNetCore": "11.3.1",
+          "FluentValidation.DependencyInjectionExtensions": "12.0.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "9.0.0",
+          "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "9.0.0",
+          "Microsoft.AspNetCore.Identity": "2.2.0",
+          "Microsoft.Extensions.DependencyInjection": "9.0.9",
+          "Microsoft.Maui.Essentials": "9.0.110",
+          "Solution.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Solution.Validators.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Solution.Validators.dll": {}
+        }
       }
     }
   },
@@ -7893,12 +7952,20 @@
       "type": "project",
       "path": "../Solution.Database/Solution.Database.csproj",
       "msbuildProject": "../Solution.Database/Solution.Database.csproj"
+    },
+    "Solution.Services/1.0.0": {
+      "type": "project",
+      "path": "../Solution.Services/Solution.Services.csproj",
+      "msbuildProject": "../Solution.Services/Solution.Services.csproj"
+    },
+    "Solution.Validators/1.0.0": {
+      "type": "project",
+      "path": "../Solution.Validators/Solution.Validators.csproj",
+      "msbuildProject": "../Solution.Validators/Solution.Validators.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\02\\03 - Motorcycles\\Solution.Services\\Solution.Services.csproj",
-      "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\02\\03 - Motorcycles\\Solution.Validators\\Solution.Validators.csproj",
       "CommunityToolkit.Mvvm >= 8.4.0",
       "ErrorOr >= 2.0.1",
       "FluentAssertions >= 7.0.0",
@@ -7937,6 +8004,8 @@
       "Serilog.Sinks.File >= 6.0.0",
       "Solution.Core >= 1.0.0",
       "Solution.Database >= 1.0.0",
+      "Solution.Services >= 1.0.0",
+      "Solution.Validators >= 1.0.0",
       "System.IdentityModel.Tokens.Jwt >= 8.3.0",
       "System.Security.Cryptography.Xml >= 9.0.0",
       "Z.EntityFramework.Extensions.EFCore >= 9.103.6.3",
@@ -7944,23 +8013,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Users\\b1karmat\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\02\\03 - Motorcycles\\Solution.Api\\Solution.Api.csproj",
+      "projectUniqueName": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02\\03 - Motorcycles\\Solution.Api\\Solution.Api.csproj",
       "projectName": "Solution.Api",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\02\\03 - Motorcycles\\Solution.Api\\Solution.Api.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\02\\03 - Motorcycles\\Solution.Api\\obj\\",
+      "projectPath": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02\\03 - Motorcycles\\Solution.Api\\Solution.Api.csproj",
+      "packagesPath": "C:\\Users\\b1karmat\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02\\03 - Motorcycles\\Solution.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\b1karmat\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -7976,17 +8045,17 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\02\\03 - Motorcycles\\Solution.Core\\Solution.Core.csproj": {
-              "projectPath": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\02\\03 - Motorcycles\\Solution.Core\\Solution.Core.csproj"
+            "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02\\03 - Motorcycles\\Solution.Core\\Solution.Core.csproj": {
+              "projectPath": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02\\03 - Motorcycles\\Solution.Core\\Solution.Core.csproj"
             },
-            "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\02\\03 - Motorcycles\\Solution.Database\\Solution.Database.csproj": {
-              "projectPath": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\02\\03 - Motorcycles\\Solution.Database\\Solution.Database.csproj"
+            "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02\\03 - Motorcycles\\Solution.Database\\Solution.Database.csproj": {
+              "projectPath": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02\\03 - Motorcycles\\Solution.Database\\Solution.Database.csproj"
             },
-            "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\02\\03 - Motorcycles\\Solution.Services\\Solution.Services.csproj": {
-              "projectPath": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\02\\03 - Motorcycles\\Solution.Services\\Solution.Services.csproj"
+            "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02\\03 - Motorcycles\\Solution.Services\\Solution.Services.csproj": {
+              "projectPath": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02\\03 - Motorcycles\\Solution.Services\\Solution.Services.csproj"
             },
-            "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\02\\03 - Motorcycles\\Solution.Validators\\Solution.Validators.csproj": {
-              "projectPath": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\02\\03 - Motorcycles\\Solution.Validators\\Solution.Validators.csproj"
+            "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02\\03 - Motorcycles\\Solution.Validators\\Solution.Validators.csproj": {
+              "projectPath": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02\\03 - Motorcycles\\Solution.Validators\\Solution.Validators.csproj"
             }
           }
         }
@@ -8189,28 +8258,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Unable to find project information for 'C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\02\\03 - Motorcycles\\Solution.Services\\Solution.Services.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
-      "libraryId": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\02\\03 - Motorcycles\\Solution.Services\\Solution.Services.csproj",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    },
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Unable to find project information for 'C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\02\\03 - Motorcycles\\Solution.Validators\\Solution.Validators.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
-      "libraryId": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\02\\03 - Motorcycles\\Solution.Validators\\Solution.Validators.csproj",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    }
-  ]
+  }
 }
