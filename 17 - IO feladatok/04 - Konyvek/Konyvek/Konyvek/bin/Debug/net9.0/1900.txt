@@ -1,0 +1,8 @@
+﻿Christie	Agatha	1890-09-15	A vád tanúja	963841345X	Hunga-Print	1994	3000	krimi	254	705
+Asimov	Isaac	1920-01-02	A biológia rövid története	11111111111	Gondolat Kiadó	1972	1200	természettudomány	278	514
+Asimov	Isaac	1920-01-02	A Hold tragédiája	22222222222	Kozmosz Könyvek	1979	1500	szépirodalom	310	927
+Lefebvre	Georges	1874-08-06	Napóleon	963280256X	Gondolat	1975	1500	történelem	783	160
+Attenborough	David	1926-05-08	Az élet erõpróbái	9638227117	PARK KÖNYVKIADÓ KFT.	1994	1701	természettudomány	326	285
+Attenborough	David	1926-05-08	Az élõ bolygó - a föld mai arculata	9635300077	PARK KÖNYVKIADÓ KFT.	1994	2081	természettudomány	324	600
+Attenborough	David	1926-05-08	Az elsõ édenkert	9630267217	PARK KÖNYVKIADÓ KFT.	1989	1200	természettudomány	238	273
+Gamma	Erich	1961-12-31	Design Patterns: Elements of Reusable Object-Oriented Software	9780201633610	Addison-Wesley Professional	1994	5980	informatika	416	445

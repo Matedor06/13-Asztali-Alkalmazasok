@@ -1,0 +1,4 @@
+﻿Fowler	Martin	1963-09-21	Refactoring - Kódjavítás újratervezéssel	9639637130	Kiskapu Kiadó	2006	5525	informatika	372	846
+Fowler	Martin	1963-09-21	Domain-Specific Languages	9780321712943	Addison-Wesley Professional	2010	8735	informatika	640	58
+Gamma	Erich	1961-12-31	Design Patterns: Elements of Reusable Object-Oriented Software	9780201633610	Addison-Wesley Professional	1994	5980	informatika	416	445
+Gamma	Erich	1961-12-31	Programtervezési minták - Újrahasznosítható elemek objektumközpontú programokhoz	9639301779	Kiskapu - Addison-Wesley	2004	5980	informatika	421	726
