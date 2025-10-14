@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Solution.DesktopApp.Components.CarListComponent"
+             x:Name="this">
+    <Border Padding="0,10,0,10">
+        <Grid Padding="10,0,10,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120" />
+                <ColumnDefinition Width="120" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="80" />
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Column="0"
+                   Text="{Binding Car.Manufacturer.Name, Source={x:Reference this}}" 
+                   HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
+            <Label Grid.Column="1"
+                   Text="{Binding Car.Type.Name, Source={x:Reference this}}" 
+                   HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
+            <Label Grid.Column="2"
+                   Text="{Binding Car.Model, Source={x:Reference this}}" 
+                   HorizontalTextAlignment="Start" VerticalTextAlignment="Center" />
+            <Label Grid.Column="3"
+                   Text="{Binding Car.Cubic, Source={x:Reference this}}" 
+                   HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            <Label Grid.Column="4"
+                   Text="{Binding Car.ReleaseYear, Source={x:Reference this}}" 
+                   HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
+            <Label Grid.Column="5"
+                   Text="{Binding Car.NumberOfDoors, Source={x:Reference this}}" 
+                   HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            <Image Grid.Column="6"
+                   HorizontalOptions="Center"
+                   WidthRequest="50">
+                <Image.Source>
+                    <UriImageSource Uri="{Binding Car.WebContentLink, Source={x:Reference this}}"
+                                    CacheValidity="10:00:00:00" />
+                </Image.Source>
+            </Image>
+            <ImageButton Grid.Column="7"
+                         Source="{AppThemeBinding Light=edit_dark.png, Dark=edit_light.png}"
+                         Command="{Binding EditCommand, Source={x:Reference this}}"
+                         HorizontalOptions="End" VerticalOptions="Center" 
+                         BackgroundColor="Transparent"
+                         WidthRequest="25" HeightRequest="25" />
+            <ImageButton Grid.Column="8"
+                         Source="{AppThemeBinding Light=delete_dark.png, Dark=delete_light.png}"
+                         Command="{Binding DeleteCommand, Source={x:Reference this}}"
+                         CommandParameter="{Binding Car.Id, Source={x:Reference this}}"
+                         HorizontalOptions="End" VerticalOptions="Center" 
+                         BackgroundColor="Transparent"
+                         WidthRequest="25" HeightRequest="25" />
+        </Grid>
+    </Border>
+</ContentView>

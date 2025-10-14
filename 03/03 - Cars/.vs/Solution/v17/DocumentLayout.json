@@ -1,0 +1,269 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|c:\\users\\admin\\desktop\\github\\13-asztali-alkalmazasok\\03\\03 - cars\\solution.desktopapp\\viewmodels\\createoreditcarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|solutionrelative:solution.desktopapp\\viewmodels\\createoreditcarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|c:\\users\\admin\\desktop\\github\\13-asztali-alkalmazasok\\03\\03 - cars\\solution.desktopapp\\views\\carlistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|solutionrelative:solution.desktopapp\\views\\carlistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|c:\\users\\admin\\desktop\\github\\13-asztali-alkalmazasok\\03\\03 - cars\\solution.desktopapp\\views\\createoreditcarview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|solutionrelative:solution.desktopapp\\views\\createoreditcarview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|c:\\users\\admin\\desktop\\github\\13-asztali-alkalmazasok\\03\\03 - cars\\solution.desktopapp\\views\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|solutionrelative:solution.desktopapp\\views\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|c:\\users\\admin\\desktop\\github\\13-asztali-alkalmazasok\\03\\03 - cars\\solution.desktopapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|solutionrelative:solution.desktopapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|c:\\users\\admin\\desktop\\github\\13-asztali-alkalmazasok\\03\\03 - cars\\solution.desktopapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|solutionrelative:solution.desktopapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|c:\\users\\admin\\desktop\\github\\13-asztali-alkalmazasok\\03\\03 - cars\\solution.desktopapp\\views\\createoreditmodelview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|solutionrelative:solution.desktopapp\\views\\createoreditmodelview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|c:\\users\\admin\\desktop\\github\\13-asztali-alkalmazasok\\03\\03 - cars\\solution.desktopapp\\views\\createoreditmanufacturerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|solutionrelative:solution.desktopapp\\views\\createoreditmanufacturerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|c:\\users\\admin\\desktop\\github\\13-asztali-alkalmazasok\\03\\03 - cars\\solution.desktopapp\\viewmodels\\createoredittypeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|solutionrelative:solution.desktopapp\\viewmodels\\createoredittypeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|c:\\users\\admin\\desktop\\github\\13-asztali-alkalmazasok\\03\\03 - cars\\solution.desktopapp\\viewmodels\\createoreditmanufacturerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|solutionrelative:solution.desktopapp\\viewmodels\\createoreditmanufacturerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{765C2A53-1BDC-40D8-A57D-D4F1D026D501}|Solution.Validators\\Solution.Validators.csproj|c:\\users\\admin\\desktop\\github\\13-asztali-alkalmazasok\\03\\03 - cars\\solution.validators\\carmodelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{765C2A53-1BDC-40D8-A57D-D4F1D026D501}|Solution.Validators\\Solution.Validators.csproj|solutionrelative:solution.validators\\carmodelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{765C2A53-1BDC-40D8-A57D-D4F1D026D501}|Solution.Validators\\Solution.Validators.csproj|c:\\users\\admin\\desktop\\github\\13-asztali-alkalmazasok\\03\\03 - cars\\solution.validators\\typemodelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{765C2A53-1BDC-40D8-A57D-D4F1D026D501}|Solution.Validators\\Solution.Validators.csproj|solutionrelative:solution.validators\\typemodelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{765C2A53-1BDC-40D8-A57D-D4F1D026D501}|Solution.Validators\\Solution.Validators.csproj|c:\\users\\admin\\desktop\\github\\13-asztali-alkalmazasok\\03\\03 - cars\\solution.validators\\manufacturermodelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{765C2A53-1BDC-40D8-A57D-D4F1D026D501}|Solution.Validators\\Solution.Validators.csproj|solutionrelative:solution.validators\\manufacturermodelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|c:\\users\\admin\\desktop\\github\\13-asztali-alkalmazasok\\03\\03 - cars\\solution.desktopapp\\converters\\validationresulttohaserrorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|solutionrelative:solution.desktopapp\\converters\\validationresulttohaserrorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|c:\\users\\admin\\desktop\\github\\13-asztali-alkalmazasok\\03\\03 - cars\\solution.desktopapp\\views\\carlistview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|solutionrelative:solution.desktopapp\\views\\carlistview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateOrEditCarViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.DesktopApp\\ViewModels\\CreateOrEditCarViewModel.cs",
+              "RelativeDocumentMoniker": "Solution.DesktopApp\\ViewModels\\CreateOrEditCarViewModel.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.DesktopApp\\ViewModels\\CreateOrEditCarViewModel.cs",
+              "RelativeToolTip": "Solution.DesktopApp\\ViewModels\\CreateOrEditCarViewModel.cs",
+              "ViewState": "AgIAANcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T16:10:37.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateOrEditTypeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.DesktopApp\\ViewModels\\CreateOrEditTypeViewModel.cs",
+              "RelativeDocumentMoniker": "Solution.DesktopApp\\ViewModels\\CreateOrEditTypeViewModel.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.DesktopApp\\ViewModels\\CreateOrEditTypeViewModel.cs",
+              "RelativeToolTip": "Solution.DesktopApp\\ViewModels\\CreateOrEditTypeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T15:53:20.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CarModelValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Validators\\CarModelValidator.cs",
+              "RelativeDocumentMoniker": "Solution.Validators\\CarModelValidator.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Validators\\CarModelValidator.cs",
+              "RelativeToolTip": "Solution.Validators\\CarModelValidator.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAUwDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T15:48:42.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TypeModelValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Validators\\TypeModelValidator.cs",
+              "RelativeDocumentMoniker": "Solution.Validators\\TypeModelValidator.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Validators\\TypeModelValidator.cs",
+              "RelativeToolTip": "Solution.Validators\\TypeModelValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T15:48:31.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ManufacturerModelValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Validators\\ManufacturerModelValidator.cs",
+              "RelativeDocumentMoniker": "Solution.Validators\\ManufacturerModelValidator.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Validators\\ManufacturerModelValidator.cs",
+              "RelativeToolTip": "Solution.Validators\\ManufacturerModelValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T15:48:21.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateOrEditCarView.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.DesktopApp\\Views\\CreateOrEditCarView.xaml",
+              "RelativeDocumentMoniker": "Solution.DesktopApp\\Views\\CreateOrEditCarView.xaml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.DesktopApp\\Views\\CreateOrEditCarView.xaml",
+              "RelativeToolTip": "Solution.DesktopApp\\Views\\CreateOrEditCarView.xaml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwAoBAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-14T15:31:56.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CarListView.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.DesktopApp\\Views\\CarListView.xaml",
+              "RelativeDocumentMoniker": "Solution.DesktopApp\\Views\\CarListView.xaml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.DesktopApp\\Views\\CarListView.xaml",
+              "RelativeToolTip": "Solution.DesktopApp\\Views\\CarListView.xaml",
+              "ViewState": "AgIAAHAAAAAAAAAAAAArwIQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-14T15:32:27.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateOrEditModelView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.DesktopApp\\Views\\CreateOrEditModelView.xaml.cs",
+              "RelativeDocumentMoniker": "Solution.DesktopApp\\Views\\CreateOrEditModelView.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.DesktopApp\\Views\\CreateOrEditModelView.xaml.cs",
+              "RelativeToolTip": "Solution.DesktopApp\\Views\\CreateOrEditModelView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T15:55:51.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainView.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.DesktopApp\\Views\\MainView.xaml",
+              "RelativeDocumentMoniker": "Solution.DesktopApp\\Views\\MainView.xaml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.DesktopApp\\Views\\MainView.xaml",
+              "RelativeToolTip": "Solution.DesktopApp\\Views\\MainView.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-14T15:56:00.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.DesktopApp\\App.xaml",
+              "RelativeDocumentMoniker": "Solution.DesktopApp\\App.xaml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.DesktopApp\\App.xaml",
+              "RelativeToolTip": "Solution.DesktopApp\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-14T16:06:10.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.DesktopApp\\AppShell.xaml",
+              "RelativeDocumentMoniker": "Solution.DesktopApp\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.DesktopApp\\AppShell.xaml",
+              "RelativeToolTip": "Solution.DesktopApp\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-14T16:06:14.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateOrEditManufacturerView.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.DesktopApp\\Views\\CreateOrEditManufacturerView.xaml",
+              "RelativeDocumentMoniker": "Solution.DesktopApp\\Views\\CreateOrEditManufacturerView.xaml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.DesktopApp\\Views\\CreateOrEditManufacturerView.xaml",
+              "RelativeToolTip": "Solution.DesktopApp\\Views\\CreateOrEditManufacturerView.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-14T15:55:50.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ValidationResultToHasErrorConverter.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.DesktopApp\\Converters\\ValidationResultToHasErrorConverter.cs",
+              "RelativeDocumentMoniker": "Solution.DesktopApp\\Converters\\ValidationResultToHasErrorConverter.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.DesktopApp\\Converters\\ValidationResultToHasErrorConverter.cs",
+              "RelativeToolTip": "Solution.DesktopApp\\Converters\\ValidationResultToHasErrorConverter.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T15:33:37.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CarListView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.DesktopApp\\Views\\CarListView.xaml.cs",
+              "RelativeDocumentMoniker": "Solution.DesktopApp\\Views\\CarListView.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.DesktopApp\\Views\\CarListView.xaml.cs",
+              "RelativeToolTip": "Solution.DesktopApp\\Views\\CarListView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T15:32:35.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateOrEditManufacturerViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.DesktopApp\\ViewModels\\CreateOrEditManufacturerViewModel.cs",
+              "RelativeDocumentMoniker": "Solution.DesktopApp\\ViewModels\\CreateOrEditManufacturerViewModel.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.DesktopApp\\ViewModels\\CreateOrEditManufacturerViewModel.cs",
+              "RelativeToolTip": "Solution.DesktopApp\\ViewModels\\CreateOrEditManufacturerViewModel.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T15:52:59.155Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

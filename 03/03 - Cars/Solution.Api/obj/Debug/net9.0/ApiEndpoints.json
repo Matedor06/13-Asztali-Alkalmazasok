@@ -1,0 +1,240 @@
+[
+  {
+    "ContainingType": "Solution.Api.Controllers.CarController",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/car/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Solution.Api.Controllers.CarController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/car/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Solution.Api.Controllers.CarController",
+    "Method": "CreateAsync",
+    "RelativePath": "api/car/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Solution.Core.Models.CarModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Solution.Api.Controllers.CarController",
+    "Method": "DeleteByIdAsync",
+    "RelativePath": "api/car/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Solution.Api.Controllers.CarController",
+    "Method": "GetPagedAsync",
+    "RelativePath": "api/car/page/{page}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Solution.Api.Controllers.CarController",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/car/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Solution.Core.Models.CarModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Solution.Api.Controllers.ManufacturerController",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/manufacturer/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Solution.Api.Controllers.ManufacturerController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/manufacturer/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Solution.Api.Controllers.ManufacturerController",
+    "Method": "CreateAsync",
+    "RelativePath": "api/manufacturer/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Solution.Core.Models.ManufacturerModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Solution.Api.Controllers.ManufacturerController",
+    "Method": "DeleteByIdAsync",
+    "RelativePath": "api/manufacturer/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Solution.Api.Controllers.ManufacturerController",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/manufacturer/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Solution.Core.Models.ManufacturerModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Solution.Api.Controllers.TypeController",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/type/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Solution.Api.Controllers.TypeController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/type/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Solution.Api.Controllers.TypeController",
+    "Method": "CreateAsync",
+    "RelativePath": "api/type/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Solution.Core.Models.TypeModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Solution.Api.Controllers.TypeController",
+    "Method": "DeleteByIdAsync",
+    "RelativePath": "api/type/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Solution.Api.Controllers.TypeController",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/type/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Solution.Core.Models.TypeModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:sf="clr-namespace:Syncfusion.Maui.Toolkit.TextInputLayout;assembly=Syncfusion.Maui.Toolkit"
+             xmlns:validator="clr-namespace:Solution.Validators;assembly=Solution.Validators"
+             xmlns:converters="clr-namespace:Solution.DesktopApp.Converters"
+             xmlns:editors="clr-namespace:Syncfusion.Maui.Toolkit.NumericEntry;assembly=Syncfusion.Maui.Toolkit"
+             xmlns:viewModels="clr-namespace:Solution.DesktopApp.ViewModels"
+             xmlns:models="clr-namespace:Solution.Core.Models;assembly=Solution.Core"
+             xmlns:behaviors="clr-namespace:Solution.DesktopApp.Behaviors"
+             x:Class="Solution.DesktopApp.Views.CreateOrEditCarView"
+             x:DataType="viewModels:CreateOrEditCarViewModel"
+             x:Name="this">
+  
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior Command="{Binding AppearingCommand}" EventName="Appearing"/>
+        <toolkit:EventToCommandBehavior Command="{Binding DisappearingCommand}" EventName="Disappearing" />
+    </ContentPage.Behaviors>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:ValidationResultToErrorMessagesConverter x:Key="ValidationResultToErrorMessagesConverter" />
+            <converters:ValidationResultToHasErrorConverter x:Key="ValidationResultToHasErrorConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <StackLayout Orientation="Vertical" Margin="40" VerticalOptions="CenterAndExpand" HorizontalOptions="Center">
+            <Label Text="{Binding Title}" Style="{StaticResource PageTitle}" HorizontalOptions="Center" />
+
+            <!-- Image Section -->
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="0,20,0,0">
+                <Image Source="{Binding Image}" WidthRequest="200" HeightRequest="150" />
+                <Button Text="Select Image" Command="{Binding ImageSelectCommand}" Margin="20,0,0,0" />
+            </StackLayout>
+
+            <!-- Manufacturer Picker -->
+            <sf:SfTextInputLayout
+                Hint="Manufacturer"
+                ContainerType="Outlined"
+                OutlineCornerRadius="8"
+                WidthRequest="300"
+                Margin="0,20,0,0"
+                ErrorText="{Binding ValidationResult, 
+                                    Converter={StaticResource ValidationResultToErrorMessagesConverter},
+                                    ConverterParameter={x:Static validator:CarModelValidator.ManufacturerProperty}}"
+                HasError="{Binding ValidationResult, 
+                                   Converter={StaticResource ValidationResultToHasErrorConverter}, 
+                                   ConverterParameter={x:Static validator:CarModelValidator.ManufacturerProperty}}">
+
+                <Picker ItemsSource="{Binding Manufacturers}" 
+                        SelectedItem="{Binding Manufacturer}"
+                        ItemDisplayBinding="{Binding Name}">
+                    <Picker.Behaviors>
+                        <toolkit:EventToCommandBehavior
+                            EventName="SelectedIndexChanged"
+                            BindingContext="{Binding Source={x:Reference this}, Path=BindingContext}"
+                            Command="{Binding ValidateCommand}"
+                            CommandParameter="{x:Static validator:CarModelValidator.ManufacturerProperty}" />
+                    </Picker.Behaviors>
+                </Picker>
+            </sf:SfTextInputLayout>
+
+            <!-- Type Picker -->
+            <sf:SfTextInputLayout
+                Hint="Type"
+                ContainerType="Outlined"
+                OutlineCornerRadius="8"
+                WidthRequest="300"
+                Margin="0,20,0,0"
+                ErrorText="{Binding ValidationResult, 
+                                    Converter={StaticResource ValidationResultToErrorMessagesConverter},
+                                    ConverterParameter={x:Static validator:CarModelValidator.TypeProperty}}"
+                HasError="{Binding ValidationResult, 
+                                   Converter={StaticResource ValidationResultToHasErrorConverter}, 
+                                   ConverterParameter={x:Static validator:CarModelValidator.TypeProperty}}">
+
+                <Picker ItemsSource="{Binding Types}" 
+                        SelectedItem="{Binding Type}"
+                        ItemDisplayBinding="{Binding Name}">
+                    <Picker.Behaviors>
+                        <toolkit:EventToCommandBehavior
+                            EventName="SelectedIndexChanged"
+                            BindingContext="{Binding Source={x:Reference this}, Path=BindingContext}"
+                            Command="{Binding ValidateCommand}"
+                            CommandParameter="{x:Static validator:CarModelValidator.TypeProperty}" />
+                    </Picker.Behaviors>
+                </Picker>
+            </sf:SfTextInputLayout>
+
+            <!-- Model Entry -->
+            <sf:SfTextInputLayout
+                Hint="Model"
+                ContainerType="Outlined"
+                OutlineCornerRadius="8"
+                WidthRequest="300"
+                Margin="0,20,0,0"
+                ErrorText="{Binding ValidationResult, 
+                                    Converter={StaticResource ValidationResultToErrorMessagesConverter},
+                                    ConverterParameter={x:Static validator:CarModelValidator.ModelProperty}}"
+                HasError="{Binding ValidationResult, 
+                                   Converter={StaticResource ValidationResultToHasErrorConverter}, 
+                                   ConverterParameter={x:Static validator:CarModelValidator.ModelProperty}}">
+
+                <Entry Text="{Binding Model}">
+                    <Entry.Behaviors>
+                        <toolkit:EventToCommandBehavior
+                            EventName="TextChanged"
+                            BindingContext="{Binding Source={x:Reference this}, Path=BindingContext}"
+                            Command="{Binding ValidateCommand}"
+                            CommandParameter="{x:Static validator:CarModelValidator.ModelProperty}" />
+                    </Entry.Behaviors>
+                </Entry>
+            </sf:SfTextInputLayout>
+
+            <!-- Cubic Entry -->
+            <sf:SfTextInputLayout
+                Hint="Cubic (cc)"
+                ContainerType="Outlined"
+                OutlineCornerRadius="8"
+                WidthRequest="300"
+                Margin="0,20,0,0"
+                ErrorText="{Binding ValidationResult, 
+                                    Converter={StaticResource ValidationResultToErrorMessagesConverter},
+                                    ConverterParameter={x:Static validator:CarModelValidator.CubicProperty}}"
+                HasError="{Binding ValidationResult, 
+                                   Converter={StaticResource ValidationResultToHasErrorConverter}, 
+                                   ConverterParameter={x:Static validator:CarModelValidator.CubicProperty}}">
+
+                <Entry Text="{Binding Cubic}" Keyboard="Numeric">
+                    <Entry.Behaviors>
+                        <toolkit:EventToCommandBehavior
+                            EventName="TextChanged"
+                            BindingContext="{Binding Source={x:Reference this}, Path=BindingContext}"
+                            Command="{Binding ValidateCommand}"
+                            CommandParameter="{x:Static validator:CarModelValidator.CubicProperty}" />
+                    </Entry.Behaviors>
+                </Entry>
+            </sf:SfTextInputLayout>
+
+            <!-- Release Year Entry -->
+            <sf:SfTextInputLayout
+                Hint="Release Year"
+                ContainerType="Outlined"
+                OutlineCornerRadius="8"
+                WidthRequest="300"
+                Margin="0,20,0,0"
+                ErrorText="{Binding ValidationResult, 
+                                    Converter={StaticResource ValidationResultToErrorMessagesConverter},
+                                    ConverterParameter={x:Static validator:CarModelValidator.ReleaseYearProperty}}"
+                HasError="{Binding ValidationResult, 
+                                   Converter={StaticResource ValidationResultToHasErrorConverter}, 
+                                   ConverterParameter={x:Static validator:CarModelValidator.ReleaseYearProperty}}">
+
+                <Entry Text="{Binding ReleaseYear}" Keyboard="Numeric">
+                    <Entry.Behaviors>
+                        <toolkit:EventToCommandBehavior
+                            EventName="TextChanged"
+                            BindingContext="{Binding Source={x:Reference this}, Path=BindingContext}"
+                            Command="{Binding ValidateCommand}"
+                            CommandParameter="{x:Static validator:CarModelValidator.ReleaseYearProperty}" />
+                    </Entry.Behaviors>
+                </Entry>
+            </sf:SfTextInputLayout>
+
+            <!-- Number of Doors Picker -->
+            <sf:SfTextInputLayout
+                Hint="Number of Doors"
+                ContainerType="Outlined"
+                OutlineCornerRadius="8"
+                WidthRequest="300"
+                Margin="0,20,0,0"
+                ErrorText="{Binding ValidationResult, 
+                                    Converter={StaticResource ValidationResultToErrorMessagesConverter},
+                                    ConverterParameter={x:Static validator:CarModelValidator.NumberOfDoorsProperty}}"
+                HasError="{Binding ValidationResult, 
+                                   Converter={StaticResource ValidationResultToHasErrorConverter}, 
+                                   ConverterParameter={x:Static validator:CarModelValidator.NumberOfDoorsProperty}}">
+
+                <Picker ItemsSource="{Binding Doors}" 
+                        SelectedItem="{Binding NumberOfDoors}"
+                        Title="Select number of doors">
+                    <Picker.Behaviors>
+                        <toolkit:EventToCommandBehavior
+                            EventName="SelectedIndexChanged"
+                            BindingContext="{Binding Source={x:Reference this}, Path=BindingContext}"
+                            Command="{Binding ValidateCommand}"
+                            CommandParameter="{x:Static validator:CarModelValidator.NumberOfDoorsProperty}" />
+                    </Picker.Behaviors>
+                </Picker>
+            </sf:SfTextInputLayout>
+
+            <VerticalStackLayout Style="{StaticResource FormLineContainer}" Margin="0,20,0,0">
+                <Button Text="Submit" Command="{Binding SubmitCommand}" WidthRequest="250"/>
+            </VerticalStackLayout>
+            
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

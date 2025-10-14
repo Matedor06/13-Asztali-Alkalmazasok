@@ -156,12 +156,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Update="appSettings.Development.json">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="appSettings.Production.json">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
 	  <None Update="Views\CreateOrEditMotorcycleView - Copy.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </None>
