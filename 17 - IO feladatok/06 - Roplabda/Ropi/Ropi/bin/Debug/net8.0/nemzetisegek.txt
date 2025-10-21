@@ -1,0 +1,12 @@
+﻿lengyel: 5 fő
+szerb: 5 fő
+brazil: 4 fő
+olasz: 3 fő
+magyar: 3 fő
+t�r�k: 3 fő
+azer: 2 fő
+holland: 2 fő
+orosz: 2 fő
+amerikai: 2 fő
+belga: 2 fő
+szlov�k: 1 fő

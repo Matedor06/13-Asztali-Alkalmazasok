@@ -1,0 +1,129 @@
+﻿Balmazújváros FC
+----------------
+  Andric Nemanja                 bal szélső                250 ezer €
+  Arabuli Bachana                középcsatár               300 ezer €
+  Batarelo Ante                  védekező középpályás      150 ezer €
+  Erdei Carlo                    támadó középpályás         50 ezer €
+  Gabovda Yuri                   jobb oldali védő          300 ezer €
+  Maisuradze Irakli              védekező középpályás      300 ezer €
+  Rus Adrián                     középső védő              150 ezer €
+  Uzoma Eke                      bal oldali védő           175 ezer €
+  Vajda Sándor                   bal oldali középpályás      200 ezer €
+  Zsiga Ervin                    jobb szélső               125 ezer €
+
+Budapest Honvéd FC
+------------------
+  Deák Stefan                    középső védő              125 ezer €
+  Holender Filip                 bal szélső                300 ezer €
+  Ikenne-King Patrick            jobb oldali védő          400 ezer €
+  Kabangu Kadima                 középcsatár               125 ezer €
+  Kamber Djordje                 védekező középpályás      300 ezer €
+  Lanzafame Davide               középcsatár             1,200 ezer €
+  Lovric Ivan                    középső védő              250 ezer €
+
+Debreceni VSC
+-------------
+  Filip Ioan                     védekező középpályás      350 ezer €
+  Jovanovic Aleksandar           jobb oldali középpályás      300 ezer €
+  Könyves Norbert                jobb szélső               250 ezer €
+  Mengolo Justin                 jobb szélső               350 ezer €
+  Nad Oleksandr                  kapus                     200 ezer €
+  Novota Ján                     kapus                     300 ezer €
+  Sekulic Danilo                 védekező középpályás      350 ezer €
+  Tabakovic Haris                középcsatár               250 ezer €
+  Takács Tamás                   középcsatár               150 ezer €
+
+Diósgyőri VTK
+-------------
+  Ioannidis Nikolaos             középcsatár               450 ezer €
+  Karan Dejan                    középső védő              300 ezer €
+  Rados Ivan                     kapus                     250 ezer €
+  Szarka Ákos                    középcsatár               300 ezer €
+  Vela Diego                     jobb oldali középpályás      350 ezer €
+
+Ferencvárosi TC
+---------------
+  Amadou Moutari                 bal szélső                700 ezer €
+  Blazic Miha                    középső védő              450 ezer €
+  Gorriarán Fernando             belső középpályás       1,100 ezer €
+  Koch Julian                    védekező középpályás      300 ezer €
+  Otigba Kenny                   középső védő            1,300 ezer €
+  Paintsil Joseph                támadó középpályás        400 ezer €
+  Pedro Rui                      támadó középpályás        750 ezer €
+  Pedroso Marcos                 bal oldali védő           900 ezer €
+  Spirovski Stefan               védekező középpályás      600 ezer €
+  Sternberg Janek                bal oldali védő           250 ezer €
+
+Mezőkövesd Zsóry FC
+-------------------
+  Brasen Jakub                   támadó középpályás        250 ezer €
+  Farkas Dániel                  jobb oldali védő          225 ezer €
+  Hudák Dávid                    középső védő              275 ezer €
+  Keita Paul                     védekező középpályás      300 ezer €
+  Köböl Máté                     védekező középpályás       75 ezer €
+  Krnac Martin                   kapus                     150 ezer €
+  Majtan Tomas                   középcsatár               150 ezer €
+  Mlinar Frano                   védekező középpályás      350 ezer €
+  Pillár Róbert                  középső védő              200 ezer €
+  Strestik Marek                 támadó középpályás        350 ezer €
+  Tujvel Tomas                   kapus                     175 ezer €
+  Veselinovic Lazar              középcsatár               300 ezer €
+
+Paksi FC
+--------
+  Molnár Péter                   kapus                     200 ezer €
+
+Puskás Akadémia FC
+------------------
+  Bacelic-Grgic Stipe            belső középpályás         300 ezer €
+  Danilovic Branislav            kapus                     300 ezer €
+  Diallo Ulysse                  középcsatár               250 ezer €
+  Heris Jonathan                 középső védő              600 ezer €
+  Knezevic Josip                 támadó középpályás        600 ezer €
+  Latifi Liridon                 jobb oldali középpályás      750 ezer €
+  Mevoungou Patrick              védekező középpályás      200 ezer €
+  Perosevic Antonio              középcsatár               450 ezer €
+
+Szombathelyi Haladás
+--------------------
+  Bamgboye Funsho                bal szélső                 75 ezer €
+  Bosnjak Predrag                bal oldali védő           300 ezer €
+  Grumic Miroslav                középcsatár               100 ezer €
+  Kovács Lóránt                  védekező középpályás      350 ezer €
+  Mészáros Karol                 jobb szélső               200 ezer €
+  Pinte Patrik                   középcsatár               125 ezer €
+  Williams David                 középcsatár               450 ezer €
+  Wils Stef                      középső védő              225 ezer €
+
+Újpest FC
+---------
+  Angelov Viktor                 hátravont csatár          150 ezer €
+  Bojovic Mijusko                középső védő              300 ezer €
+  Diallo Alassane                belső középpályás         200 ezer €
+  Jönsson Salétros Anton         védekező középpályás      250 ezer €
+  Nwobodo Obinna                 belső középpályás         150 ezer €
+  Pajovic Filip                  kapus                     300 ezer €
+  Pauljevic Branko               jobb oldali középpályás      200 ezer €
+  Sankovic Bojan                 védekező középpályás      250 ezer €
+  Selmani Remzifaik              bal szélső                150 ezer €
+
+Vasas FC
+--------
+  Benes Vit                      középső védő              400 ezer €
+  Burmeister Felix               középső védő              300 ezer €
+  James Manjrekar                védekező középpályás      200 ezer €
+  Kamenar Lubos                  kapus                     250 ezer €
+  Pavlov Evgen                   középcsatár               250 ezer €
+  Ristevski Kire                 középső védő              700 ezer €
+  Simunek Jan                    középső védő              250 ezer €
+  Vergos Nikolaos                középcsatár               250 ezer €
+
+Videoton FC
+-----------
+  Hadzic Anel                    védekező középpályás      800 ezer €
+  Henty Ezekiel                  középcsatár             1,100 ezer €
+  Lazovic Danko                  hátravont csatár          500 ezer €
+  Nego Loïc                      jobb oldali védő          900 ezer €
+  Scepovic Marko                 középcsatár             1,200 ezer €
+  Suljic Asmir                   bal szélső                700 ezer €
+

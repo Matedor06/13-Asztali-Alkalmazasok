@@ -1,0 +1,16 @@
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\11 - NB1\NB1\NB1\bin\Debug\net8.0\adatok.txt
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\11 - NB1\NB1\NB1\bin\Debug\net8.0\NB1.exe
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\11 - NB1\NB1\NB1\bin\Debug\net8.0\NB1.deps.json
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\11 - NB1\NB1\NB1\bin\Debug\net8.0\NB1.runtimeconfig.json
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\11 - NB1\NB1\NB1\bin\Debug\net8.0\NB1.dll
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\11 - NB1\NB1\NB1\bin\Debug\net8.0\NB1.pdb
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\11 - NB1\NB1\NB1\obj\Debug\net8.0\NB1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\11 - NB1\NB1\NB1\obj\Debug\net8.0\NB1.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\11 - NB1\NB1\NB1\obj\Debug\net8.0\NB1.AssemblyInfo.cs
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\11 - NB1\NB1\NB1\obj\Debug\net8.0\NB1.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\11 - NB1\NB1\NB1\obj\Debug\net8.0\NB1.sourcelink.json
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\11 - NB1\NB1\NB1\obj\Debug\net8.0\NB1.dll
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\11 - NB1\NB1\NB1\obj\Debug\net8.0\refint\NB1.dll
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\11 - NB1\NB1\NB1\obj\Debug\net8.0\NB1.pdb
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\11 - NB1\NB1\NB1\obj\Debug\net8.0\NB1.genruntimeconfig.cache
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\11 - NB1\NB1\NB1\obj\Debug\net8.0\ref\NB1.dll

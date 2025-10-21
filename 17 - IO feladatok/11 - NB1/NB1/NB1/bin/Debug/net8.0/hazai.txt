@@ -1,0 +1,255 @@
+﻿Balmazújváros FC
+----------------
+Belényesi Miklós               középcsatár                50 ezer €
+Bódis István                   belső középpályás         100 ezer €
+Bokros Tibor                   jobb oldali védő          100 ezer €
+Fekete Ádám                    középcsatár               100 ezer €
+Haris Attila                   védekező középpályás      150 ezer €
+Horváth László                 kapus                     150 ezer €
+Jagodics Bence                 középső védő              100 ezer €
+Kovács Ádám                    jobb szélső               150 ezer €
+Orovecz Ádám                   jobb oldali középpályás       50 ezer €
+Pogacsics Krisztián            kapus                     175 ezer €
+Póti Krisztián                 középső védő              100 ezer €
+Rácz Ferenc                    jobb szélső                75 ezer €
+Schmid Máté                    jobb szélső                50 ezer €
+Schmid Áron                    bal oldali védő            50 ezer €
+Sigér Dávid                    belső középpályás         175 ezer €
+Szécsi Gergő                   kapus                      75 ezer €
+Tamás László                   középső védő              150 ezer €
+Virág Aladár                   bal oldali középpályás       50 ezer €
+Vólent Roland                  középcsatár                75 ezer €
+
+Budapest Honvéd FC
+------------------
+Banó-Szabó Bence               támadó középpályás        100 ezer €
+Baráth Botond                  középső védő              350 ezer €
+Berla Attila                   kapus                      50 ezer €
+Bíró Ákos                      bal szélső                 50 ezer €
+Bobál Dávid                    középső védő              450 ezer €
+Bobál Gergely                  középcsatár               150 ezer €
+Csábi Mihály                   védekező középpályás       75 ezer €
+Eppel Márton                   középcsatár               650 ezer €
+Gazdag Dániel                  belső középpályás         450 ezer €
+Gergényi Bence                 bal oldali védő            50 ezer €
+Gróf Dávid                     kapus                     350 ezer €
+Herjeczki Kristóf              középcsatár               100 ezer €
+Horváth András                 kapus                     150 ezer €
+Laczkó Zsolt                   bal oldali védő           300 ezer €
+Nagy Gergő                     belső középpályás         350 ezer €
+Pölöskei Zsolt                 belső középpályás         250 ezer €
+Tömösvári Bálint               középcsatár               150 ezer €
+Villám Balázs                  jobb oldali védő          175 ezer €
+
+Debreceni VSC
+-------------
+Barna Szabolcs                 bal oldali védő            75 ezer €
+Bényei Balázs                  jobb oldali védő          250 ezer €
+Bereczki Dániel                hátravont csatár           75 ezer €
+Bíró Péter                     középcsatár                50 ezer €
+Bódi Ádám                      jobb oldali középpályás      400 ezer €
+Csősz Richárd                  védekező középpályás       50 ezer €
+Ferenczi János                 bal oldali középpályás      200 ezer €
+Kinyik Ákos                    középső védő              250 ezer €
+Kovács Péter                   kapus                      50 ezer €
+Kusnyír Erik                   védekező középpályás       50 ezer €
+Kuti Krisztián                 jobb oldali védő          100 ezer €
+Mészáros Norbert               középső védő              100 ezer €
+Nagy Kevin                     jobb szélső               100 ezer €
+Sós Bence                      bal oldali középpályás      300 ezer €
+Szabados István                kapus                      50 ezer €
+Szatmári Csaba                 középső védő              350 ezer €
+Tisza Tibor                    középcsatár               200 ezer €
+Tőzsér Dániel                  belső középpályás         700 ezer €
+Varga Kevin                    bal szélső                250 ezer €
+
+Diósgyőri VTK
+-------------
+Antal Botond                   kapus                     150 ezer €
+Bacsa Patrik                   középcsatár               150 ezer €
+Bukrán Erik                    kapus                      75 ezer €
+Busai Attila                   belső középpályás         250 ezer €
+Eperjesi Gábor                 jobb oldali védő          200 ezer €
+Forgács Dávid                  bal oldali védő           100 ezer €
+Ivánka Patrik                  középső védő               50 ezer €
+Kitl Miklós                    védekező középpályás      125 ezer €
+Kocsis Gergő                   védekező középpályás      200 ezer €
+Lipták Zoltán                  középső védő              350 ezer €
+Makrai Gábor                   középcsatár               300 ezer €
+Nagy Tibor                     jobb oldali védő          150 ezer €
+Oláh Bálint                    védekező középpályás      150 ezer €
+Óvári Zsolt                    bal szélső                250 ezer €
+Tamás Márk                     középső védő              300 ezer €
+Ternován Patrik                bal oldali középpályás       75 ezer €
+Tóth Barnabás                  védekező középpályás      150 ezer €
+Tucsa Róbert                   középső védő               50 ezer €
+Ugrai Roland                   középcsatár               400 ezer €
+
+Ferencvárosi TC
+---------------
+Batik Bence                    középső védő              300 ezer €
+Böde Dániel                    középcsatár               600 ezer €
+Bognár István                  támadó középpályás        300 ezer €
+Bőle Lukács                    bal szélső                800 ezer €
+Botka Endre                    jobb oldali védő          450 ezer €
+Csernik Kornél                 támadó középpályás        100 ezer €
+Csonka András                  védekező középpályás       75 ezer €
+Dibusz Dénes                   kapus                     750 ezer €
+Gera Zoltán                    belső középpályás         100 ezer €
+Hajnal Tamás                   támadó középpályás        100 ezer €
+Holczer Ádám                   kapus                     150 ezer €
+Kundrák Norbert                középcsatár               100 ezer €
+Lovrencsics Balázs             középcsatár               200 ezer €
+Lovrencsics Gergő              jobb szélső               900 ezer €
+Priskin Tamás                  középcsatár               500 ezer €
+Takács Zsombor                 középső védő               50 ezer €
+Varga Roland                   jobb szélső             1,000 ezer €
+Varga Ádám                     kapus                      75 ezer €
+
+Mezőkövesd Zsóry FC
+-------------------
+Baracskai Roland               középcsatár               125 ezer €
+Cseri Tamás                    bal szélső                175 ezer €
+Csirmaz István                 jobb oldali középpályás      125 ezer €
+Dombó Dávid                    kapus                     125 ezer €
+Fótyik Dominik                 bal oldali védő           125 ezer €
+Gohér Gergő                    bal oldali védő           200 ezer €
+Iszlai Bence                   védekező középpályás      300 ezer €
+Koszta Márk                    bal szélső                250 ezer €
+Lázár Pál                      jobb oldali védő          150 ezer €
+Murai Márk                     támadó középpályás         25 ezer €
+Novák Csanád                   középcsatár               200 ezer €
+Szalai Attila                  középső védő              100 ezer €
+Szeles Tamás                   középső védő              150 ezer €
+Tóth Bence                     támadó középpályás        200 ezer €
+Vadnai Dániel                  bal oldali védő           200 ezer €
+
+Paksi FC
+--------
+Báló Tamás                     bal oldali védő           100 ezer €
+Bartha László                  bal szélső                300 ezer €
+Bertus Lajos                   támadó középpályás        300 ezer €
+Daru Bence                     középcsatár               125 ezer €
+Fejős Áron                     támadó középpályás         50 ezer €
+Gévay Zsolt                    középső védő              225 ezer €
+Hahn János                     középcsatár               200 ezer €
+Hajdú Ádám                     védekező középpályás      200 ezer €
+Haraszti Zsolt                 jobb szélső               225 ezer €
+Kecskés Tamás                  belső középpályás         150 ezer €
+Koltai Tamás                   jobb oldali középpályás      200 ezer €
+Kulcsár Dávid                  jobb oldali védő          250 ezer €
+Lenzsér Bence                  középső védő              350 ezer €
+Nikházi Márk                   támadó középpályás        200 ezer €
+Papp Kristóf                   védekező középpályás      250 ezer €
+Rácz Gergő                     kapus                      50 ezer €
+Simon Ádám                     védekező középpályás      275 ezer €
+Szabó János                    bal oldali védő           350 ezer €
+Szakály Dénes                  támadó középpályás        200 ezer €
+Vági András                    jobb oldali védő          200 ezer €
+Verpecz István                 kapus                     150 ezer €
+Zachán Péter                   középső védő              150 ezer €
+
+Puskás Akadémia FC
+------------------
+Balogh Balázs                  védekező középpályás      400 ezer €
+Csilus Ádám                    jobb oldali védő          150 ezer €
+Hegedüs Lajos                  kapus                     300 ezer €
+Hegedűs János                  középső védő              200 ezer €
+Madarász Márk                  támadó középpályás        200 ezer €
+Márkvárt Dávid                 belső középpályás         300 ezer €
+Molnár Gábor                   jobb szélső               400 ezer €
+Osváth Attila                  jobb oldali védő          300 ezer €
+Poór Patrik                    középső védő              350 ezer €
+Prosser Dániel                 jobb szélső               300 ezer €
+Radó András                    hátravont csatár          350 ezer €
+Spandler Csaba                 bal oldali védő           175 ezer €
+Szakály Péter                  támadó középpályás        400 ezer €
+Szécsi Márk                    középcsatár               150 ezer €
+Tóth Balázs                    kapus                      50 ezer €
+Vanczák Vilmos                 középső védő              200 ezer €
+Zsidai László                  védekező középpályás      150 ezer €
+
+Szombathelyi Haladás
+--------------------
+Devecseri Szilárd              középső védő              175 ezer €
+Gyurján Márton                 kapus                      75 ezer €
+Halmosi Péter                  bal oldali középpályás      100 ezer €
+Jagodics Márk                  középső védő              200 ezer €
+Jancsó András                  védekező középpályás      200 ezer €
+Jánvári Gábor                  bal oldali védő           100 ezer €
+Király Gábor                   kapus                     100 ezer €
+Kiss Bence                     belső középpályás         150 ezer €
+Kiss Tamás                     bal szélső                 50 ezer €
+Lévay Gergely                  kapus                      50 ezer €
+Medgyes Zoltán                 jobb szélső               175 ezer €
+Németh Márió                   támadó középpályás        300 ezer €
+Németh Milán                   bal oldali védő           125 ezer €
+Petró Balázs                   támadó középpályás        100 ezer €
+Polgár Kristóf                 jobb oldali védő          200 ezer €
+Rácz Barnabás                  támadó középpályás        250 ezer €
+Rózsa Dániel                   kapus                     200 ezer €
+Schimmer Szabolcs              jobb oldali védő          125 ezer €
+Tóth Dávid                     jobb oldali védő          100 ezer €
+Tóth Máté                      támadó középpályás        250 ezer €
+Tóth Benjámin                  támadó középpályás         75 ezer €
+
+Újpest FC
+---------
+Balázs Benjámin                jobb oldali középpályás      300 ezer €
+Banai Dávid                    kapus                     150 ezer €
+Cseke Benjámin                 belső középpályás         250 ezer €
+Gundel-Takács Bence            kapus                      50 ezer €
+Kálnoki Kis Dávid              középső védő              350 ezer €
+Kovács Zoltán                  kapus                     125 ezer €
+Litauszki Róbert               középső védő              400 ezer €
+Mohl Dávid                     bal oldali védő           250 ezer €
+Nagy Dániel                    támadó középpályás        300 ezer €
+Németh Gergő                   védekező középpályás       50 ezer €
+Novothny Soma                  középcsatár               400 ezer €
+Pávkovics Bence                védekező középpályás      200 ezer €
+Simon Krisztián                jobb szélső               150 ezer €
+Szűcs Kristóf                  jobb oldali védő          150 ezer €
+Tischler Patrik                középcsatár               250 ezer €
+Windecker József               védekező középpályás      400 ezer €
+Zsótér Donát                   jobb szélső               300 ezer €
+
+Vasas FC
+--------
+Ádám Martin                    középcsatár               300 ezer €
+Berecz Zsombor                 belső középpályás         800 ezer €
+Czingráber Máté                középső védő              100 ezer €
+Ferenczi István                középcsatár                50 ezer €
+Gaál Bálint                    középcsatár               250 ezer €
+Hangya Szilveszter             bal oldali védő           600 ezer €
+Király Botond                  jobb oldali középpályás      150 ezer €
+Kleisz Márk                    védekező középpályás      400 ezer €
+Kulcsár Tamás                  hátravont csatár          150 ezer €
+Murka Benedek                  jobb szélső               250 ezer €
+Nagy Gergely                   kapus                     300 ezer €
+Póser Dániel                   kapus                     100 ezer €
+Remili Mohamed                 támadó középpályás        300 ezer €
+Szivacski Donát                jobb oldali középpályás      200 ezer €
+Vaskó Tamás                    középső védő              250 ezer €
+Vida Máté                      védekező középpályás      700 ezer €
+Vogyicska Bálint               belső középpályás         250 ezer €
+
+Videoton FC
+-----------
+Barczi Dávid                   bal oldali középpályás      200 ezer €
+Bolla Bendegúz                 jobb oldali védő           75 ezer €
+Fejes András                   bal oldali védő           300 ezer €
+Fiola Attila                   jobb oldali védő          700 ezer €
+Géresi Krisztián               bal szélső                350 ezer €
+Hársfalvi András               kapus                      50 ezer €
+Horváth Tamás                  kapus                     150 ezer €
+Juhász Roland                  középső védő              500 ezer €
+Kovács István                  támadó középpályás        400 ezer €
+Kovácsik Ádám                  kapus                     450 ezer €
+Mocsi Attila                   középső védő              100 ezer €
+Pátkai Máté                    védekező középpályás      750 ezer €
+Szabó Bence                    támadó középpályás        150 ezer €
+Szolnoki Roland                jobb oldali védő          350 ezer €
+Tamás Krisztián                bal oldali védő           150 ezer €
+Tóth Bence                     középső védő              250 ezer €
+Varga József                   védekező középpályás      500 ezer €
+
