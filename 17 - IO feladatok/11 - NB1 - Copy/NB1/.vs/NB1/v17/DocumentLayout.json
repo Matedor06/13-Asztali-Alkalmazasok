@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\11 - NB1\\NB1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{87792028-90F6-47E4-B555-AA15B695901C}|NB1\\NB1.csproj|c:\\users\\admin\\desktop\\github\\13-asztali-alkalmazasok\\17 - io feladatok\\11 - nb1\\nb1\\nb1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87792028-90F6-47E4-B555-AA15B695901C}|NB1\\NB1.csproj|solutionrelative:nb1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87792028-90F6-47E4-B555-AA15B695901C}|NB1\\NB1.csproj|c:\\users\\admin\\desktop\\github\\13-asztali-alkalmazasok\\17 - io feladatok\\11 - nb1\\nb1\\nb1\\feladat.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{87792028-90F6-47E4-B555-AA15B695901C}|NB1\\NB1.csproj|solutionrelative:nb1\\feladat.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87792028-90F6-47E4-B555-AA15B695901C}|NB1\\NB1.csproj|c:\\users\\admin\\desktop\\github\\13-asztali-alkalmazasok\\17 - io feladatok\\11 - nb1\\nb1\\nb1\\adatok.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{87792028-90F6-47E4-B555-AA15B695901C}|NB1\\NB1.csproj|solutionrelative:nb1\\adatok.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87792028-90F6-47E4-B555-AA15B695901C}|NB1\\NB1.csproj|c:\\users\\admin\\desktop\\github\\13-asztali-alkalmazasok\\17 - io feladatok\\11 - nb1\\nb1\\nb1\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87792028-90F6-47E4-B555-AA15B695901C}|NB1\\NB1.csproj|solutionrelative:nb1\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "feladat.txt",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\11 - NB1\\NB1\\NB1\\feladat.txt",
+              "RelativeDocumentMoniker": "NB1\\feladat.txt",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\11 - NB1\\NB1\\NB1\\feladat.txt",
+              "RelativeToolTip": "NB1\\feladat.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-11-04T17:16:40.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\11 - NB1\\NB1\\NB1\\Program.cs",
+              "RelativeDocumentMoniker": "NB1\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\11 - NB1\\NB1\\NB1\\Program.cs",
+              "RelativeToolTip": "NB1\\Program.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAAANgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T16:07:03.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "adatok.txt",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\11 - NB1\\NB1\\NB1\\adatok.txt",
+              "RelativeDocumentMoniker": "NB1\\adatok.txt",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\11 - NB1\\NB1\\NB1\\adatok.txt",
+              "RelativeToolTip": "NB1\\adatok.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-10-21T15:57:27.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\11 - NB1\\NB1\\NB1\\Player.cs",
+              "RelativeDocumentMoniker": "NB1\\Player.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\11 - NB1\\NB1\\NB1\\Player.cs",
+              "RelativeToolTip": "NB1\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T15:56:06.432Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

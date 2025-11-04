@@ -1,4 +1,4 @@
-﻿Vasas FC	27	Benedek	Murka	1997.09.10.	-1	0	250	jobb szélső
+﻿Vasas FC	27	Benedek	Murka	2005.09.10.	-1	0	250	jobb szélső
 Vasas FC	40	István	Ferenczi	1977.09.14.	-1	0	50	középcsatár
 Vasas FC	23	Máté	Vida	1996.03.08.	-1	0	700	védekező középpályás
 Vasas FC	4	Kire	Ristevski	1990.10.22.	0	-1	700	középső védő

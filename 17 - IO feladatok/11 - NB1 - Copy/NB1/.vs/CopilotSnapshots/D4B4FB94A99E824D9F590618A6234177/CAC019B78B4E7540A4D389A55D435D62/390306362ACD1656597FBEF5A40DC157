@@ -1,0 +1,276 @@
+﻿using NB1;
+using System.Text;
+
+Console.OutputEncoding = Encoding.UTF8;
+
+// Adatok beolvasása
+List<Player> players = new List<Player>();
+try
+{
+    string[] lines = File.ReadAllLines("adatok.txt");
+    foreach (string line in lines)
+    {
+        string[] parts = line.Split('\t');
+        if (parts.Length >= 9)
+   {
+     players.Add(new Player
+   {
+  MezSzam = int.Parse(parts[0]),
+       Utonev = parts[1],
+  Vezeteknev = parts[2],
+ SzuletesiDatum = DateTime.Parse(parts[3]),
+         MagyarAllampolgar = parts[4] == "-1",
+KulfoldiAllampolgar = parts[5] == "-1",
+ Ertek = int.Parse(parts[6]),
+     KlubNeve = parts[7],
+    PosztNeve = parts[8]
+            });
+        }
+    }
+}
+catch (Exception ex)
+{
+    Console.WriteLine($"Hiba az adatok beolvasása során: {ex.Message}");
+    return;
+}
+
+// Menü
+bool exit = false;
+while (!exit)
+{
+    Console.Clear();
+    Console.WriteLine("═══════════════════════════════════════");
+    Console.WriteLine("     NB1 LABDARÚGÓ ADATBÁZIS");
+    Console.WriteLine("═══════════════════════════════════════");
+    Console.WriteLine("a) Legidősebb mezőnyjátékos");
+    Console.WriteLine("b) Állampolgárság szerinti statisztika");
+    Console.WriteLine("c) Játékosok összértéke csapatonként");
+    Console.WriteLine("d) Egyedi posztonkénti játékosok");
+    Console.WriteLine("e) Átlag alatti értékű játékosok");
+    Console.WriteLine("f) 18-21 éves magyar játékosok");
+    Console.WriteLine("g) Játékosok exportálása (hazai.txt, legios.txt)");
+    Console.WriteLine("0) Kilépés");
+    Console.WriteLine("═══════════════════════════════════════");
+    Console.Write("Válasszon: ");
+
+    string choice = Console.ReadLine() ?? "";
+
+  Console.WriteLine();
+
+    switch (choice)
+{
+        case "a":
+            FeladatA(players);
+            break;
+        case "b":
+     FeladatB(players);
+        break;
+        case "c":
+      FeladatC(players);
+   break;
+        case "d":
+            FeladatD(players);
+    break;
+        case "e":
+FeladatE(players);
+ break;
+        case "f":
+       FeladatF(players);
+            break;
+        case "g":
+    FeladatG(players);
+        break;
+      case "0":
+   exit = true;
+            Console.WriteLine("Viszontlátásra!");
+       break;
+        default:
+      Console.WriteLine("Érvénytelen választás!");
+            break;
+  }
+
+    if (!exit)
+    {
+        Console.WriteLine("\nNyomjon Enter-t a folytatáshoz...");
+   Console.ReadLine();
+    }
+}
+
+// a) Legidősebb mezőnyjátékos
+static void FeladatA(List<Player> players)
+{
+    Console.WriteLine("═══ A) LEGIDŐSEBB MEZŐNYJÁTÉKOS ═══\n");
+    
+    var legidosebb = players
+.Where(p => p.Mezonyjatekos)
+   .OrderBy(p => p.SzuletesiDatum)
+    .FirstOrDefault();
+
+    if (legidosebb != null)
+    {
+      Console.WriteLine($"Név: {legidosebb.TeljesNev}");
+        Console.WriteLine($"Születési dátum: {legidosebb.SzuletesiDatum:yyyy.MM.dd.}");
+        Console.WriteLine($"Kor: {legidosebb.Kor} év");
+    }
+    else
+    {
+        Console.WriteLine("Nincs mezőnyjátékos az adatbázisban.");
+    }
+}
+
+// b) Állampolgárság szerinti statisztika
+static void FeladatB(List<Player> players)
+{
+    Console.WriteLine("═══ B) ÁLLAMPOLGÁRSÁG SZERINTI STATISZTIKA ═══\n");
+    
+    int magyarok = players.Count(p => p.MagyarAllampolgar && !p.KulfoldiAllampolgar);
+    int kulfoldi = players.Count(p => !p.MagyarAllampolgar && p.KulfoldiAllampolgar);
+    int kettos = players.Count(p => p.MagyarAllampolgar && p.KulfoldiAllampolgar);
+
+    Console.WriteLine($"Magyar állampolgárok: {magyarok} fő");
+    Console.WriteLine($"Külföldi állampolgárok: {kulfoldi} fő");
+    Console.WriteLine($"Kettős állampolgárok: {kettos} fő");
+}
+
+// c) Játékosok összértéke csapatonként
+static void FeladatC(List<Player> players)
+{
+  Console.WriteLine("═══ C) JÁTÉKOSOK ÖSSZÉRTÉKE CSAPATONKÉNT ═══\n");
+    
+ var osszertekek = players
+        .GroupBy(p => p.KlubNeve)
+        .Select(g => new { Csapat = g.Key, Osszertek = g.Sum(p => p.Ertek) })
+    .OrderByDescending(x => x.Osszertek);
+
+    foreach (var csapat in osszertekek)
+    {
+        Console.WriteLine($"{csapat.Csapat}: {csapat.Osszertek:N0} ezer euró");
+    }
+}
+
+// d) Egyedi posztonkénti játékosok
+static void FeladatD(List<Player> players)
+{
+    Console.WriteLine("═══ D) EGYEDI POSZTONKÉNTI JÁTÉKOSOK ═══\n");
+    
+    var egyediPosztok = players
+   .GroupBy(p => new { p.KlubNeve, p.PosztNeve })
+        .Where(g => g.Count() == 1)
+.Select(g => new { g.Key.KlubNeve, g.Key.PosztNeve })
+        .OrderBy(x => x.KlubNeve)
+        .ThenBy(x => x.PosztNeve);
+
+    if (egyediPosztok.Any())
+    {
+        foreach (var item in egyediPosztok)
+        {
+  Console.WriteLine($"{item.KlubNeve} - {item.PosztNeve}");
+        }
+    }
+    else
+    {
+        Console.WriteLine("Nincs olyan csapat, ahol csak egy játékos lenne egy poszton.");
+    }
+}
+
+// e) Átlag alatti értékű játékosok
+static void FeladatE(List<Player> players)
+{
+  Console.WriteLine("═══ E) ÁTLAG ALATTI ÉRTÉKŰ JÁTÉKOSOK ═══\n");
+    
+    double atlag = players.Average(p => p.Ertek);
+    Console.WriteLine($"Játékosok értékének átlaga: {atlag:N0} ezer euró\n");
+
+    var atlagAlattiJatekosok = players
+   .Where(p => p.Ertek <= atlag)
+        .OrderBy(p => p.Ertek);
+
+    Console.WriteLine($"Átlag alatti vagy átlagos értékű játékosok ({atlagAlattiJatekosok.Count()} fő):\n");
+    
+    foreach (var jatekos in atlagAlattiJatekosok)
+    {
+      Console.WriteLine($"{jatekos.TeljesNev,-30} {jatekos.Ertek,8:N0} ezer € - {jatekos.KlubNeve}");
+    }
+}
+
+// f) 18-21 éves magyar játékosok
+static void FeladatF(List<Player> players)
+{
+    Console.WriteLine("═══ F) 18-21 ÉVES MAGYAR JÁTÉKOSOK ═══\n");
+    
+    var fiatalMagyarok = players
+        .Where(p => p.MagyarAllampolgar && p.Kor >= 18 && p.Kor <= 21)
+        .OrderBy(p => p.Kor)
+        .ThenBy(p => p.Vezeteknev);
+
+    if (fiatalMagyarok.Any())
+    {
+        foreach (var jatekos in fiatalMagyarok)
+        {
+            Console.WriteLine($"{jatekos.TeljesNev,-30} {jatekos.SzuletesiDatum:yyyy.MM.dd.} ({jatekos.Kor} év) - {jatekos.KlubNeve}");
+  }
+    }
+    else
+    {
+      Console.WriteLine("Nincs 18 és 21 év közötti magyar állampolgárságú játékos.");
+    }
+}
+
+// g) Játékosok exportálása
+static void FeladatG(List<Player> players)
+{
+    Console.WriteLine("═══ G) JÁTÉKOSOK EXPORTÁLÁSA ═══\n");
+    
+    try
+    {
+        // hazai.txt - Magyar állampolgárok
+    using (StreamWriter sw = new StreamWriter("hazai.txt", false, Encoding.UTF8))
+        {
+     var magyarCsapatok = players
+ .Where(p => p.MagyarAllampolgar && !p.KulfoldiAllampolgar)
+      .GroupBy(p => p.KlubNeve)
+         .OrderBy(g => g.Key);
+
+         foreach (var csapat in magyarCsapatok)
+            {
+       sw.WriteLine(csapat.Key);
+   sw.WriteLine(new string('-', csapat.Key.Length));
+    
+       foreach (var jatekos in csapat.OrderBy(p => p.Vezeteknev))
+  {
+            sw.WriteLine($"  {jatekos.TeljesNev,-30} {jatekos.PosztNeve,-20} {jatekos.Ertek,8:N0} ezer €");
+                }
+ 
+           sw.WriteLine();
+    }
+        }
+        Console.WriteLine("✓ hazai.txt sikeresen létrehozva (magyar játékosok)");
+
+      // legios.txt - Külföldi állampolgárok
+        using (StreamWriter sw = new StreamWriter("legios.txt", false, Encoding.UTF8))
+        {
+      var kulfoldiCsapatok = players
+         .Where(p => p.KulfoldiAllampolgar)
+     .GroupBy(p => p.KlubNeve)
+      .OrderBy(g => g.Key);
+
+            foreach (var csapat in kulfoldiCsapatok)
+        {
+           sw.WriteLine(csapat.Key);
+        sw.WriteLine(new string('-', csapat.Key.Length));
+       
+         foreach (var jatekos in csapat.OrderBy(p => p.Vezeteknev))
+       {
+        sw.WriteLine($"  {jatekos.TeljesNev,-30} {jatekos.PosztNeve,-20} {jatekos.Ertek,8:N0} ezer €");
+       }
+                
+   sw.WriteLine();
+       }
+        }
+    Console.WriteLine("✓ legios.txt sikeresen létrehozva (külföldi játékosok)");
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"Hiba a fájlok írása során: {ex.Message}");
+    }
+}

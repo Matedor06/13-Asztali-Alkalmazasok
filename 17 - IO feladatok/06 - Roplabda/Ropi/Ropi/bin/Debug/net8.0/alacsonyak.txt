@@ -1,19 +1,19 @@
-﻿Agnieszka Bednarek-Kasza	185 cm	1.79 cm alacsonyabb
-Eleonora Dzi�kiewicz	185 cm	1.79 cm alacsonyabb
-Anna Werbli�ska	178 cm	8.79 cm alacsonyabb
-Francesca Piccinini	184 cm	2.79 cm alacsonyabb
-Jaqueline Carvalho	186 cm	0.79 cm alacsonyabb
-Yelizaveta Mammadova	184 cm	2.79 cm alacsonyabb
-Szpin Ren�ta	165 cm	21.79 cm alacsonyabb
-Tanja Matic	178 cm	8.79 cm alacsonyabb
-Bodn�r Dorottya	185 cm	1.79 cm alacsonyabb
-Ivana �erisilo	185 cm	1.79 cm alacsonyabb
-Logan Tom	186 cm	0.79 cm alacsonyabb
-T�las Zsuzsanna	178 cm	8.79 cm alacsonyabb
-G�zde Kirdar Sonsirma	183 cm	3.79 cm alacsonyabb
-Tandara Caixeta	184 cm	2.79 cm alacsonyabb
-Debby Stam-Pilon	184 cm	2.79 cm alacsonyabb
-Naz Aydemir	186 cm	0.79 cm alacsonyabb
-Sabina Altynbekova	182 cm	4.79 cm alacsonyabb
-Charlotte Leys	184 cm	2.79 cm alacsonyabb
-Nikola Radosov�	186 cm	0.79 cm alacsonyabb
+﻿Agnieszka Bednarek-Kasza	185
+Eleonora Dziêkiewicz	185
+Anna Werbliñska	178
+Francesca Piccinini	184
+Jaqueline Carvalho	186
+Yelizaveta Mammadova	184
+Szpin Renáta	165
+Tanja Matic	178
+Bodnár Dorottya	185
+Ivana Ðerisilo	185
+Logan Tom	186
+Tálas Zsuzsanna	178
+Gözde Kirdar Sonsirma	183
+Tandara Caixeta	184
+Debby Stam-Pilon	184
+Naz Aydemir	186
+Sabina Altynbekova	182
+Charlotte Leys	184
+Nikola Radosová	186

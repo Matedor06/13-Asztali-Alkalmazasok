@@ -1,1 +1,16 @@
-﻿
+﻿Katarzyna Skowroñska-Dolata	189	ütõ	lengyel	Imoco Volley	Olaszország
+Francesca Piccinini	184	ütõ	olasz	Partizan	Szerbia
+Jaqueline Carvalho	186	ütõ	brazil	Crvena Zvezda	Szerbia
+Robin de Kruijf	193	ütõ	holland	Asystel Novara	Lengyelország
+Bodnár Dorottya	185	ütõ	magyar	Imoco Volley	Olaszország
+Malgorzata Glinka-Mogentale	191	ütõ	lengyel	AGIL Volley	Olaszország
+Jovana Brakocevic	196	ütõ	szerb	Fatum Nyíregyháza	Magyarország
+Ivana Ðerisilo	185	ütõ	szerb	Crvena Zvezda	Szerbia
+Yekaterina Gamova	202	ütõ	orosz	Telekom Baku	Azerbajdzsán
+Logan Tom	186	ütõ	amerikai	Rabita Baku	Azerbajdzsán
+Marianne Steinbrecher	188	ütõ	brazil	Fenerbahçe Acibadem	Törökország
+Lioubov Sokolova Kiliç	192	ütõ	orosz	Asystel Novara	Lengyelország
+Gabrielle Reece	191	ütõ	amerikai	Crvena Zvezda	Szerbia
+Thaísa Menezes	196	ütõ	brazil	Fatum Nyíregyháza	Magyarország
+Cristina Chirichella	195	ütõ	olasz	AGIL Volley	Olaszország
+Nikola Radosová	186	ütõ	szlovák	FATUM Nyíregyháza	Magyarország

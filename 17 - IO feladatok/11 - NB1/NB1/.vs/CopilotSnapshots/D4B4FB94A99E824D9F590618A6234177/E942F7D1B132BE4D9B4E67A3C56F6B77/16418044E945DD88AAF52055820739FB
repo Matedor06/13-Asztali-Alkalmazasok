@@ -1,0 +1,26 @@
+﻿using NB1;
+using System.Text;
+
+
+var fileData = await File.ReadAllLinesAsync("adatok.txt", Encoding.UTF7);
+var books = new List<Book>();
+foreach (var line in fileData)
+{
+    //Console.WriteLine(line);
+    var data = line.Split('\t');
+    books.Add(new Player
+    {
+        FirstName = data[0],
+        LastName = data[1],
+        Birthday = DateTime.Parse(data[2]),
+        Title = data[3],
+        ISBN = data[4],
+        publisher = data[5],
+        PublishYear = int.Parse(data[6]),
+        Price = int.Parse(data[7]),
+        Theme = data[8],
+        PagNumber = int.Parse(data[9]),
+        Honoratium = int.Parse(data[10])
+    });
+}
+

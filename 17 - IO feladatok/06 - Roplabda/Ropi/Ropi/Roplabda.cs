@@ -9,7 +9,7 @@ namespace Konyvek;
 public class Roplabda
 {
     public string Nev { get; set; }
-    public int Magassag { get; set; }
+    public int    Magassag { get; set; }
     public string Poszt { get; set; }
     public string Nemzetiseg { get; set; }
     public string Csapat { get; set; }

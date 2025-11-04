@@ -1,0 +1,36 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace NB1
+{
+    internal class Player
+    {
+        public int jerseyNumber { get; set; }
+        public string firstName { get; set; }
+        public string lastName { get; set; }
+        public DateTime birthDate { get; set; }
+        public bool isHungarianCitizen { get; set; }
+        public bool isForeignCitizen { get; set; }
+        public int value { get; set; } // euró ezrekben
+        public string clubName { get; set; }
+        public string positionName { get; set; }
+
+        public string fullName => $"{lastName} {firstName}".Trim();
+      
+        public int age
+        {
+            get
+            {
+                var today = DateTime.Today;
+                var calculatedAge = today.Year - birthDate.Year;
+                if (birthDate.Date > today.AddYears(-calculatedAge)) calculatedAge--;
+                return calculatedAge;
+            }
+        }
+
+        public bool isFieldPlayer => positionName.ToLower() != "kapus";
+    }
+}

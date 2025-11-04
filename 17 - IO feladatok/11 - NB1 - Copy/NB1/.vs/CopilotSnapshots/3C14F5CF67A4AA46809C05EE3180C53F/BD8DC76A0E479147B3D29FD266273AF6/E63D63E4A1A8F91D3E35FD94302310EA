@@ -1,0 +1,235 @@
+﻿using NB1;
+using System.Text;
+
+// Adatok beolvasása
+var fileData = await File.ReadAllLinesAsync("adatok.txt", Encoding.UTF8);
+var players = new List<Player>();
+foreach (var line in fileData)
+{
+    var data = line.Split('\t');
+
+    bool hasSeparateNames = data.Length == 9;
+
+    players.Add(new Player
+    {
+        KlubNeve = data[0],
+        MezSzam = int.Parse(data[1]),
+        Utonev = hasSeparateNames ? data[2] : "",
+        Vezeteknev = hasSeparateNames ? data[3] : data[2],
+        SzuletesiDatum = DateTime.Parse(data[hasSeparateNames ? 4 : 3]),
+        MagyarAllampolgar = int.Parse(data[hasSeparateNames ? 5 : 4]) == -1,
+        KulfoldiAllampolgar = int.Parse(data[hasSeparateNames ? 6 : 5]) == -1,
+        Ertek = int.Parse(data[hasSeparateNames ? 7 : 6]),
+        PosztNeve = data[hasSeparateNames ? 8 : 7]
+    });
+}
+
+// Menü
+bool exit = false;
+while (!exit)
+{
+    Console.Clear();
+    Console.WriteLine("=== NB1 Labdarúgó Adatbázis ===\n");
+    Console.WriteLine("a) Legidősebb mezőnyjátékos");
+    Console.WriteLine("b) Állampolgárság szerintistatisztika");
+    Console.WriteLine("c) Csapatok összértéke");
+    Console.WriteLine("d) Egyedi posztonkénti szerződések");
+    Console.WriteLine("e) Átlag alatti értékű játékosok");
+    Console.WriteLine("f) 18-21 év közötti magyar játékosok");
+    Console.WriteLine("g) Hazai és légiósjátékosok fájlba írása");
+    Console.WriteLine("0) Kilépés\n");
+    Console.Write("Válasszon: ");
+
+    var choice = Console.ReadLine();
+
+    switch (choice)
+    {
+        case "a":
+            FeladatA(players);
+            break;
+        case "b":
+            FeladatB(players);
+            break;
+        case "c":
+            FeladatC(players);
+            break;
+        case "d":
+            FeladatD(players);
+            break;
+        case "e":
+            FeladatE(players);
+            break;
+        case "f":
+            FeladatF(players);
+            break;
+        case "g":
+            await FeladatG(players);
+            break;
+        case "0":
+            exit = true;
+            break;
+        default:
+            Console.WriteLine("Érvénytelen választás!");
+            break;
+    }
+
+    if (!exit)
+    {
+        Console.WriteLine("\nNyomjon meg egy billentyűt a folytatáshoz...");
+        Console.ReadKey();
+    }
+}
+
+// a) Legidősebb mezőnyjátékos
+void FeladatA(List<Player> players)
+{
+    Console.WriteLine("\nLegidősebb mezőnyjátékos\n");
+
+    var legidosebbMezonyjatekos = players
+        .Where(p => p.Mezonyjatekos)
+        .OrderBy(p => p.SzuletesiDatum)
+        .First();
+
+    Console.WriteLine($"Név: {legidosebbMezonyjatekos.TeljesNev}");
+    Console.WriteLine($"Születési dátum: {legidosebbMezonyjatekos.SzuletesiDatum:yyyy.MM.dd.}");
+}
+
+// b) Állampolgárság statisztika
+void FeladatB(List<Player> players)
+{
+    Console.WriteLine("\nÁllampolgárság szerint\n");
+
+    var magyarDb = players.Count(p => p.MagyarAllampolgar && !p.KulfoldiAllampolgar);
+    var kulfoldiDb = players.Count(p => !p.MagyarAllampolgar && p.KulfoldiAllampolgar);
+    var kettosDb = players.Count(p => p.MagyarAllampolgar && p.KulfoldiAllampolgar);
+
+    Console.WriteLine($"Magyar állampolgárok: {magyarDb} fő");
+    Console.WriteLine($"Külföldi állampolgárok: {kulfoldiDb} fő");
+    Console.WriteLine($"Kettős állampolgárok: {kettosDb} fő");
+}
+
+// c) Csapatok összértéke
+void FeladatC(List<Player> players)
+{
+    Console.WriteLine("\nCsapatok összértéke\n");
+
+    var csapatokOsszerteke = players
+        .GroupBy(p => p.KlubNeve)
+        .Select(g => new { Csapat = g.Key, Osszertek = g.Sum(p => p.Ertek) })
+        .OrderByDescending(x => x.Osszertek);
+
+    foreach (var csapat in csapatokOsszerteke)
+    {
+        Console.WriteLine($"{csapat.Csapat}: {csapat.Osszertek}");
+    }
+}
+
+// d) Egyedi posztonkénti szerződések
+void FeladatD(List<Player> players)
+{
+    Console.WriteLine("\nEgyedi posztonkénti szerződések\n");
+
+    var egyesPosztonJatekosok = players
+        .GroupBy(p => new { p.KlubNeve, p.PosztNeve })
+        .Where(g => g.Count() == 1)
+        .Select(g => new { Csapat = g.Key.KlubNeve, Poszt = g.Key.PosztNeve })
+        .GroupBy(x => x.Csapat)
+        .OrderBy(g => g.Key);
+
+    foreach (var csapatCsoport in egyesPosztonJatekosok)
+    {
+        Console.WriteLine(csapatCsoport.Key);
+        foreach (var poszt in csapatCsoport.OrderBy(x => x.Poszt))
+        {
+            Console.WriteLine($"  {poszt.Poszt}");
+        }
+        Console.WriteLine();
+    }
+}
+
+// e) Átlag alatti értékű játékosok
+void FeladatE(List<Player> players)
+{
+    Console.WriteLine("\nÁtlag alatti értékű játékosok\n");
+
+    var atlagErtek = players.Average(p => p.Ertek);
+
+    var atlagAlattiJatekosok = players
+        .Where(p => p.Ertek <= atlagErtek)
+        .OrderBy(p => p.Ertek);
+
+    foreach (var jatekos in atlagAlattiJatekosok)
+    {
+        Console.WriteLine($"{jatekos.TeljesNev,-30} ({jatekos.KlubNeve,-25}) - {jatekos.Ertek,4} ezer €");
+    }
+}
+
+// f) 18-21 év közötti magyar játékosok
+void FeladatF(List<Player> players)
+{
+    Console.WriteLine("\n18-21 év közötti magyar játékosok\n");
+
+    var fiatalMagyarok = players
+        .Where(p => p.MagyarAllampolgar && p.Kor >= 18 && p.Kor <= 21)
+        .OrderBy(p => p.Kor)
+        .ThenBy(p => p.TeljesNev);
+
+        foreach (var jatekos in fiatalMagyarok)
+        {
+            Console.WriteLine($"{jatekos.TeljesNev} - {jatekos.SzuletesiDatum:yyyy.MM.dd.}");
+        }
+}
+
+// g) Hazai és légiósjátékosok fájlba írása
+async Task FeladatG(List<Player> players)
+{
+    Console.WriteLine("\nHazai és légiósjátékosok fájlba írása\n");
+
+    // Hazai játékosok (csak magyar állampolgárok)
+    var hazaiJatekosok = players
+        .Where(p => p.MagyarAllampolgar && !p.KulfoldiAllampolgar)
+        .GroupBy(p => p.KlubNeve)
+        .OrderBy(g => g.Key);
+
+    var hazaiSorok = new List<string>();
+    foreach (var csapat in hazaiJatekosok)
+    {
+    hazaiSorok.Add(csapat.Key);
+     hazaiSorok.Add(new string('-', csapat.Key.Length));
+
+      foreach (var jatekos in csapat.OrderBy(p => p.TeljesNev))
+      {
+          hazaiSorok.Add($"  {jatekos.TeljesNev,-30} {jatekos.PosztNeve,-25} {jatekos.Ertek,5} ezer €");
+ }
+
+        hazaiSorok.Add("");
+    }
+
+    await File.WriteAllLinesAsync("hazai.txt", hazaiSorok, Encoding.UTF8);
+
+    // Légiósjátékosok (külföldi állampolgársággal rendelkezők)
+    var legiosJatekosok = players
+        .Where(p => p.KulfoldiAllampolgar)
+        .GroupBy(p => p.KlubNeve)
+   .OrderBy(g => g.Key);
+
+    var legiosSorok = new List<string>();
+    foreach (var csapat in legiosJatekosok)
+    {
+  legiosSorok.Add(csapat.Key);
+        legiosSorok.Add(new string('-', csapat.Key.Length));
+
+        foreach (var jatekos in csapat.OrderBy(p => p.TeljesNev))
+      {
+            legiosSorok.Add($"  {jatekos.TeljesNev,-30} {jatekos.PosztNeve,-25} {jatekos.Ertek,5} ezer €");
+        }
+
+ legiosSorok.Add("");
+    }
+
+    await File.WriteAllLinesAsync("legios.txt", legiosSorok, Encoding.UTF8);
+
+    Console.WriteLine("✓ hazai.txt fájl létrehozva");
+    Console.WriteLine("✓ legios.txt fájl létrehozva");
+}
+

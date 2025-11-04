@@ -1,5 +1,5 @@
-﻿liber�: 165 cm
-felad�: 356 cm
-s�nc: 935 cm
-fogat�: 1850 cm
-�t�: 3045 cm
+﻿liberó: 165 cm
+feladó: 356 cm
+sánc: 935 cm
+fogató: 1850 cm
+ütõ: 3045 cm
