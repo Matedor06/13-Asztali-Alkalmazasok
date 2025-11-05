@@ -1,12 +1,53 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\11 - NB1\\NB1\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\11 - NB1\\NB1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{87792028-90F6-47E4-B555-AA15B695901C}|NB1\\NB1.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali-alkalmazasok\\17 - io feladatok\\11 - nb1\\nb1\\nb1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87792028-90F6-47E4-B555-AA15B695901C}|NB1\\NB1.csproj|solutionrelative:nb1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87792028-90F6-47E4-B555-AA15B695901C}|NB1\\NB1.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali-alkalmazasok\\17 - io feladatok\\11 - nb1\\nb1\\nb1\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87792028-90F6-47E4-B555-AA15B695901C}|NB1\\NB1.csproj|solutionrelative:nb1\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\11 - NB1\\NB1\\NB1\\Program.cs",
+              "RelativeDocumentMoniker": "NB1\\Program.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\11 - NB1\\NB1\\NB1\\Program.cs",
+              "RelativeToolTip": "NB1\\Program.cs",
+              "ViewState": "AgIAALIAAAAAAAAAAAAcwG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T06:15:11.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\11 - NB1\\NB1\\NB1\\Player.cs",
+              "RelativeDocumentMoniker": "NB1\\Player.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\11 - NB1\\NB1\\NB1\\Player.cs",
+              "RelativeToolTip": "NB1\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T06:11:01.747Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

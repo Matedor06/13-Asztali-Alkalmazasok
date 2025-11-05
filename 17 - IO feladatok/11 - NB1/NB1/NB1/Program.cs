@@ -115,7 +115,7 @@ void TaskC(List<Player> players)
 
     var teamTotalValues = players
         .GroupBy(p => p.ClubName)
-     .Select(g => new { Team = g.Key, TotalValue = g.Sum(p => p.Value) })
+        .Select(g => new { Team = g.Key, TotalValue = g.Sum(p => p.Value) })
         .OrderByDescending(x => x.TotalValue);
 
     foreach (var team in teamTotalValues)
@@ -131,10 +131,10 @@ void TaskD(List<Player> players)
 
     var uniquePositionPlayers = players
         .GroupBy(p => new { p.ClubName, p.PositionName })
-      .Where(g => g.Count() == 1)
+        .Where(g => g.Count() == 1)
         .Select(g => new { Team = g.Key.ClubName, Position = g.Key.PositionName })
-     .GroupBy(x => x.Team)
-  .OrderBy(g => g.Key);
+        .GroupBy(x => x.Team)
+        .OrderBy(g => g.Key);
 
     foreach (var teamGroup in uniquePositionPlayers)
     {
@@ -187,22 +187,22 @@ async Task TaskG(List<Player> players)
 
     // Hazai játékosok (csak magyar állampolgárok)
     var domesticPlayers = players
-   .Where(p => p.IsHungarianCitizen && !p.IsForeignCitizen)
+        .Where(p => p.IsHungarianCitizen && !p.IsForeignCitizen)
         .GroupBy(p => p.ClubName)
-      .OrderBy(g => g.Key);
+        .OrderBy(g => g.Key);
 
 var domesticLines = new List<string>();
     foreach (var team in domesticPlayers)
     {
         domesticLines.Add(team.Key);
-domesticLines.Add(new string('-', team.Key.Length));
+        domesticLines.Add(new string('-', team.Key.Length));
 
      foreach (var player in team.OrderBy(p => p.FullName))
         {
             domesticLines.Add($"  {player.FullName,-30} {player.PositionName,-25} {player.Value,5} ezer €");
         }
 
-  domesticLines.Add("");
+        domesticLines.Add("");
     }
 
     await File.WriteAllLinesAsync("hazai.txt", domesticLines, Encoding.UTF8);

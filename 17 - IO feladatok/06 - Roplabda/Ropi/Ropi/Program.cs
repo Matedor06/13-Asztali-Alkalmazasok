@@ -31,11 +31,25 @@ Console.WriteLine();
 var utok = jatekosok.Where(x => x.Poszt == "ütõ").Select(x => x.ToString()).ToList();
 await File.WriteAllLinesAsync("utok.txt", utok, Encoding.UTF8);
 
- // 3. A csapattagok.txt állományba mentsük a csapatokat és a hozzájuk tartozó játékosokat
+// 3. A csapattagok.txt állományba mentsük a csapatokat és a hozzájuk tartozó játékosokat
 var csapatokCsoportositva = jatekosok.GroupBy(x => x.Csapat)
-    .Select(g => $"{g.Key}: {string.Join(",", g.Select(j => j.Nev))},")
-    .ToList();
-await File.WriteAllLinesAsync("csapattagok.txt", csapatokCsoportositva, Encoding.UTF8);
+                                     .ToDictionary(x => x.Key, v => v.ToList());
+
+
+var stringBuilder = new StringBuilder();
+
+foreach (var group in csapatokCsoportositva)
+{
+    stringBuilder.AppendLine($"{group.Key}:");
+
+    foreach (var player in group.Value)
+    {
+        stringBuilder.AppendLine($"\t- {player.Nev}");
+    }
+}
+
+await File.WriteAllTextAsync("csapattagok.txt", stringBuilder.ToString(), Encoding.UTF8);
+
 
  // 4. Rendezzük a játékosokat magasság szerint növekvő sorrendbe és a magaslatok.txt állományba mentsük el
 var magassagSzerintRendezve = jatekosok.OrderBy(x => x.Magassag).Select(x => $"{x.Nev}\t{x.Magassag} cm").ToList();
@@ -59,7 +73,7 @@ await File.WriteAllLinesAsync("atlagnalmagasabbak.txt", atlagnalMagasabbak, Enco
 var posztokMagassagOsszege = jatekosok.GroupBy(x => x.Poszt)
     .Select(g => new { Poszt = g.Key, OsszMagassag = g.Sum(j => j.Magassag) })
     .OrderBy(x => x.OsszMagassag)
-.Select(x => $"{x.Poszt}: {x.OsszMagassag} cm")
+    .Select(x => $"{x.Poszt}: {x.OsszMagassag} cm")
     .ToList();
 await File.WriteAllLinesAsync("posztok_magassag.txt", posztokMagassagOsszege, Encoding.UTF8);
 

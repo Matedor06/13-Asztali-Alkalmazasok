@@ -44,7 +44,22 @@ File.WriteAllLinesAsync("sorbarakott.txt", booksSortedByPageNumberDesc, Encoding
 
 //„kategoriak.txt” állományba mentse el a könyveket téma szerint.
 
+var groupByTheme = books.GroupBy(x => x.Theme).ToDictionary(k => k.Key, v => v.ToList());
+var stringBuilder = new StringBuilder();
 
+foreach (var group in groupByTheme)
+{
+    stringBuilder.AppendLine($"{group.Key}:");
+
+    foreach (var book in group.Value)
+    {
+        stringBuilder.AppendLine($"\t- {book.ToString()}");
+    }
+}
+
+await File.WriteAllTextAsync("kategoriak.txt", stringBuilder.ToString(), Encoding.UTF8);
+
+Console.ReadKey();  
 
 
 
