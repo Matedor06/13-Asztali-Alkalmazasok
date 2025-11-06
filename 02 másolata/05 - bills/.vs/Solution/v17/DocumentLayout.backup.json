@@ -1,0 +1,346 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{256048E6-59B0-4F60-9263-51C605A5DB61}|Solution.Services\\Solution.Services.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali-alkalmazasok\\02 m\u00E1solata\\05 - bills\\solution.services\\bill\\models\\billmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{256048E6-59B0-4F60-9263-51C605A5DB61}|Solution.Services\\Solution.Services.csproj|solutionrelative:solution.services\\bill\\models\\billmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{256048E6-59B0-4F60-9263-51C605A5DB61}|Solution.Services\\Solution.Services.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali-alkalmazasok\\02 m\u00E1solata\\05 - bills\\solution.services\\billitem\\models\\billitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{256048E6-59B0-4F60-9263-51C605A5DB61}|Solution.Services\\Solution.Services.csproj|solutionrelative:solution.services\\billitem\\models\\billitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A7DC4EF-D3F0-456D-980B-CDA450ABE2C1}|Solution.Database\\Solution.Database.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali-alkalmazasok\\02 m\u00E1solata\\05 - bills\\solution.database\\entities\\billitementity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A7DC4EF-D3F0-456D-980B-CDA450ABE2C1}|Solution.Database\\Solution.Database.csproj|solutionrelative:solution.database\\entities\\billitementity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7E757A9-D198-488D-BBB8-C9D39EABDB4A}|Solution.PdfGenerator\\Solution.PdfGenerator.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali-alkalmazasok\\02 m\u00E1solata\\05 - bills\\solution.pdfgenerator\\pdfgeneratorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7E757A9-D198-488D-BBB8-C9D39EABDB4A}|Solution.PdfGenerator\\Solution.PdfGenerator.csproj|solutionrelative:solution.pdfgenerator\\pdfgeneratorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7E757A9-D198-488D-BBB8-C9D39EABDB4A}|Solution.PdfGenerator\\Solution.PdfGenerator.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali-alkalmazasok\\02 m\u00E1solata\\05 - bills\\solution.pdfgenerator\\ipdfgeneratorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7E757A9-D198-488D-BBB8-C9D39EABDB4A}|Solution.PdfGenerator\\Solution.PdfGenerator.csproj|solutionrelative:solution.pdfgenerator\\ipdfgeneratorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7E757A9-D198-488D-BBB8-C9D39EABDB4A}|Solution.PdfGenerator\\Solution.PdfGenerator.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali-alkalmazasok\\02 m\u00E1solata\\05 - bills\\solution.pdfgenerator\\globalimports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7E757A9-D198-488D-BBB8-C9D39EABDB4A}|Solution.PdfGenerator\\Solution.PdfGenerator.csproj|solutionrelative:solution.pdfgenerator\\globalimports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A42E438-E286-4949-BD18-1BAB93BC6113}|Solution.Api\\Solution.Api.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali-alkalmazasok\\02 m\u00E1solata\\05 - bills\\solution.api\\configurations\\databaseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A42E438-E286-4949-BD18-1BAB93BC6113}|Solution.Api\\Solution.Api.csproj|solutionrelative:solution.api\\configurations\\databaseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A42E438-E286-4949-BD18-1BAB93BC6113}|Solution.Api\\Solution.Api.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali-alkalmazasok\\02 m\u00E1solata\\05 - bills\\solution.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A42E438-E286-4949-BD18-1BAB93BC6113}|Solution.Api\\Solution.Api.csproj|solutionrelative:solution.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A42E438-E286-4949-BD18-1BAB93BC6113}|Solution.Api\\Solution.Api.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali-alkalmazasok\\02 m\u00E1solata\\05 - bills\\solution.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5A42E438-E286-4949-BD18-1BAB93BC6113}|Solution.Api\\Solution.Api.csproj|solutionrelative:solution.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali-alkalmazasok\\02 m\u00E1solata\\05 - bills\\solution.desktopapp\\configurations\\configuresqlserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|solutionrelative:solution.desktopapp\\configurations\\configuresqlserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A7DC4EF-D3F0-456D-980B-CDA450ABE2C1}|Solution.Database\\Solution.Database.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali-alkalmazasok\\02 m\u00E1solata\\05 - bills\\solution.database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A7DC4EF-D3F0-456D-980B-CDA450ABE2C1}|Solution.Database\\Solution.Database.csproj|solutionrelative:solution.database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali-alkalmazasok\\02 m\u00E1solata\\05 - bills\\.editorconfig||{68B46364-D378-42F2-9E72-37D86C5F4468}",
+      "RelativeMoniker": "D:0:0:{542885BE-10AA-472C-AECC-AF68FFD90A2D}|Solution.DesktopApp\\Solution.DesktopApp.csproj|solutionrelative:.editorconfig||{68B46364-D378-42F2-9E72-37D86C5F4468}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A42E438-E286-4949-BD18-1BAB93BC6113}|Solution.Api\\Solution.Api.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali-alkalmazasok\\02 m\u00E1solata\\05 - bills\\solution.api\\configurations\\loadappsettingsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A42E438-E286-4949-BD18-1BAB93BC6113}|Solution.Api\\Solution.Api.csproj|solutionrelative:solution.api\\configurations\\loadappsettingsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A42E438-E286-4949-BD18-1BAB93BC6113}|Solution.Api\\Solution.Api.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali-alkalmazasok\\02 m\u00E1solata\\05 - bills\\solution.api\\configurations\\fluentvalidationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A42E438-E286-4949-BD18-1BAB93BC6113}|Solution.Api\\Solution.Api.csproj|solutionrelative:solution.api\\configurations\\fluentvalidationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A42E438-E286-4949-BD18-1BAB93BC6113}|Solution.Api\\Solution.Api.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali-alkalmazasok\\02 m\u00E1solata\\05 - bills\\solution.api\\configurations\\diconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A42E438-E286-4949-BD18-1BAB93BC6113}|Solution.Api\\Solution.Api.csproj|solutionrelative:solution.api\\configurations\\diconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A42E438-E286-4949-BD18-1BAB93BC6113}|Solution.Api\\Solution.Api.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali-alkalmazasok\\02 m\u00E1solata\\05 - bills\\solution.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5A42E438-E286-4949-BD18-1BAB93BC6113}|Solution.Api\\Solution.Api.csproj|solutionrelative:solution.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A7DC4EF-D3F0-456D-980B-CDA450ABE2C1}|Solution.Database\\Solution.Database.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali-alkalmazasok\\02 m\u00E1solata\\05 - bills\\solution.database\\assemblyreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A7DC4EF-D3F0-456D-980B-CDA450ABE2C1}|Solution.Database\\Solution.Database.csproj|solutionrelative:solution.database\\assemblyreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A42E438-E286-4949-BD18-1BAB93BC6113}|Solution.Api\\Solution.Api.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali-alkalmazasok\\02 m\u00E1solata\\05 - bills\\solution.api\\controllers\\manufacturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A42E438-E286-4949-BD18-1BAB93BC6113}|Solution.Api\\Solution.Api.csproj|solutionrelative:solution.api\\controllers\\manufacturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A42E438-E286-4949-BD18-1BAB93BC6113}|Solution.Api\\Solution.Api.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali-alkalmazasok\\02 m\u00E1solata\\05 - bills\\solution.api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A42E438-E286-4949-BD18-1BAB93BC6113}|Solution.Api\\Solution.Api.csproj|solutionrelative:solution.api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A7DC4EF-D3F0-456D-980B-CDA450ABE2C1}|Solution.Database\\Solution.Database.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali-alkalmazasok\\02 m\u00E1solata\\05 - bills\\solution.database\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A7DC4EF-D3F0-456D-980B-CDA450ABE2C1}|Solution.Database\\Solution.Database.csproj|solutionrelative:solution.database\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BillModel.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\Solution.Services\\Bill\\Models\\BillModel.cs",
+              "RelativeDocumentMoniker": "Solution.Services\\Bill\\Models\\BillModel.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\Solution.Services\\Bill\\Models\\BillModel.cs",
+              "RelativeToolTip": "Solution.Services\\Bill\\Models\\BillModel.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAADwvxIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T07:18:08.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BillItemEntity.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\Solution.DataBase\\Entities\\BillItemEntity.cs",
+              "RelativeDocumentMoniker": "Solution.DataBase\\Entities\\BillItemEntity.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\Solution.DataBase\\Entities\\BillItemEntity.cs",
+              "RelativeToolTip": "Solution.DataBase\\Entities\\BillItemEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T07:12:43.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BillItemModel.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\Solution.Services\\BillItem\\Models\\BillItemModel.cs",
+              "RelativeDocumentMoniker": "Solution.Services\\BillItem\\Models\\BillItemModel.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\Solution.Services\\BillItem\\Models\\BillItemModel.cs",
+              "RelativeToolTip": "Solution.Services\\BillItem\\Models\\BillItemModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T06:35:53.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PdfgeneratorService.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\Solution.PdfGenerator\\PdfgeneratorService.cs",
+              "RelativeDocumentMoniker": "Solution.PdfGenerator\\PdfgeneratorService.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\Solution.PdfGenerator\\PdfgeneratorService.cs",
+              "RelativeToolTip": "Solution.PdfGenerator\\PdfgeneratorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T06:32:56.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IPdfgeneratorService.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\Solution.PdfGenerator\\IPdfgeneratorService.cs",
+              "RelativeDocumentMoniker": "Solution.PdfGenerator\\IPdfgeneratorService.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\Solution.PdfGenerator\\IPdfgeneratorService.cs",
+              "RelativeToolTip": "Solution.PdfGenerator\\IPdfgeneratorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T06:32:54.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GlobalImports.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\Solution.PdfGenerator\\GlobalImports.cs",
+              "RelativeDocumentMoniker": "Solution.PdfGenerator\\GlobalImports.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\Solution.PdfGenerator\\GlobalImports.cs",
+              "RelativeToolTip": "Solution.PdfGenerator\\GlobalImports.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T06:32:52.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\Solution.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Solution.Api\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\Solution.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Solution.Api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-06T06:14:25.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\Solution.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Solution.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\Solution.Api\\Program.cs",
+              "RelativeToolTip": "Solution.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T06:22:38.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DatabaseConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\Solution.Api\\Configurations\\DatabaseConfiguration.cs",
+              "RelativeDocumentMoniker": "Solution.Api\\Configurations\\DatabaseConfiguration.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\Solution.Api\\Configurations\\DatabaseConfiguration.cs",
+              "RelativeToolTip": "Solution.Api\\Configurations\\DatabaseConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T06:15:05.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ConfigureSQLServer.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\Solution.DesktopApp\\Configurations\\ConfigureSQLServer.cs",
+              "RelativeDocumentMoniker": "Solution.DesktopApp\\Configurations\\ConfigureSQLServer.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\Solution.DesktopApp\\Configurations\\ConfigureSQLServer.cs",
+              "RelativeToolTip": "Solution.DesktopApp\\Configurations\\ConfigureSQLServer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T06:26:32.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": ".editorconfig",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\.editorconfig",
+              "RelativeDocumentMoniker": ".editorconfig",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\.editorconfig",
+              "RelativeToolTip": ".editorconfig",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-06T06:23:43.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FluentValidationConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\Solution.Api\\Configurations\\FluentValidationConfiguration.cs",
+              "RelativeDocumentMoniker": "Solution.Api\\Configurations\\FluentValidationConfiguration.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\Solution.Api\\Configurations\\FluentValidationConfiguration.cs",
+              "RelativeToolTip": "Solution.Api\\Configurations\\FluentValidationConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T06:15:56.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\Solution.DataBase\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Solution.DataBase\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\Solution.DataBase\\AppDbContext.cs",
+              "RelativeToolTip": "Solution.DataBase\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T08:25:13.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoadAppSettingsConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\Solution.Api\\Configurations\\LoadAppSettingsConfiguration.cs",
+              "RelativeDocumentMoniker": "Solution.Api\\Configurations\\LoadAppSettingsConfiguration.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\Solution.Api\\Configurations\\LoadAppSettingsConfiguration.cs",
+              "RelativeToolTip": "Solution.Api\\Configurations\\LoadAppSettingsConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T06:16:06.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DIConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\Solution.Api\\Configurations\\DIConfigurations.cs",
+              "RelativeDocumentMoniker": "Solution.Api\\Configurations\\DIConfigurations.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\Solution.Api\\Configurations\\DIConfigurations.cs",
+              "RelativeToolTip": "Solution.Api\\Configurations\\DIConfigurations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T06:15:47.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\Solution.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Solution.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\Solution.Api\\appsettings.json",
+              "RelativeToolTip": "Solution.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-06T06:22:31.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AssemblyReference.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\Solution.DataBase\\AssemblyReference.cs",
+              "RelativeDocumentMoniker": "Solution.DataBase\\AssemblyReference.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\Solution.DataBase\\AssemblyReference.cs",
+              "RelativeToolTip": "Solution.DataBase\\AssemblyReference.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T08:25:22.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ManufacturerController.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\Solution.Api\\Controllers\\ManufacturerController.cs",
+              "RelativeDocumentMoniker": "Solution.Api\\Controllers\\ManufacturerController.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\Solution.Api\\Controllers\\ManufacturerController.cs",
+              "RelativeToolTip": "Solution.Api\\Controllers\\ManufacturerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T06:16:37.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\Solution.Api\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "Solution.Api\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\Solution.Api\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "Solution.Api\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T06:16:13.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\Solution.DataBase\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "Solution.DataBase\\GlobalUsings.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\02 m\u00E1solata\\05 - bills\\Solution.DataBase\\GlobalUsings.cs",
+              "RelativeToolTip": "Solution.DataBase\\GlobalUsings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T08:25:25.205Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

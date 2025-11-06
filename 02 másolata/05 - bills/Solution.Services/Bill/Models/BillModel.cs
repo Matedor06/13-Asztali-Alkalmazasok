@@ -1,0 +1,52 @@
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using Solution.Services.BillItem.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Solution.Services.Bill.Models;
+
+public partial class BillModel : ObservableObject
+{
+    [ObservableProperty]
+    private string id = string.Empty;
+
+    [ObservableProperty]
+    private string billNumber = string.Empty;
+
+    [ObservableProperty]
+    private DateTime dateIssued;
+
+    [ObservableProperty]
+    private ICollection<BillItemModel> billItems = new List<BillItemModel>();
+
+    public BillModel()
+    { }
+
+    public BillModel(BillEntity entity)
+    {
+        this.Id = entity.PublicId;
+        this.BillNumber = entity.BillNumber;
+        this.DateIssued = entity.DateIssued;
+        this.BillItems = entity.BillItems.Select(x => new BillItemModel(x)).ToList();
+    }
+    public BillEntity ToEntity()
+    {
+        return new BillEntity
+        {
+            PublicId = this.Id,
+            BillNumber = this.BillNumber,
+            DateIssued = this.DateIssued,
+            BillItems = this.BillItems.Select(x => x.ToEntity()).ToList()
+        };
+    }
+    public void ToEntity(BillEntity entity)
+    {
+        entity.PublicId = this.Id;
+        entity.BillNumber = this.BillNumber;
+        entity.DateIssued = this.DateIssued;
+        entity.BillItems = this.BillItems.Select(x => x.ToEntity()).ToList();
+    }
+}

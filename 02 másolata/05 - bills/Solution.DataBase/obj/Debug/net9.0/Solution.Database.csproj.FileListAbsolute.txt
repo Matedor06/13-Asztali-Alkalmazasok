@@ -1,0 +1,6 @@
+C:\Users\b1karmat\Desktop\github\13-Asztali-Alkalmazasok\02 másolata\05 - bills\Solution.Database\obj\Debug\net9.0\Solution.Database.csproj.AssemblyReference.cache
+C:\Users\b1karmat\Desktop\github\13-Asztali-Alkalmazasok\02 másolata\05 - bills\Solution.Database\obj\Debug\net9.0\Solution.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\b1karmat\Desktop\github\13-Asztali-Alkalmazasok\02 másolata\05 - bills\Solution.Database\obj\Debug\net9.0\Solution.Database.AssemblyInfoInputs.cache
+C:\Users\b1karmat\Desktop\github\13-Asztali-Alkalmazasok\02 másolata\05 - bills\Solution.Database\obj\Debug\net9.0\Solution.Database.AssemblyInfo.cs
+C:\Users\b1karmat\Desktop\github\13-Asztali-Alkalmazasok\02 másolata\05 - bills\Solution.Database\obj\Debug\net9.0\Solution.Database.csproj.CoreCompileInputs.cache
+C:\Users\b1karmat\Desktop\github\13-Asztali-Alkalmazasok\02 másolata\05 - bills\Solution.Database\obj\Debug\net9.0\Solution.Database.sourcelink.json
