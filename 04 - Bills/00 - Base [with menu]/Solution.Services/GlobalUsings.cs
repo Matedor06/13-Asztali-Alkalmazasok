@@ -1,9 +1,12 @@
-﻿global using Solution.Core.Interfaces;
-global using Solution.Core.Models;
-global using Solution.Core.Models.Settings;
-
-global using ErrorOr;
+﻿global using ErrorOr;
 global using Google.Apis.Auth.OAuth2;
 global using Google.Apis.Drive.v3;
 global using Google.Apis.Drive.v3.Data;
 global using Google.Apis.Services;
+global using CommunityToolkit.Mvvm.ComponentModel;
+global using System.Collections.ObjectModel;
+global using Solution.Database.Entities;
+global using Solution.Services.Services.Bill.Models;
+global using Solution.Services.Services.BillItem.Models;
+global using Solution.DataBase;
+global using Microsoft.EntityFrameworkCore;

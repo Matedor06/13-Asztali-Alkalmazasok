@@ -34,3 +34,15 @@ C:\Users\b1karmat\Desktop\github\13-Asztali-Alkalmazasok\04 - Bills\00 - Base [w
 C:\Users\b1karmat\Desktop\github\13-Asztali-Alkalmazasok\04 - Bills\00 - Base [with menu]\Solution.Api\obj\Debug\net8.0\Solution.Api.pdb
 C:\Users\b1karmat\Desktop\github\13-Asztali-Alkalmazasok\04 - Bills\00 - Base [with menu]\Solution.Api\obj\Debug\net8.0\Solution.Api.genruntimeconfig.cache
 C:\Users\b1karmat\Desktop\github\13-Asztali-Alkalmazasok\04 - Bills\00 - Base [with menu]\Solution.Api\obj\Debug\net8.0\ref\Solution.Api.dll
+C:\Users\b1karmat\Desktop\github\13 asztali új\13-Asztali-Alkalmazasok\04 - Bills\00 - Base [with menu]\Solution.Api\obj\Debug\net8.0\Solution.Api.csproj.AssemblyReference.cache
+C:\Users\b1karmat\Desktop\github\13 asztali új\13-Asztali-Alkalmazasok\04 - Bills\00 - Base [with menu]\Solution.Api\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\b1karmat\Desktop\github\13 asztali új\13-Asztali-Alkalmazasok\04 - Bills\00 - Base [with menu]\Solution.Api\obj\Debug\net8.0\Solution.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\b1karmat\Desktop\github\13 asztali új\13-Asztali-Alkalmazasok\04 - Bills\00 - Base [with menu]\Solution.Api\obj\Debug\net8.0\Solution.Api.AssemblyInfoInputs.cache
+C:\Users\b1karmat\Desktop\github\13 asztali új\13-Asztali-Alkalmazasok\04 - Bills\00 - Base [with menu]\Solution.Api\obj\Debug\net8.0\Solution.Api.AssemblyInfo.cs
+C:\Users\b1karmat\Desktop\github\13 asztali új\13-Asztali-Alkalmazasok\04 - Bills\00 - Base [with menu]\Solution.Api\obj\Debug\net8.0\Solution.Api.csproj.CoreCompileInputs.cache
+C:\Users\b1karmat\Desktop\github\13 asztali új\13-Asztali-Alkalmazasok\04 - Bills\00 - Base [with menu]\Solution.Api\obj\Debug\net8.0\Solution.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\b1karmat\Desktop\github\13 asztali új\13-Asztali-Alkalmazasok\04 - Bills\00 - Base [with menu]\Solution.Api\obj\Debug\net8.0\Solution.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\b1karmat\Desktop\github\13 asztali új\13-Asztali-Alkalmazasok\04 - Bills\00 - Base [with menu]\Solution.Api\obj\Debug\net8.0\Solution.Api.sourcelink.json
+C:\Users\b1karmat\Desktop\github\13 asztali új\13-Asztali-Alkalmazasok\04 - Bills\00 - Base [with menu]\Solution.Api\obj\Debug\net8.0\Solution.Api.dll
+C:\Users\b1karmat\Desktop\github\13 asztali új\13-Asztali-Alkalmazasok\04 - Bills\00 - Base [with menu]\Solution.Api\obj\Debug\net8.0\refint\Solution.Api.dll
+C:\Users\b1karmat\Desktop\github\13 asztali új\13-Asztali-Alkalmazasok\04 - Bills\00 - Base [with menu]\Solution.Api\obj\Debug\net8.0\Solution.Api.pdb

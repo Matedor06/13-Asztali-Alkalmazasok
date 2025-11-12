@@ -6,8 +6,7 @@ global using CommunityToolkit.Mvvm.ComponentModel;
 global using CommunityToolkit.Mvvm.Input;
 global using Microsoft.Extensions.Configuration;
 global using Microsoft.Extensions.Logging;
-global using Solution.Core.Interfaces;
-global using Solution.Core.Models.Settings;
+
 global using Solution.DataBase;
 global using Solution.DesktopApp.Configurations;
 global using Solution.DesktopApp.ViewModels;

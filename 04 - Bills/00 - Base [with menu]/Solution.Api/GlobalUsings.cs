@@ -1,0 +1,9 @@
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.AspNetCore.Mvc;
+global using Solution.DataBase;
+global using Solution.Api.Configurations;
+global using Solution.Services.Services.Bill;
+global using Solution.Services.Services.BillItem;
+global using Solution.Services.Services.Bill.Models;
+global using Solution.Services.Services.BillItem.Models;
+global using ErrorOr;

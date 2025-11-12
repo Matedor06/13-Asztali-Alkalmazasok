@@ -1,37 +1,93 @@
 ﻿namespace Solution.DataBase;
 
-public class AppDbContext() : DbContext
+public class AppDbContext : DbContext
 {
-	private static string connectionString = string.Empty;
-
-	static AppDbContext()
+	public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
 	{
-		connectionString = GetConnectionString();
 	}
 
-	protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+	public DbSet<BillEntity> Bills { get; set; }
+	public DbSet<BillItemEntity> BillItems { get; set; }
+
+	protected override void OnModelCreating(ModelBuilder modelBuilder)
 	{
-		ArgumentNullException.ThrowIfNull(connectionString);
+		base.OnModelCreating(modelBuilder);
 
-		base.OnConfiguring(optionsBuilder);
+		// Seed Bills
+		modelBuilder.Entity<BillEntity>().HasData(
+			new BillEntity
+			{
+				Id = 1,
+				BillNumber = "BILL-2025-001",
+				DateIssued = new DateTime(2025, 1, 15)
+			},
+			new BillEntity
+			{
+				Id = 2,
+				BillNumber = "BILL-2025-002",
+				DateIssued = new DateTime(2025, 2, 20)
+			},
+			new BillEntity
+			{
+				Id = 3,
+				BillNumber = "BILL-2025-003",
+				DateIssued = new DateTime(2025, 3, 10)
+			}
+		);
 
-		optionsBuilder.UseSqlServer(connectionString);
-	}
-
-	private static string GetConnectionString()
-	{
-#if DEBUG
-		var file = "appSettings.Development.json";
-#else
-        var file = "connectionString.Production.json";
-#endif
-		var stream = new MemoryStream(File.ReadAllBytes($"{file}"));
-
-		var config = new ConfigurationBuilder()
-					.AddJsonStream(stream)
-					.Build();
-
-		var cs = config.GetValue<string>("SqlConnectionString");
-		return cs;
+		// Seed BillItems
+		modelBuilder.Entity<BillItemEntity>().HasData(
+			// Items for Bill 1
+			new BillItemEntity
+			{
+				Id = 1,
+				Name = "Laptop",
+				UnitPrice = 150000,
+				Quantity = 2,
+				BillId = 1
+			},
+			new BillItemEntity
+			{
+				Id = 2,
+				Name = "Mouse",
+				UnitPrice = 5000,
+				Quantity = 3,
+				BillId = 1
+			},
+			// Items for Bill 2
+			new BillItemEntity
+			{
+				Id = 3,
+				Name = "Monitor",
+				UnitPrice = 80000,
+				Quantity = 1,
+				BillId = 2
+			},
+			new BillItemEntity
+			{
+				Id = 4,
+				Name = "Keyboard",
+				UnitPrice = 15000,
+				Quantity = 2,
+				BillId = 2
+			},
+			// Items for Bill 3
+			new BillItemEntity
+			{
+				Id = 5,
+				Name = "Headset",
+				UnitPrice = 25000,
+				Quantity = 1,
+				BillId = 3
+			},
+			new BillItemEntity
+			{
+				Id = 6,
+				Name = "USB Cable",
+				UnitPrice = 2000,
+				Quantity = 5,
+				BillId = 3
+			}
+		);
 	}
 }
