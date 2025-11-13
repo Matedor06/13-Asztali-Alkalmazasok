@@ -6,9 +6,17 @@ global using CommunityToolkit.Mvvm.ComponentModel;
 global using CommunityToolkit.Mvvm.Input;
 global using Microsoft.Extensions.Configuration;
 global using Microsoft.Extensions.Logging;
+global using Microsoft.EntityFrameworkCore;
 
 global using Solution.DataBase;
 global using Solution.DesktopApp.Configurations;
 global using Solution.DesktopApp.ViewModels;
+global using Solution.DesktopApp.Views;
 global using Solution.Services;
+global using Solution.Services.Services.Bill;
+global using Solution.Services.Services.Bill.Models;
+global using Solution.Services.Services.BillItem;
+global using Solution.Services.Services.BillItem.Models;
 global using System.Runtime.InteropServices;
+global using System.Collections.ObjectModel;
+global using ErrorOr;

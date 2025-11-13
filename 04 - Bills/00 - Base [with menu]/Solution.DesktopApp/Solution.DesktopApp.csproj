@@ -59,16 +59,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiAsset Remove="Resources\Raw\appSettings.Development.json" />
-	  <MauiAsset Remove="Resources\Raw\appSettings.Production.json" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <EmbeddedResource Include="Resources\Raw\appSettings.Development.json" />
-	  <EmbeddedResource Include="Resources\Raw\appSettings.Production.json" />
-	</ItemGroup>
-
-	<ItemGroup>
 		<PackageReference Include="CommunityToolkit.Common" Version="8.3.2" />
 		<PackageReference Include="CommunityToolkit.Maui" Version="9.1.1" />
 		<PackageReference Include="CommunityToolkit.Maui.Markup" Version="5.1.0" />
@@ -107,16 +97,26 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Update="appSettings.Development.json">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="appSettings.Production.json">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
+	  <Folder Include="Resources\Images\" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Resources\Images\" />
+	  <MauiXaml Update="Views\BillOverviewView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\NewBillView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiAsset Remove="Resources\Raw\appSettings.Development.json" />
+	  <MauiAsset Remove="Resources\Raw\appSettings.Production.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="Resources\Raw\appSettings.Development.json" />
+	  <EmbeddedResource Include="Resources\Raw\appSettings.Production.json" />
 	</ItemGroup>
 
 </Project>

@@ -1,0 +1,31 @@
+SZÁMLA NYILVÁNTARTÓ RENDSZER
+Egy olyan alkalmazást kell készítenünk, amely feladata a számlák átláthatóságának kezelése.
+A program indításakor egy üres képernyő jelenjen meg a menüvel. A menü a következő képpen legyen 
+meghatározva:
+- Program
+o Kilépés
+- Számla
+o Új számla
+o Áttekintés
+Számla -> Új számla menü kiválasztáskor az ábra 1 látható oldal töltődik be.
+Számla -> Áttekintés menü kiválasztáskor az ábra 2 látható oldal töltődik be.
+Számla -> Új számla
+Ezen az oldalon tudjuk rögzíteni egy új számla adatait a rendszerbe. A számla száma és a számla kelte kötelező adat.
+Számla tétel hozzáadásánál minden mezőt kötelező kitölteni!
+A beviteli mezőket ellenőrizni kell. Például a számla kelte nem lehet későbbi keltezés, mint az időszerű. Az egységár és 
+a mennyiség nem lehet kisebb, mint 1.
+Egy számlát csak akkor lehet elmenteni, ha legalább 1 tétel hozzá van adva, különben a Számla adatainak mentése
+gomb inaktív.
+A számla tételeit törölni lehet az ikonra kattintva. A törlést előzze meg egy figyelmeztetés is!
+A számla tételét szerkeszteni lehet az ikonra kattintva. Ekkor a tétel adatai töltődjenek be a Tétel hozzáadása
+megfelelő mezőibe.
+Számla -> Áttekintés
+Ezen az oldalon az eddig elmenett számlákat láthatjuk egy listában.
+A számlát törölni lehet az ikonra kattintva. A törlést előzze meg egy figyelmeztetés is!
+A számla szerkeszteni is lehet az ikonra kattintva. Ekkor a számla adatai töltődjenek be az új számla létrehozása 
+oldalon, ahol a számla száma, számla kelte kitöltésre kerül és a számla tételei is láthatóvá vállnak.
+Ez az oldal legyen napozható. Minden egyes oldalon 20 számát szeretnénk megjeleníteni.
+A meglévő rendszerhez API végpontokat is biztosítani kell!
+A feladat megoldásához tervezze meg a megfelelő adatbázist!
+ábra 1- Új számla hozzáadása
+ábra 2- Számlák áttekintése

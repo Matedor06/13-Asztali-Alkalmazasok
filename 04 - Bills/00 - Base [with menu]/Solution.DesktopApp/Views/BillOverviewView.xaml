@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModel="clr-namespace:Solution.DesktopApp.ViewModels"
+             xmlns:models="clr-namespace:Solution.Services.Services.Bill.Models;assembly=Solution.Services"
+             x:DataType="viewModel:BillOverviewViewModel"
+             x:Class="Solution.DesktopApp.Views.BillOverviewView"
+             Title="Számlák Áttekintése">
+
+    <Grid RowDefinitions="Auto,*,Auto" Padding="20">
+        
+        <!-- Fejléc -->
+        <Border Grid.Row="0" 
+                Padding="15" 
+                Margin="0,0,0,10"
+                StrokeThickness="1" 
+                Stroke="Gray" 
+                BackgroundColor="#1a1a1a">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="8"/>
+            </Border.StrokeShape>
+            
+            <Grid ColumnDefinitions="*,Auto">
+                <Label Grid.Column="0" 
+                       Text="Számlák Áttekintése" 
+                       FontSize="24" 
+                       FontAttributes="Bold" 
+                       TextColor="White"
+                       VerticalOptions="Center"/>
+                
+                <Button Grid.Column="1" 
+                        Text="+ Új Számla"
+                        Command="{Binding NavigateToNewBillCommand}"
+                        BackgroundColor="#28a745"
+                        TextColor="White"
+                        Padding="20,10"/>
+            </Grid>
+        </Border>
+
+        <!-- Számlák listája -->
+        <ScrollView Grid.Row="1">
+            <CollectionView ItemsSource="{Binding DisplayedBills}">
+                <CollectionView.EmptyView>
+                    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="20">
+                        <Label Text="[Üres]" FontSize="60" HorizontalOptions="Center" TextColor="Gray"/>
+                        <Label Text="Még nincs számla az adatbázisban" 
+                               FontSize="18"
+                               TextColor="Gray" 
+                               HorizontalOptions="Center"/>
+                        <Button Text="Új számla létrehozása"
+                                Command="{Binding NavigateToNewBillCommand}"
+                                BackgroundColor="#007acc"
+                                TextColor="White"
+                                HorizontalOptions="Center"/>
+                    </VerticalStackLayout>
+                </CollectionView.EmptyView>
+                
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="models:BillModel">
+                        <Border Padding="15" 
+                                Margin="0,5" 
+                                StrokeThickness="1" 
+                                Stroke="Gray" 
+                                BackgroundColor="#1a1a1a">
+                            <Border.StrokeShape>
+                                <RoundRectangle CornerRadius="8"/>
+                            </Border.StrokeShape>
+                            
+                            <Grid ColumnDefinitions="Auto,*,Auto,Auto" ColumnSpacing="15">
+                                
+                                <!-- Ikon -->
+                                <Border Grid.Column="0" 
+                                        WidthRequest="60" 
+                                        HeightRequest="60" 
+                                        BackgroundColor="#007acc"
+                                        StrokeThickness="0">
+                                    <Border.StrokeShape>
+                                        <RoundRectangle CornerRadius="30"/>
+                                    </Border.StrokeShape>
+                                    <Label Text="$" 
+                                           FontSize="30" 
+                                           FontAttributes="Bold"
+                                           TextColor="White"
+                                           HorizontalOptions="Center" 
+                                           VerticalOptions="Center"/>
+                                </Border>
+
+                                <!-- Számla adatok -->
+                                <VerticalStackLayout Grid.Column="1" Spacing="5" VerticalOptions="Center">
+                                    <Label Text="{Binding BillNumber}" 
+                                           FontSize="18" 
+                                           FontAttributes="Bold" 
+                                           TextColor="White"/>
+                                    <Label TextColor="LightGray">
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span Text="Kelt: "/>
+                                                <Span Text="{Binding DateIssued, StringFormat='{0:yyyy.MM.dd.}'}"/>
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+                                    <Label TextColor="LightGray">
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span Text="Tételek: "/>
+                                                <Span Text="{Binding BillItems.Count, StringFormat='{0} db'}"/>
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+                                </VerticalStackLayout>
+
+                                <!-- Szerkesztés gomb -->
+                                <Button Grid.Column="2" 
+                                        Text="Szerkesztés" 
+                                        Command="{Binding Source={RelativeSource AncestorType={x:Type viewModel:BillOverviewViewModel}}, Path=EditBillCommand}"
+                                        CommandParameter="{Binding .}"
+                                        BackgroundColor="#ffc107"
+                                        TextColor="Black"
+                                        VerticalOptions="Center"
+                                        Padding="15,8"/>
+
+                                <!-- Törlés gomb -->
+                                <Button Grid.Column="3" 
+                                        Text="Törlés" 
+                                        Command="{Binding Source={RelativeSource AncestorType={x:Type viewModel:BillOverviewViewModel}}, Path=DeleteBillCommand}"
+                                        CommandParameter="{Binding .}"
+                                        BackgroundColor="#dc3545"
+                                        TextColor="White"
+                                        VerticalOptions="Center"
+                                        Padding="15,8"/>
+                            </Grid>
+                        </Border>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </ScrollView>
+
+        <!-- Lapozás -->
+        <Border Grid.Row="2" 
+                Padding="15" 
+                Margin="0,10,0,0"
+                StrokeThickness="1" 
+                Stroke="Gray" 
+                BackgroundColor="#1a1a1a">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="8"/>
+            </Border.StrokeShape>
+            
+            <Grid ColumnDefinitions="Auto,*,Auto">
+                <!-- Előző oldal gombok -->
+                <HorizontalStackLayout Grid.Column="0" Spacing="5">
+                    <Button Text="&lt;&lt; Első"
+                            Command="{Binding FirstPageCommand}"
+                            IsEnabled="{Binding HasPreviousPage}"
+                            BackgroundColor="#6c757d"
+                            TextColor="White"
+                            Padding="10,5"/>
+                    
+                    <Button Text="&lt; Előző"
+                            Command="{Binding PreviousPageCommand}"
+                            IsEnabled="{Binding HasPreviousPage}"
+                            BackgroundColor="#6c757d"
+                            TextColor="White"
+                            Padding="10,5"/>
+                </HorizontalStackLayout>
+
+                <!-- Oldal info -->
+                <Label Grid.Column="1" 
+                       Text="{Binding PageInfo}" 
+                       FontSize="16" 
+                       TextColor="White"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"/>
+
+                <!-- Következő oldal gombok -->
+                <HorizontalStackLayout Grid.Column="2" Spacing="5">
+                    <Button Text="Következő &gt;"
+                            Command="{Binding NextPageCommand}"
+                            IsEnabled="{Binding HasNextPage}"
+                            BackgroundColor="#6c757d"
+                            TextColor="White"
+                            Padding="10,5"/>
+                    
+                    <Button Text="Utolsó &gt;&gt;"
+                            Command="{Binding LastPageCommand}"
+                            IsEnabled="{Binding HasNextPage}"
+                            BackgroundColor="#6c757d"
+                            TextColor="White"
+                            Padding="10,5"/>
+                </HorizontalStackLayout>
+            </Grid>
+        </Border>
+
+    </Grid>
+
+</ContentPage>

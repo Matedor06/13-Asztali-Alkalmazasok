@@ -1,23 +1,22 @@
 ﻿namespace Solution.DesktopApp.ViewModels;
 
-[ObservableObject]
-public partial class AppShellViewModel
+public partial class AppShellViewModel : ObservableObject
 {
-    public IAsyncRelayCommand ExitCommand => new AsyncRelayCommand(OnExitAsync);
-
-    public IAsyncRelayCommand AddNewMotorcycleCommand => new AsyncRelayCommand(OnAddNewMotorcycleAsync);
-    public IAsyncRelayCommand ListAllMotorcyclesCommand => new AsyncRelayCommand(OnListAllMotorcyclesAsync);
-
-
-    private async Task OnExitAsync() => Application.Current.Quit();
-
-    private async Task OnAddNewMotorcycleAsync()
+    [RelayCommand]
+    private async Task ExitApplication()
     {
-        Shell.Current.ClearNavigationStack();
+        Application.Current.Quit();
     }
 
-    private async Task OnListAllMotorcyclesAsync()
+    [RelayCommand]
+    private async Task NavigateToNewBill()
     {
-        Shell.Current.ClearNavigationStack();
+        await Shell.Current.GoToAsync($"//{nameof(MainViewModel)}/{nameof(NewBillViewModel)}");
+    }
+
+    [RelayCommand]
+    private async Task NavigateToBillOverview()
+    {
+        await Shell.Current.GoToAsync($"//{nameof(MainViewModel)}/{nameof(BillOverviewViewModel)}");
     }
 }

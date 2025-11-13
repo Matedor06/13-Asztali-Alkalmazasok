@@ -2,13 +2,30 @@
 
 public partial class App : Application
 {
-    public App()
+    public App(AppDbContext dbContext)
     {
 		ExceptionHandler.UnhandledException += OnException;
 
 		InitializeComponent();
         MaximizeWindow();
+
+        // Alkalmazzuk az adatbázis migrációkat
+        InitializeDatabase(dbContext);
 	}
+
+    private void InitializeDatabase(AppDbContext dbContext)
+    {
+        try
+        {
+            // Alkalmazzuk a pending migrációkat
+            dbContext.Database.Migrate();
+        }
+        catch (Exception ex)
+        {
+            // Log the error
+            System.Diagnostics.Debug.WriteLine($"Database initialization error: {ex.Message}");
+        }
+    }
 
     protected override Window CreateWindow(IActivationState? activationState)
     {

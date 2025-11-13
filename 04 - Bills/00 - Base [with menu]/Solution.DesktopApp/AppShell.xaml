@@ -8,7 +8,7 @@
     xmlns:views="clr-namespace:Solution.DesktopApp.Views"
     x:DataType="viewModels:AppShellViewModel"
     Shell.FlyoutBehavior="Disabled"
-    Title="Motorcycle Database"
+    Title="Számla Nyilvántartó Rendszer"
     BackgroundColor="Black">
 
     <Shell.Resources>
@@ -20,11 +20,18 @@
     </Shell.Resources>
 
     <Shell.MenuBarItems>
-
-      </Shell.MenuBarItems>
+        <MenuBarItem Text="Program">
+            <MenuFlyoutItem Text="Kilépés" Command="{Binding ExitApplicationCommand}"/>
+        </MenuBarItem>
+        
+        <MenuBarItem Text="Számla">
+            <MenuFlyoutItem Text="Új számla" Command="{Binding NavigateToNewBillCommand}"/>
+            <MenuFlyoutItem Text="Áttekintés" Command="{Binding NavigateToBillOverviewCommand}"/>
+        </MenuBarItem>
+    </Shell.MenuBarItems>
 
     <ShellContent Style="{StaticResource ShellContentStyle}"
-                  ContentTemplate="{DataTemplate local:MainView}"
+                  ContentTemplate="{DataTemplate views:MainView}"
                   Route="MainView" />
 
 </Shell>

@@ -3,11 +3,95 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:viewModel="clr-namespace:Solution.DesktopApp.ViewModels"
              x:DataType="viewModel:MainViewModel"
-             x:Class="Solution.DesktopApp.Views.MainView">
+             x:Class="Solution.DesktopApp.Views.MainView"
+             Title="Számla Nyilvántartó Rendszer">
 
-    <Grid VerticalOptions="Center" HorizontalOptions="Center">
-        <Label Text="Motorcycle Data Base" Style="{StaticResource PageTitle}" />
-        <Image Source="motorcycle.png" Aspect="AspectFit" Margin="100"/>
+    <Grid RowDefinitions="Auto,*" Padding="20" BackgroundColor="Black">
+        
+        <!-- Fejléc -->
+        <VerticalStackLayout Grid.Row="0" Spacing="10" Margin="0,20,0,40">
+            <Label Text="Számla Nyilvántartó Rendszer" 
+                   FontSize="32" 
+                   FontAttributes="Bold" 
+                   HorizontalOptions="Center"
+                   TextColor="White"/>
+            <Label Text="Kezelje számláit egyszerűen és átláthatóan" 
+                   FontSize="16" 
+                   HorizontalOptions="Center"
+                   TextColor="LightGray"/>
+        </VerticalStackLayout>
+
+        <!-- Menü gombok -->
+        <VerticalStackLayout Grid.Row="1" 
+                            Spacing="20" 
+                            VerticalOptions="Center"
+                            HorizontalOptions="Center"
+                            WidthRequest="400">
+            
+            <Border Padding="20" 
+                    StrokeThickness="2" 
+                    Stroke="#007acc" 
+                    BackgroundColor="#1a1a1a">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="10"/>
+                </Border.StrokeShape>
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding NavigateToNewBillCommand}"/>
+                </Border.GestureRecognizers>
+                
+                <Grid ColumnDefinitions="Auto,*">
+                    <Label Grid.Column="0" 
+                           Text="+" 
+                           FontSize="40" 
+                           FontAttributes="Bold"
+                           VerticalOptions="Center"
+                           TextColor="#007acc"
+                           Margin="0,0,15,0"/>
+                    <VerticalStackLayout Grid.Column="1" Spacing="5">
+                        <Label Text="Új Számla Létrehozása" 
+                               FontSize="20" 
+                               FontAttributes="Bold"
+                               TextColor="White"/>
+                        <Label Text="Új számla rögzítése tételekkel" 
+                               FontSize="14"
+                               TextColor="LightGray"/>
+                    </VerticalStackLayout>
+                </Grid>
+            </Border>
+
+            <Border Padding="20" 
+                    StrokeThickness="2" 
+                    Stroke="#28a745" 
+                    BackgroundColor="#1a1a1a">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="10"/>
+                </Border.StrokeShape>
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding NavigateToBillOverviewCommand}"/>
+                </Border.GestureRecognizers>
+                
+                <Grid ColumnDefinitions="Auto,*">
+                    <Label Grid.Column="0" 
+                           Text="≡" 
+                           FontSize="40" 
+                           FontAttributes="Bold"
+                           VerticalOptions="Center"
+                           TextColor="#28a745"
+                           Margin="0,0,15,0"/>
+                    <VerticalStackLayout Grid.Column="1" Spacing="5">
+                        <Label Text="Számlák Áttekintése" 
+                               FontSize="20" 
+                               FontAttributes="Bold"
+                               TextColor="White"/>
+                        <Label Text="Meglévő számlák megtekintése, szerkesztése" 
+                               FontSize="14"
+                               TextColor="LightGray"/>
+                    </VerticalStackLayout>
+                </Grid>
+            </Border>
+
+        </VerticalStackLayout>
+
     </Grid>
 
 </ContentPage>
