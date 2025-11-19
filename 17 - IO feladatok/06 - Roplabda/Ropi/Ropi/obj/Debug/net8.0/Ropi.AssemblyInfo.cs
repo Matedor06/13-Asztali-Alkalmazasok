@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ropi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77dccf51cad4828eba5b6e30c497bf4540679dd0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8943fcf5ac6061c3b34a933ebd6d4afd615e672f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ropi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ropi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

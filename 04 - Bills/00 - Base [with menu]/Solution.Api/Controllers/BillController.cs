@@ -1,4 +1,6 @@
-﻿namespace Solution.Api.Controllers;
+﻿using Solution.Services.Services.Bill.Dtos;
+
+namespace Solution.Api.Controllers;
 
 [Route("api/[controller]")]
 public class BillController : BaseController
@@ -33,9 +35,9 @@ public class BillController : BaseController
     }
 
     [HttpPost]
-    public async Task<IActionResult> Create([FromBody] BillModel model)
+    public async Task<IActionResult> Create([FromBody] CreateBillDto dto)
     {
-        var result = await _billService.CreateAsync(model);
+        var result = await _billService.CreateAsync(dto);
 
         return result.Match(
             bill => CreatedAtAction(nameof(GetById), new { id = bill.Id }, bill),
@@ -44,12 +46,9 @@ public class BillController : BaseController
     }
 
     [HttpPut("{id}")]
-    public async Task<IActionResult> Update(int id, [FromBody] BillModel model)
+    public async Task<IActionResult> Update(int id, [FromBody] UpdateBillDto dto)
     {
-        if (id != model.Id)
-            return BadRequest("ID mismatch");
-
-        var result = await _billService.UpdateAsync(model);
+        var result = await _billService.UpdateAsync(id, dto);
 
         return result.Match(
             bill => Ok(bill),

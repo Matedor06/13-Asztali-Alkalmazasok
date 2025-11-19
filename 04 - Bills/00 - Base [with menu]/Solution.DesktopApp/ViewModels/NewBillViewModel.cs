@@ -146,17 +146,22 @@ public partial class NewBillViewModel : ObservableObject
             return;
         }
 
+        // Frissítjük a CurrentBill BillItems-et a helyi BillItems gyûjteménybõl
         CurrentBill.BillItems = new ObservableCollection<BillItemModel>(BillItems);
 
         ErrorOr<BillModel> result;
 
         if (IsEditMode && CurrentBill.Id > 0)
         {
-            result = await _billService.UpdateAsync(CurrentBill);
+            // UPDATE - DTO konverzió használata
+            var updateDto = CurrentBill.ToUpdateDto();
+            result = await _billService.UpdateAsync(CurrentBill.Id, updateDto);
         }
         else
         {
-            result = await _billService.CreateAsync(CurrentBill);
+            // CREATE - DTO konverzió használata
+            var createDto = CurrentBill.ToCreateDto();
+            result = await _billService.CreateAsync(createDto);
         }
 
         if (result.IsError)

@@ -18,8 +18,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "model",
-        "Type": "Solution.Services.Services.Bill.Models.BillModel",
+        "Name": "dto",
+        "Type": "Solution.Services.Services.Bill.Dtos.CreateBillDto",
         "IsRequired": true
       }
     ],
@@ -55,8 +55,8 @@
         "IsRequired": true
       },
       {
-        "Name": "model",
-        "Type": "Solution.Services.Services.Bill.Models.BillModel",
+        "Name": "dto",
+        "Type": "Solution.Services.Services.Bill.Dtos.UpdateBillDto",
         "IsRequired": true
       }
     ],

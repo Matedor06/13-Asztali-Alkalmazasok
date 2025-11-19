@@ -1,17 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\06 - Roplabda\\Ropi\\",
+  "WorkspaceRootPath": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali \u00FAj\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\06 - Roplabda\\Ropi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EE9686E0-BE63-4C2C-94C5-2473B95FFC90}|Ropi\\Ropi.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali-alkalmazasok\\17 - io feladatok\\06 - roplabda\\ropi\\ropi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EE9686E0-BE63-4C2C-94C5-2473B95FFC90}|Ropi\\Ropi.csproj|c:\\users\\b1karmat\\desktop\\github\\13 asztali \u00FAj\\13-asztali-alkalmazasok\\17 - io feladatok\\06 - roplabda\\ropi\\ropi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE9686E0-BE63-4C2C-94C5-2473B95FFC90}|Ropi\\Ropi.csproj|solutionrelative:ropi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE9686E0-BE63-4C2C-94C5-2473B95FFC90}|Ropi\\Ropi.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali-alkalmazasok\\17 - io feladatok\\06 - roplabda\\ropi\\ropi\\feladat.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{EE9686E0-BE63-4C2C-94C5-2473B95FFC90}|Ropi\\Ropi.csproj|solutionrelative:ropi\\feladat.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE9686E0-BE63-4C2C-94C5-2473B95FFC90}|Ropi\\Ropi.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali-alkalmazasok\\17 - io feladatok\\06 - roplabda\\ropi\\ropi\\roplabda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EE9686E0-BE63-4C2C-94C5-2473B95FFC90}|Ropi\\Ropi.csproj|c:\\users\\b1karmat\\desktop\\github\\13 asztali \u00FAj\\13-asztali-alkalmazasok\\17 - io feladatok\\06 - roplabda\\ropi\\ropi\\roplabda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE9686E0-BE63-4C2C-94C5-2473B95FFC90}|Ropi\\Ropi.csproj|solutionrelative:ropi\\roplabda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,41 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "feladat.txt",
-              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\06 - Roplabda\\Ropi\\Ropi\\feladat.txt",
-              "RelativeDocumentMoniker": "Ropi\\feladat.txt",
-              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\06 - Roplabda\\Ropi\\Ropi\\feladat.txt",
-              "RelativeToolTip": "Ropi\\feladat.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-11-04T16:30:52.766Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Roplabda.cs",
-              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\06 - Roplabda\\Ropi\\Ropi\\Roplabda.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali \u00FAj\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\06 - Roplabda\\Ropi\\Ropi\\Roplabda.cs",
               "RelativeDocumentMoniker": "Ropi\\Roplabda.cs",
-              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\06 - Roplabda\\Ropi\\Ropi\\Roplabda.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali \u00FAj\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\06 - Roplabda\\Ropi\\Ropi\\Roplabda.cs",
               "RelativeToolTip": "Ropi\\Roplabda.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T15:50:29.15Z"
+              "WhenOpened": "2025-10-21T15:50:29.15Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\06 - Roplabda\\Ropi\\Ropi\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali \u00FAj\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\06 - Roplabda\\Ropi\\Ropi\\Program.cs",
               "RelativeDocumentMoniker": "Ropi\\Program.cs",
-              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\06 - Roplabda\\Ropi\\Ropi\\Program.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali \u00FAj\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\06 - Roplabda\\Ropi\\Ropi\\Program.cs",
               "RelativeToolTip": "Ropi\\Program.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-21T15:49:48.014Z",
               "EditorCaption": ""

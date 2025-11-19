@@ -1,0 +1,22 @@
+﻿using System;
+using System.Text;
+
+using EUCsatlakozas;
+
+var fileData = await File.ReadAllLinesAsync("EUcsatlakozas.txt", Encoding.UTF8);
+var csatlakozasok = new List<EUMembers>();
+
+foreach (var line in fileData)
+{
+    var data = line.Split('\t');
+    csatlakozasok.Add(new EUMembers
+    {
+        Name = data[0],
+        JoinDate = DateTime.Parse(data[1])
+    });
+}
+
+//1. feladat
+Console.WriteLine(csatlakozasok.Where(x => x.JoinDate.Year <= 2018).Count());
+
+//2. feladat

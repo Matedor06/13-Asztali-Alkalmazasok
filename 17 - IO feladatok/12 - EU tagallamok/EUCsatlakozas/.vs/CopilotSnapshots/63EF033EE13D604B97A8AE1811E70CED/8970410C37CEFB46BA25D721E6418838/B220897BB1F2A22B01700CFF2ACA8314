@@ -1,0 +1,18 @@
+﻿using System;
+using System.Text;
+
+using EUCsatlakozas;
+
+var fileData = await File.ReadAllTextAsync("EUcsatlakozas.txt");
+var csatlakozasok = new List<EUMembers>();
+
+var lines = fileData.Split(new[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
+foreach (var line in lines)
+{
+    var data = line.Split('\t');
+    csatlakozasok.Add(new EUMembers
+    {
+        Name = data[0],
+        JoinDate = DateTime.Parse(data[1])
+    });
+}
