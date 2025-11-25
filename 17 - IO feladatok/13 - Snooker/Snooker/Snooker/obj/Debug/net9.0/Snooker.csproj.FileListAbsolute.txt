@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\13 - Snooker\Snooker\Snooker\bin\Debug\net9.0\Snooker.exe
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\13 - Snooker\Snooker\Snooker\bin\Debug\net9.0\Snooker.deps.json
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\13 - Snooker\Snooker\Snooker\bin\Debug\net9.0\Snooker.runtimeconfig.json
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\13 - Snooker\Snooker\Snooker\bin\Debug\net9.0\Snooker.dll
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\13 - Snooker\Snooker\Snooker\bin\Debug\net9.0\Snooker.pdb
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\13 - Snooker\Snooker\Snooker\obj\Debug\net9.0\Snooker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\13 - Snooker\Snooker\Snooker\obj\Debug\net9.0\Snooker.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\13 - Snooker\Snooker\Snooker\obj\Debug\net9.0\Snooker.AssemblyInfo.cs
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\13 - Snooker\Snooker\Snooker\obj\Debug\net9.0\Snooker.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\13 - Snooker\Snooker\Snooker\obj\Debug\net9.0\Snooker.sourcelink.json
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\13 - Snooker\Snooker\Snooker\obj\Debug\net9.0\Snooker.dll
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\13 - Snooker\Snooker\Snooker\obj\Debug\net9.0\refint\Snooker.dll
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\13 - Snooker\Snooker\Snooker\obj\Debug\net9.0\Snooker.pdb
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\13 - Snooker\Snooker\Snooker\obj\Debug\net9.0\Snooker.genruntimeconfig.cache
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\13 - Snooker\Snooker\Snooker\obj\Debug\net9.0\ref\Snooker.dll
