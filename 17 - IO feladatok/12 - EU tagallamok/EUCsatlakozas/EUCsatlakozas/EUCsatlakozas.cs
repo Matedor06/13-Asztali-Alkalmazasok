@@ -8,7 +8,7 @@ namespace EUCsatlakozas;
 
 public class EUMembers
 {
-    public string Name { get; set; }
+    public string Name { get; set; } = string.Empty;
 
     public DateTime JoinDate { get; set; }
 }
