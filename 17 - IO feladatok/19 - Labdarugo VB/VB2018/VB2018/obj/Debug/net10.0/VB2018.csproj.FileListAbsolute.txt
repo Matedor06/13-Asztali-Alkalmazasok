@@ -1,0 +1,16 @@
+C:\Users\b1karmat\Desktop\github\13 asztali új\13-Asztali-Alkalmazasok\17 - IO feladatok\19 - Labdarugo VB\VB2018\VB2018\bin\Debug\net10.0\VB2018.exe
+C:\Users\b1karmat\Desktop\github\13 asztali új\13-Asztali-Alkalmazasok\17 - IO feladatok\19 - Labdarugo VB\VB2018\VB2018\bin\Debug\net10.0\VB2018.deps.json
+C:\Users\b1karmat\Desktop\github\13 asztali új\13-Asztali-Alkalmazasok\17 - IO feladatok\19 - Labdarugo VB\VB2018\VB2018\bin\Debug\net10.0\VB2018.runtimeconfig.json
+C:\Users\b1karmat\Desktop\github\13 asztali új\13-Asztali-Alkalmazasok\17 - IO feladatok\19 - Labdarugo VB\VB2018\VB2018\bin\Debug\net10.0\VB2018.dll
+C:\Users\b1karmat\Desktop\github\13 asztali új\13-Asztali-Alkalmazasok\17 - IO feladatok\19 - Labdarugo VB\VB2018\VB2018\bin\Debug\net10.0\VB2018.pdb
+C:\Users\b1karmat\Desktop\github\13 asztali új\13-Asztali-Alkalmazasok\17 - IO feladatok\19 - Labdarugo VB\VB2018\VB2018\obj\Debug\net10.0\VB2018.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\b1karmat\Desktop\github\13 asztali új\13-Asztali-Alkalmazasok\17 - IO feladatok\19 - Labdarugo VB\VB2018\VB2018\obj\Debug\net10.0\VB2018.AssemblyInfoInputs.cache
+C:\Users\b1karmat\Desktop\github\13 asztali új\13-Asztali-Alkalmazasok\17 - IO feladatok\19 - Labdarugo VB\VB2018\VB2018\obj\Debug\net10.0\VB2018.AssemblyInfo.cs
+C:\Users\b1karmat\Desktop\github\13 asztali új\13-Asztali-Alkalmazasok\17 - IO feladatok\19 - Labdarugo VB\VB2018\VB2018\obj\Debug\net10.0\VB2018.csproj.CoreCompileInputs.cache
+C:\Users\b1karmat\Desktop\github\13 asztali új\13-Asztali-Alkalmazasok\17 - IO feladatok\19 - Labdarugo VB\VB2018\VB2018\obj\Debug\net10.0\VB2018.sourcelink.json
+C:\Users\b1karmat\Desktop\github\13 asztali új\13-Asztali-Alkalmazasok\17 - IO feladatok\19 - Labdarugo VB\VB2018\VB2018\obj\Debug\net10.0\VB2018.dll
+C:\Users\b1karmat\Desktop\github\13 asztali új\13-Asztali-Alkalmazasok\17 - IO feladatok\19 - Labdarugo VB\VB2018\VB2018\obj\Debug\net10.0\refint\VB2018.dll
+C:\Users\b1karmat\Desktop\github\13 asztali új\13-Asztali-Alkalmazasok\17 - IO feladatok\19 - Labdarugo VB\VB2018\VB2018\obj\Debug\net10.0\VB2018.pdb
+C:\Users\b1karmat\Desktop\github\13 asztali új\13-Asztali-Alkalmazasok\17 - IO feladatok\19 - Labdarugo VB\VB2018\VB2018\obj\Debug\net10.0\VB2018.genruntimeconfig.cache
+C:\Users\b1karmat\Desktop\github\13 asztali új\13-Asztali-Alkalmazasok\17 - IO feladatok\19 - Labdarugo VB\VB2018\VB2018\obj\Debug\net10.0\ref\VB2018.dll
+C:\Users\b1karmat\Desktop\github\13 asztali új\13-Asztali-Alkalmazasok\17 - IO feladatok\19 - Labdarugo VB\VB2018\VB2018\bin\Debug\net10.0\vb2018.txt

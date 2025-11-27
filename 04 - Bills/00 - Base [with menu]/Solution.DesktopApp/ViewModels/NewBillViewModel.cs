@@ -174,8 +174,23 @@ public partial class NewBillViewModel : ObservableObject
             IsEditMode ? "Számla sikeresen módosítva!" : "Számla sikeresen elmentve!", 
             "OK");
 
+        // Reset elõtt mentsük el, hogy vissza kell-e navigálni
+        bool shouldNavigateBack = IsEditMode;
+
+        // Form reset
         await ResetForm();
-        await Shell.Current.GoToAsync("..");
+
+        // Navigáció
+        if (shouldNavigateBack)
+        {
+            // Visszanavigálás az áttekintéshez
+            await Shell.Current.GoToAsync("//MainView/BillOverview");
+        }
+        else
+        {
+            // Új számla esetén is visszamehetünk
+            await Shell.Current.GoToAsync("//MainView");
+        }
     }
 
     [RelayCommand]

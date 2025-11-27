@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali \u00FAj\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\19 - Labdarugo VB\\VB2018\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{15C35449-82FF-5D7A-AC6B-09AACA4C726F}|VB2018\\VB2018.csproj|c:\\users\\b1karmat\\desktop\\github\\13 asztali \u00FAj\\13-asztali-alkalmazasok\\17 - io feladatok\\19 - labdarugo vb\\vb2018\\vb2018\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15C35449-82FF-5D7A-AC6B-09AACA4C726F}|VB2018\\VB2018.csproj|solutionrelative:vb2018\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15C35449-82FF-5D7A-AC6B-09AACA4C726F}|VB2018\\VB2018.csproj|c:\\users\\b1karmat\\desktop\\github\\13 asztali \u00FAj\\13-asztali-alkalmazasok\\17 - io feladatok\\19 - labdarugo vb\\vb2018\\vb2018\\vb2018.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{15C35449-82FF-5D7A-AC6B-09AACA4C726F}|VB2018\\VB2018.csproj|solutionrelative:vb2018\\vb2018.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15C35449-82FF-5D7A-AC6B-09AACA4C726F}|VB2018\\VB2018.csproj|c:\\users\\b1karmat\\desktop\\github\\13 asztali \u00FAj\\13-asztali-alkalmazasok\\17 - io feladatok\\19 - labdarugo vb\\vb2018\\vb2018\\vb2018.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15C35449-82FF-5D7A-AC6B-09AACA4C726F}|VB2018\\VB2018.csproj|solutionrelative:vb2018\\vb2018.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VB2018",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali \u00FAj\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\19 - Labdarugo VB\\VB2018\\VB2018\\VB2018.csproj",
+              "RelativeDocumentMoniker": "VB2018\\VB2018.csproj",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali \u00FAj\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\19 - Labdarugo VB\\VB2018\\VB2018\\VB2018.csproj",
+              "RelativeToolTip": "VB2018\\VB2018.csproj",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-26T08:35:11.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VB2018.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali \u00FAj\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\19 - Labdarugo VB\\VB2018\\VB2018\\VB2018.cs",
+              "RelativeDocumentMoniker": "VB2018\\VB2018.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali \u00FAj\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\19 - Labdarugo VB\\VB2018\\VB2018\\VB2018.cs",
+              "RelativeToolTip": "VB2018\\VB2018.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T08:25:32.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali \u00FAj\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\19 - Labdarugo VB\\VB2018\\VB2018\\Program.cs",
+              "RelativeDocumentMoniker": "VB2018\\Program.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali \u00FAj\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\19 - Labdarugo VB\\VB2018\\VB2018\\Program.cs",
+              "RelativeToolTip": "VB2018\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T08:22:15.476Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

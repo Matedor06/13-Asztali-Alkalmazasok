@@ -7,12 +7,12 @@ public partial class MainViewModel : ObservableObject
     [RelayCommand]
     private async Task NavigateToNewBill()
     {
-        await Shell.Current.GoToAsync(NewBillViewModel.Name);
+        await Shell.Current.GoToAsync("NewBill");
     }
 
     [RelayCommand]
     private async Task NavigateToBillOverview()
     {
-        await Shell.Current.GoToAsync(BillOverviewViewModel.Name);
+        await Shell.Current.GoToAsync("BillOverview");
     }
 }

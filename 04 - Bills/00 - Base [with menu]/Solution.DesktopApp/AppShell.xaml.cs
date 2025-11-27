@@ -15,8 +15,9 @@ public partial class AppShell : Shell
 
     private static void ConfigureShellNavigation()
     {
-        Routing.RegisterRoute(nameof(MainViewModel), typeof(MainView));
-        Routing.RegisterRoute(nameof(NewBillViewModel), typeof(NewBillView));
-        Routing.RegisterRoute(nameof(BillOverviewViewModel), typeof(BillOverviewView));
+        // Regisztráljuk az oldalakat route néven
+        Routing.RegisterRoute("MainView", typeof(MainView));
+        Routing.RegisterRoute("NewBill", typeof(NewBillView));
+        Routing.RegisterRoute("BillOverview", typeof(BillOverviewView));
     }
 }

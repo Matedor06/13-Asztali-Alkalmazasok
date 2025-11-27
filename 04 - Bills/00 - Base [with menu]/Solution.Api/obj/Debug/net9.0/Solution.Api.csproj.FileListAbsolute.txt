@@ -180,3 +180,4 @@ C:\Users\b1karmat\Desktop\github\13 asztali új\13-Asztali-Alkalmazasok\04 - Bil
 C:\Users\b1karmat\Desktop\github\13 asztali új\13-Asztali-Alkalmazasok\04 - Bills\00 - Base [with menu]\Solution.Api\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\b1karmat\Desktop\github\13 asztali új\13-Asztali-Alkalmazasok\04 - Bills\00 - Base [with menu]\Solution.Api\bin\Debug\net9.0\Microsoft.Maui.Essentials.dll
 C:\Users\b1karmat\Desktop\github\13 asztali új\13-Asztali-Alkalmazasok\04 - Bills\00 - Base [with menu]\Solution.Api\bin\Debug\net9.0\Microsoft.Maui.Graphics.dll
+C:\Users\b1karmat\Desktop\github\13 asztali új\13-Asztali-Alkalmazasok\04 - Bills\00 - Base [with menu]\Solution.Api\obj\Debug\net9.0\swae.build.ex.cache

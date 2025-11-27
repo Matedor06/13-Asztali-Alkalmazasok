@@ -5,6 +5,7 @@ public partial class BillOverviewViewModel : ObservableObject
     public const string Name = nameof(BillOverviewViewModel);
 
     private readonly IBillService _billService;
+    private readonly IServiceProvider _serviceProvider;
     private const int PageSize = 20;
 
     [ObservableProperty]
@@ -28,9 +29,10 @@ public partial class BillOverviewViewModel : ObservableObject
     [ObservableProperty]
     private string pageInfo = "1 / 1 oldal";
 
-    public BillOverviewViewModel(IBillService billService)
+    public BillOverviewViewModel(IBillService billService, IServiceProvider serviceProvider)
     {
         _billService = billService;
+        _serviceProvider = serviceProvider;
     }
 
     [RelayCommand]
@@ -138,18 +140,24 @@ public partial class BillOverviewViewModel : ObservableObject
             return;
         }
 
-        var parameters = new Dictionary<string, object>
-        {
-            { "Bill", result.Value }
-        };
+        // Navigálunk az új számla oldalra
+        await Shell.Current.GoToAsync("NewBill");
 
-        await Shell.Current.GoToAsync($"{NewBillViewModel.Name}", parameters);
+        // Várakozás a view betöltésére
+        await Task.Delay(100);
+
+        // Megkeressük az aktuális oldal ViewModel-jét
+        if (Shell.Current.CurrentPage is NewBillView newBillView && 
+            newBillView.BindingContext is NewBillViewModel viewModel)
+        {
+            viewModel.LoadBillForEdit(result.Value);
+        }
     }
 
     [RelayCommand]
     private async Task NavigateToNewBill()
     {
-        await Shell.Current.GoToAsync(NewBillViewModel.Name);
+        await Shell.Current.GoToAsync("NewBill");
     }
 
     public async Task OnAppearing()
