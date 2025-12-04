@@ -13,3 +13,18 @@ C:\Users\b1karmat\Desktop\github\13 asztali új\13-Asztali-Alkalmazasok\17 - IO 
 C:\Users\b1karmat\Desktop\github\13 asztali új\13-Asztali-Alkalmazasok\17 - IO feladatok\12 - EU tagallamok\EUCsatlakozas\EUCsatlakozas\obj\Debug\net8.0\EUCsatlakozas.pdb
 C:\Users\b1karmat\Desktop\github\13 asztali új\13-Asztali-Alkalmazasok\17 - IO feladatok\12 - EU tagallamok\EUCsatlakozas\EUCsatlakozas\obj\Debug\net8.0\EUCsatlakozas.genruntimeconfig.cache
 C:\Users\b1karmat\Desktop\github\13 asztali új\13-Asztali-Alkalmazasok\17 - IO feladatok\12 - EU tagallamok\EUCsatlakozas\EUCsatlakozas\obj\Debug\net8.0\ref\EUCsatlakozas.dll
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\12 - EU tagallamok\EUCsatlakozas\EUCsatlakozas\bin\Debug\net8.0\EUCsatlakozas.exe
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\12 - EU tagallamok\EUCsatlakozas\EUCsatlakozas\bin\Debug\net8.0\EUCsatlakozas.deps.json
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\12 - EU tagallamok\EUCsatlakozas\EUCsatlakozas\bin\Debug\net8.0\EUCsatlakozas.runtimeconfig.json
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\12 - EU tagallamok\EUCsatlakozas\EUCsatlakozas\bin\Debug\net8.0\EUCsatlakozas.dll
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\12 - EU tagallamok\EUCsatlakozas\EUCsatlakozas\bin\Debug\net8.0\EUCsatlakozas.pdb
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\12 - EU tagallamok\EUCsatlakozas\EUCsatlakozas\obj\Debug\net8.0\EUCsatlakozas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\12 - EU tagallamok\EUCsatlakozas\EUCsatlakozas\obj\Debug\net8.0\EUCsatlakozas.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\12 - EU tagallamok\EUCsatlakozas\EUCsatlakozas\obj\Debug\net8.0\EUCsatlakozas.AssemblyInfo.cs
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\12 - EU tagallamok\EUCsatlakozas\EUCsatlakozas\obj\Debug\net8.0\EUCsatlakozas.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\12 - EU tagallamok\EUCsatlakozas\EUCsatlakozas\obj\Debug\net8.0\EUCsatlakozas.sourcelink.json
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\12 - EU tagallamok\EUCsatlakozas\EUCsatlakozas\obj\Debug\net8.0\EUCsatlakozas.dll
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\12 - EU tagallamok\EUCsatlakozas\EUCsatlakozas\obj\Debug\net8.0\refint\EUCsatlakozas.dll
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\12 - EU tagallamok\EUCsatlakozas\EUCsatlakozas\obj\Debug\net8.0\EUCsatlakozas.pdb
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\12 - EU tagallamok\EUCsatlakozas\EUCsatlakozas\obj\Debug\net8.0\EUCsatlakozas.genruntimeconfig.cache
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\12 - EU tagallamok\EUCsatlakozas\EUCsatlakozas\obj\Debug\net8.0\ref\EUCsatlakozas.dll

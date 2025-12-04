@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali \u00FAj\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\12 - EU tagallamok\\EUCsatlakozas\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\12 - EU tagallamok\\EUCsatlakozas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2D697A1B-C9CD-40E9-B5C4-BE3424FC2911}|EUCsatlakozas\\EUCsatlakozas.csproj|c:\\users\\b1karmat\\desktop\\github\\13 asztali \u00FAj\\13-asztali-alkalmazasok\\17 - io feladatok\\12 - eu tagallamok\\eucsatlakozas\\eucsatlakozas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2D697A1B-C9CD-40E9-B5C4-BE3424FC2911}|EUCsatlakozas\\EUCsatlakozas.csproj|c:\\users\\admin\\desktop\\github\\13-asztali-alkalmazasok\\17 - io feladatok\\12 - eu tagallamok\\eucsatlakozas\\eucsatlakozas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D697A1B-C9CD-40E9-B5C4-BE3424FC2911}|EUCsatlakozas\\EUCsatlakozas.csproj|solutionrelative:eucsatlakozas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D697A1B-C9CD-40E9-B5C4-BE3424FC2911}|EUCsatlakozas\\EUCsatlakozas.csproj|c:\\users\\b1karmat\\desktop\\github\\13 asztali \u00FAj\\13-asztali-alkalmazasok\\17 - io feladatok\\12 - eu tagallamok\\eucsatlakozas\\eucsatlakozas\\eucsatlakozas.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{2D697A1B-C9CD-40E9-B5C4-BE3424FC2911}|EUCsatlakozas\\EUCsatlakozas.csproj|c:\\users\\admin\\desktop\\github\\13-asztali-alkalmazasok\\17 - io feladatok\\12 - eu tagallamok\\eucsatlakozas\\eucsatlakozas\\eucsatlakozas.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{2D697A1B-C9CD-40E9-B5C4-BE3424FC2911}|EUCsatlakozas\\EUCsatlakozas.csproj|solutionrelative:eucsatlakozas\\eucsatlakozas.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D697A1B-C9CD-40E9-B5C4-BE3424FC2911}|EUCsatlakozas\\EUCsatlakozas.csproj|c:\\users\\b1karmat\\desktop\\github\\13 asztali \u00FAj\\13-asztali-alkalmazasok\\17 - io feladatok\\12 - eu tagallamok\\eucsatlakozas\\eucsatlakozas\\eucsatlakozas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2D697A1B-C9CD-40E9-B5C4-BE3424FC2911}|EUCsatlakozas\\EUCsatlakozas.csproj|c:\\users\\admin\\desktop\\github\\13-asztali-alkalmazasok\\17 - io feladatok\\12 - eu tagallamok\\eucsatlakozas\\eucsatlakozas\\eucsatlakozas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D697A1B-C9CD-40E9-B5C4-BE3424FC2911}|EUCsatlakozas\\EUCsatlakozas.csproj|solutionrelative:eucsatlakozas\\eucsatlakozas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D697A1B-C9CD-40E9-B5C4-BE3424FC2911}|EUCsatlakozas\\EUCsatlakozas.csproj|c:\\users\\b1karmat\\desktop\\github\\13 asztali \u00FAj\\13-asztali-alkalmazasok\\17 - io feladatok\\12 - eu tagallamok\\eucsatlakozas\\eucsatlakozas\\eucsatlakozas.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{2D697A1B-C9CD-40E9-B5C4-BE3424FC2911}|EUCsatlakozas\\EUCsatlakozas.csproj|c:\\users\\admin\\desktop\\github\\13-asztali-alkalmazasok\\17 - io feladatok\\12 - eu tagallamok\\eucsatlakozas\\eucsatlakozas\\eucsatlakozas.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{2D697A1B-C9CD-40E9-B5C4-BE3424FC2911}|EUCsatlakozas\\EUCsatlakozas.csproj|solutionrelative:eucsatlakozas\\eucsatlakozas.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -31,51 +31,48 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "EUCsatlakozas",
-              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali \u00FAj\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\12 - EU tagallamok\\EUCsatlakozas\\EUCsatlakozas\\EUCsatlakozas.csproj",
+              "Title": "EUCsatlakozas.csproj",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\12 - EU tagallamok\\EUCsatlakozas\\EUCsatlakozas\\EUCsatlakozas.csproj",
               "RelativeDocumentMoniker": "EUCsatlakozas\\EUCsatlakozas.csproj",
-              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali \u00FAj\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\12 - EU tagallamok\\EUCsatlakozas\\EUCsatlakozas\\EUCsatlakozas.csproj",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\12 - EU tagallamok\\EUCsatlakozas\\EUCsatlakozas\\EUCsatlakozas.csproj",
               "RelativeToolTip": "EUCsatlakozas\\EUCsatlakozas.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAxwAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-19T08:10:40.387Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-19T08:10:40.387Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "EUcsatlakozas.txt",
-              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali \u00FAj\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\12 - EU tagallamok\\EUCsatlakozas\\EUCsatlakozas\\EUcsatlakozas.txt",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\12 - EU tagallamok\\EUCsatlakozas\\EUCsatlakozas\\EUcsatlakozas.txt",
               "RelativeDocumentMoniker": "EUCsatlakozas\\EUcsatlakozas.txt",
-              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali \u00FAj\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\12 - EU tagallamok\\EUCsatlakozas\\EUCsatlakozas\\EUcsatlakozas.txt",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\12 - EU tagallamok\\EUCsatlakozas\\EUCsatlakozas\\EUcsatlakozas.txt",
               "RelativeToolTip": "EUCsatlakozas\\EUcsatlakozas.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-11-19T08:06:18.659Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-19T08:06:18.659Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "EUCsatlakozas.cs",
-              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali \u00FAj\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\12 - EU tagallamok\\EUCsatlakozas\\EUCsatlakozas\\EUCsatlakozas.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\12 - EU tagallamok\\EUCsatlakozas\\EUCsatlakozas\\EUCsatlakozas.cs",
               "RelativeDocumentMoniker": "EUCsatlakozas\\EUCsatlakozas.cs",
-              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali \u00FAj\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\12 - EU tagallamok\\EUCsatlakozas\\EUCsatlakozas\\EUCsatlakozas.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\12 - EU tagallamok\\EUCsatlakozas\\EUCsatlakozas\\EUCsatlakozas.cs",
               "RelativeToolTip": "EUCsatlakozas\\EUCsatlakozas.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T07:54:59.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-19T07:54:59.555Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali \u00FAj\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\12 - EU tagallamok\\EUCsatlakozas\\EUCsatlakozas\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\12 - EU tagallamok\\EUCsatlakozas\\EUCsatlakozas\\Program.cs",
               "RelativeDocumentMoniker": "EUCsatlakozas\\Program.cs",
-              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali \u00FAj\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\12 - EU tagallamok\\EUCsatlakozas\\EUCsatlakozas\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\12 - EU tagallamok\\EUCsatlakozas\\EUCsatlakozas\\Program.cs",
               "RelativeToolTip": "EUCsatlakozas\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-19T07:51:23.745Z",
               "EditorCaption": ""

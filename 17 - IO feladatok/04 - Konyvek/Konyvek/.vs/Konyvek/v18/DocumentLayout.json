@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali \u00FAj\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\04 - Konyvek\\Konyvek\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8D5454FE-2A69-4A12-9548-DBA47CC4B206}|Konyvek\\Konyvek.csproj|c:\\users\\b1karmat\\desktop\\github\\13 asztali \u00FAj\\13-asztali-alkalmazasok\\17 - io feladatok\\04 - konyvek\\konyvek\\konyvek\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D5454FE-2A69-4A12-9548-DBA47CC4B206}|Konyvek\\Konyvek.csproj|solutionrelative:konyvek\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D5454FE-2A69-4A12-9548-DBA47CC4B206}|Konyvek\\Konyvek.csproj|c:\\users\\b1karmat\\desktop\\github\\13 asztali \u00FAj\\13-asztali-alkalmazasok\\17 - io feladatok\\04 - konyvek\\konyvek\\konyvek\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D5454FE-2A69-4A12-9548-DBA47CC4B206}|Konyvek\\Konyvek.csproj|solutionrelative:konyvek\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D5454FE-2A69-4A12-9548-DBA47CC4B206}|Konyvek\\Konyvek.csproj|c:\\users\\b1karmat\\desktop\\github\\13 asztali \u00FAj\\13-asztali-alkalmazasok\\17 - io feladatok\\04 - konyvek\\konyvek\\konyvek\\adatok.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8D5454FE-2A69-4A12-9548-DBA47CC4B206}|Konyvek\\Konyvek.csproj|solutionrelative:konyvek\\adatok.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali \u00FAj\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\04 - Konyvek\\Konyvek\\Konyvek\\Book.cs",
+              "RelativeDocumentMoniker": "Konyvek\\Book.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali \u00FAj\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\04 - Konyvek\\Konyvek\\Konyvek\\Book.cs",
+              "RelativeToolTip": "Konyvek\\Book.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwCIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T06:31:51.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "adatok.txt",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali \u00FAj\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\04 - Konyvek\\Konyvek\\Konyvek\\adatok.txt",
+              "RelativeDocumentMoniker": "Konyvek\\adatok.txt",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali \u00FAj\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\04 - Konyvek\\Konyvek\\Konyvek\\adatok.txt",
+              "RelativeToolTip": "Konyvek\\adatok.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-12-03T06:31:51.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali \u00FAj\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\04 - Konyvek\\Konyvek\\Konyvek\\Program.cs",
+              "RelativeDocumentMoniker": "Konyvek\\Program.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali \u00FAj\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\04 - Konyvek\\Konyvek\\Konyvek\\Program.cs",
+              "RelativeToolTip": "Konyvek\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T06:31:51.346Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

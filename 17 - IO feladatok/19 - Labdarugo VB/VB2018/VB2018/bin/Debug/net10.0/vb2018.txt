@@ -1,4 +1,3 @@
-varos;nev1;nev2;ferohely
 Moszkva;Luzsnyiki Stadion;n.a.;78011
 Moszkva;Otkrityije Aréna;Szpartak Stadion;44190
 Szentpétervár;Kresztovszkij Stadion;Szentpétervári Stadion;64468
