@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j8YYXPDQKBs=",
+  "dgSpecHash": "uEALY4nl+qU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\b1karmat\\Desktop\\Új mappa\\Bill\\Solution.Api\\Solution.Api.csproj",
+  "projectFilePath": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali új\\13-Asztali-Alkalmazasok\\04 - Bills\\Bill\\Solution.Api\\Solution.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\b1karmat\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\b1karmat\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

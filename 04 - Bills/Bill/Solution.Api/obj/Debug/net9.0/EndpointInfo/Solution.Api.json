@@ -24,17 +24,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateBillDto"
+                "$ref": "#/components/schemas/BillModel"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateBillDto"
+                "$ref": "#/components/schemas/BillModel"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateBillDto"
+                "$ref": "#/components/schemas/BillModel"
               }
             }
           }
@@ -87,17 +87,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/UpdateBillDto"
+                "$ref": "#/components/schemas/BillModel"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/UpdateBillDto"
+                "$ref": "#/components/schemas/BillModel"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/UpdateBillDto"
+                "$ref": "#/components/schemas/BillModel"
               }
             }
           }
@@ -312,85 +312,27 @@
         },
         "additionalProperties": false
       },
-      "CreateBillDto": {
-        "type": "object",
-        "properties": {
-          "billNumber": {
-            "type": "string",
-            "nullable": true
-          },
-          "dateIssued": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "billItems": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/CreateBillItemDto"
-            },
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "CreateBillItemDto": {
-        "type": "object",
-        "properties": {
-          "name": {
-            "type": "string",
-            "nullable": true
-          },
-          "unitPrice": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "quantity": {
-            "type": "integer",
-            "format": "int32"
-          }
-        },
-        "additionalProperties": false
-      },
-      "UpdateBillDto": {
-        "type": "object",
-        "properties": {
-          "billNumber": {
-            "type": "string",
-            "nullable": true
-          },
-          "dateIssued": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "billItems": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/UpdateBillItemDto"
-            },
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "UpdateBillItemDto": {
+      "BillModel": {
         "type": "object",
         "properties": {
           "id": {
             "type": "integer",
-            "format": "int32",
-            "nullable": true
+            "format": "int32"
           },
-          "name": {
+          "billNumber": {
             "type": "string",
             "nullable": true
           },
-          "unitPrice": {
-            "type": "integer",
-            "format": "int32"
+          "dateIssued": {
+            "type": "string",
+            "format": "date-time"
           },
-          "quantity": {
-            "type": "integer",
-            "format": "int32"
+          "billItems": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/BillItemModel"
+            },
+            "nullable": true
           }
         },
         "additionalProperties": false
