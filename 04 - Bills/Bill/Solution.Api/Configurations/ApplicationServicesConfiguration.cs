@@ -33,7 +33,6 @@ public static class ApplicationServicesConfiguration
         
         // Add FluentValidation
         builder.Services.AddValidatorsFromAssemblyContaining<BillModelValidator>();
-        builder.Services.AddValidatorsFromAssemblyContaining<CreateBillDtoValidator>();
         builder.Services.AddFluentValidationAutoValidation();
         builder.Services.AddHttpContextAccessor();
         

@@ -8,7 +8,6 @@ global using System.Collections.ObjectModel;
 global using Solution.Database.Entities;
 global using Solution.Services.Services.Bill.Models;
 global using Solution.Services.Services.BillItem.Models;
-global using Solution.Services.Extensions;
 global using Solution.DataBase;
 global using Microsoft.EntityFrameworkCore;
 global using FluentValidation;

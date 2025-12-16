@@ -542,3 +542,4 @@ C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\04 - Bills\Bill\Solution.A
 C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\04 - Bills\Bill\Solution.Api\obj\Debug\net9.0\Solution.Api.pdb
 C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\04 - Bills\Bill\Solution.Api\obj\Debug\net9.0\Solution.Api.genruntimeconfig.cache
 C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\04 - Bills\Bill\Solution.Api\obj\Debug\net9.0\ref\Solution.Api.dll
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\04 - Bills\Bill\Solution.Api\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
