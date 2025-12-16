@@ -96,9 +96,7 @@
 	  </Compile>
 	</ItemGroup>
 
-	<ItemGroup>
-	  <Folder Include="Resources\Images\" />
-	</ItemGroup>
+
 
 	<ItemGroup>
 	  <MauiXaml Update="Views\BillOverviewView.xaml">

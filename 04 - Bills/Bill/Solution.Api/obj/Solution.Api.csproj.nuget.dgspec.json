@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali új\\13-Asztali-Alkalmazasok\\04 - Bills\\Bill\\Solution.Api\\Solution.Api.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\New folder (3)\\Bill\\Solution.Api\\Solution.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali új\\13-Asztali-Alkalmazasok\\04 - Bills\\Bill\\Solution.Api\\Solution.Api.csproj": {
+    "C:\\Users\\Admin\\Desktop\\New folder (3)\\Bill\\Solution.Api\\Solution.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali új\\13-Asztali-Alkalmazasok\\04 - Bills\\Bill\\Solution.Api\\Solution.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\New folder (3)\\Bill\\Solution.Api\\Solution.Api.csproj",
         "projectName": "Solution.Api",
-        "projectPath": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali új\\13-Asztali-Alkalmazasok\\04 - Bills\\Bill\\Solution.Api\\Solution.Api.csproj",
-        "packagesPath": "C:\\Users\\b1karmat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali új\\13-Asztali-Alkalmazasok\\04 - Bills\\Bill\\Solution.Api\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\New folder (3)\\Bill\\Solution.Api\\Solution.Api.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\New folder (3)\\Bill\\Solution.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\b1karmat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,11 +33,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali új\\13-Asztali-Alkalmazasok\\04 - Bills\\Bill\\Solution.Database\\Solution.Database.csproj": {
-                "projectPath": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali új\\13-Asztali-Alkalmazasok\\04 - Bills\\Bill\\Solution.Database\\Solution.Database.csproj"
+              "C:\\Users\\Admin\\Desktop\\New folder (3)\\Bill\\Solution.Database\\Solution.Database.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Desktop\\New folder (3)\\Bill\\Solution.Database\\Solution.Database.csproj"
               },
-              "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali új\\13-Asztali-Alkalmazasok\\04 - Bills\\Bill\\Solution.Services\\Solution.Services.csproj": {
-                "projectPath": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali új\\13-Asztali-Alkalmazasok\\04 - Bills\\Bill\\Solution.Services\\Solution.Services.csproj"
+              "C:\\Users\\Admin\\Desktop\\New folder (3)\\Bill\\Solution.Services\\Solution.Services.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Desktop\\New folder (3)\\Bill\\Solution.Services\\Solution.Services.csproj"
               }
             }
           }
@@ -52,7 +52,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -104,24 +104,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali új\\13-Asztali-Alkalmazasok\\04 - Bills\\Bill\\Solution.Database\\Solution.Database.csproj": {
+    "C:\\Users\\Admin\\Desktop\\New folder (3)\\Bill\\Solution.Database\\Solution.Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali új\\13-Asztali-Alkalmazasok\\04 - Bills\\Bill\\Solution.Database\\Solution.Database.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\New folder (3)\\Bill\\Solution.Database\\Solution.Database.csproj",
         "projectName": "Solution.Database",
-        "projectPath": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali új\\13-Asztali-Alkalmazasok\\04 - Bills\\Bill\\Solution.Database\\Solution.Database.csproj",
-        "packagesPath": "C:\\Users\\b1karmat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali új\\13-Asztali-Alkalmazasok\\04 - Bills\\Bill\\Solution.Database\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\New folder (3)\\Bill\\Solution.Database\\Solution.Database.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\New folder (3)\\Bill\\Solution.Database\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\b1karmat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -149,7 +149,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -234,24 +234,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali új\\13-Asztali-Alkalmazasok\\04 - Bills\\Bill\\Solution.Services\\Solution.Services.csproj": {
+    "C:\\Users\\Admin\\Desktop\\New folder (3)\\Bill\\Solution.Services\\Solution.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali új\\13-Asztali-Alkalmazasok\\04 - Bills\\Bill\\Solution.Services\\Solution.Services.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\New folder (3)\\Bill\\Solution.Services\\Solution.Services.csproj",
         "projectName": "Solution.Services",
-        "projectPath": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali új\\13-Asztali-Alkalmazasok\\04 - Bills\\Bill\\Solution.Services\\Solution.Services.csproj",
-        "packagesPath": "C:\\Users\\b1karmat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali új\\13-Asztali-Alkalmazasok\\04 - Bills\\Bill\\Solution.Services\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\New folder (3)\\Bill\\Solution.Services\\Solution.Services.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\New folder (3)\\Bill\\Solution.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\b1karmat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -267,8 +267,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali új\\13-Asztali-Alkalmazasok\\04 - Bills\\Bill\\Solution.Database\\Solution.Database.csproj": {
-                "projectPath": "C:\\Users\\b1karmat\\Desktop\\github\\13 asztali új\\13-Asztali-Alkalmazasok\\04 - Bills\\Bill\\Solution.Database\\Solution.Database.csproj"
+              "C:\\Users\\Admin\\Desktop\\New folder (3)\\Bill\\Solution.Database\\Solution.Database.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Desktop\\New folder (3)\\Bill\\Solution.Database\\Solution.Database.csproj"
               }
             }
           }
@@ -283,7 +283,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -404,7 +404,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
