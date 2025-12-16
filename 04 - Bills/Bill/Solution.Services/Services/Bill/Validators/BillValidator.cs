@@ -22,7 +22,9 @@ namespace Solution.Services.Services.Bill.Validators
                 .LessThanOrEqualTo(DateTime.Now).WithMessage($"{DateIssuedProperty} cannot be in the future.");
             
             RuleFor(b => b.BillItems)
-                .NotNull().WithMessage("BillItems cannot be null.");
+                .NotNull().WithMessage("BillItems cannot be null.")
+                .NotEmpty()
+                .WithMessage("A bill must have at least one bill item.");
             
             // Validáljuk a BillItems elemeit, ha van ilyen
             RuleForEach(b => b.BillItems)

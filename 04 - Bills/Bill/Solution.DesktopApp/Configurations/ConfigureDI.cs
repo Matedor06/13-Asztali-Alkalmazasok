@@ -1,4 +1,6 @@
 ﻿using Solution.Services.Services;
+using Solution.Services.Services.Bill.Validators;
+using FluentValidation;
 
 namespace Solution.DesktopApp.Configurations;
 
@@ -23,6 +25,10 @@ public static class ConfigureDI
 		// Services
 		Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddScoped<IBillService, BillService>(builder.Services);
 		Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddScoped<IBillItemService, BillItemService>(builder.Services);
+
+		// FluentValidation
+		builder.Services.AddValidatorsFromAssemblyContaining<BillModelValidator>();
+		builder.Services.AddHttpContextAccessor();
 
         return builder;
 	}

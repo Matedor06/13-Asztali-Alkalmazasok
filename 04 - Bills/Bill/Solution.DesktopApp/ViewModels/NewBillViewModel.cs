@@ -1,3 +1,5 @@
+using FluentValidation;
+
 namespace Solution.DesktopApp.ViewModels;
 
 public partial class NewBillViewModel : ObservableObject
@@ -6,6 +8,7 @@ public partial class NewBillViewModel : ObservableObject
 
     private readonly IBillService _billService;
     private readonly IBillItemService _billItemService;
+    private readonly IValidator<BillModel> _billValidator;
 
     [ObservableProperty]
     private BillModel currentBill = new()
@@ -29,20 +32,11 @@ public partial class NewBillViewModel : ObservableObject
     [ObservableProperty]
     private int editingItemIndex = -1;
 
-    [ObservableProperty]
-    private bool canSaveBill;
-
-    public NewBillViewModel(IBillService billService, IBillItemService billItemService)
+    public NewBillViewModel(IBillService billService, IBillItemService billItemService, IValidator<BillModel> billValidator)
     {
         _billService = billService;
         _billItemService = billItemService;
-
-        BillItems.CollectionChanged += BillItems_CollectionChanged;
-    }
-
-    private void BillItems_CollectionChanged(object sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
-    {
-        CanSaveBill = BillItems.Count > 0;
+        _billValidator = billValidator;
     }
 
     [RelayCommand]
@@ -128,26 +122,19 @@ public partial class NewBillViewModel : ObservableObject
     [RelayCommand]
     private async Task SaveBill()
     {
-        if (string.IsNullOrWhiteSpace(CurrentBill.BillNumber))
-        {
-            await Application.Current.MainPage.DisplayAlert("Hiba", "A számla száma kötelező!", "OK");
-            return;
-        }
-
-        if (CurrentBill.DateIssued > DateTime.Now)
-        {
-            await Application.Current.MainPage.DisplayAlert("Hiba", "A számla kelte nem lehet későbbi, mint a jelenlegi dátum!", "OK");
-            return;
-        }
-
-        if (BillItems.Count == 0)
-        {
-            await Application.Current.MainPage.DisplayAlert("Hiba", "Legalább egy tétel hozzáadása kötelező!", "OK");
-            return;
-        }
-
         // Frissítjük a CurrentBill BillItems-et a helyi BillItems gyűjteményből
         CurrentBill.BillItems = new ObservableCollection<BillItemModel>(BillItems);
+
+        // FluentValidation használata
+        var validationResult = await _billValidator.ValidateAsync(CurrentBill);
+        
+        if (!validationResult.IsValid)
+        {
+            // Hibaüzenetek összegyűjtése
+            var errorMessages = string.Join("\n", validationResult.Errors.Select(e => e.ErrorMessage));
+            await Application.Current.MainPage.DisplayAlert("Validációs hiba", errorMessages, "OK");
+            return;
+        }
 
         ErrorOr<BillModel> result;
 
