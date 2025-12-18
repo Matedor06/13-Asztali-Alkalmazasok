@@ -38,10 +38,10 @@ public class BillService : IBillService
         entity.BillNumber = model.BillNumber;
         entity.DateIssued = model.DateIssued;
         
-        // Remove old items
+       
         _context.BillItems.RemoveRange(entity.BillItems);
 
-        // Add new items
+        
         entity.BillItems = model.BillItems.Select(item => new BillItemEntity
         {
             Name = item.Name,

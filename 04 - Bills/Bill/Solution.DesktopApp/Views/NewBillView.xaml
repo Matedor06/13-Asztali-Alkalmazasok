@@ -7,32 +7,32 @@
              xmlns:behaviors="clr-namespace:Solution.DesktopApp.Behaviors"
              x:DataType="viewModel:NewBillViewModel"
              x:Class="Solution.DesktopApp.Views.NewBillView"
-             Title="Új Számla"
+             Title="{Binding PageTitle}"
              BackgroundColor="#1e1e1e">
 
     <Grid ColumnDefinitions="400,*" ColumnSpacing="0">
+
         
-        <!-- BAL OLDAL - Számla adatok és Tétel hozzáadása -->
         <ScrollView Grid.Column="0" BackgroundColor="#2b2b2b">
             <VerticalStackLayout Spacing="0">
+
                 
-                <!-- Számla adatok szekció -->
                 <VerticalStackLayout Padding="20" Spacing="12" BackgroundColor="#2b2b2b">
                     <Label Text="Számla adatok" 
                            FontSize="16" 
                            TextColor="White"
                            Margin="0,0,0,10"/>
-                    
+
                     <Label Text="Számlaszám" 
                            FontSize="12" 
                            TextColor="#999"/>
                     <Entry Text="{Binding CurrentBill.BillNumber}" 
-                           Placeholder=""
+                           Placeholder="pl. SZLA-2025-001"
                            TextColor="White"
                            PlaceholderColor="#666"
                            BackgroundColor="#1e1e1e"
                            HeightRequest="36"/>
-                    
+
                     <Label Text="Számla kelte" 
                            FontSize="12" 
                            TextColor="#999"
@@ -42,33 +42,43 @@
                                 BackgroundColor="#1e1e1e"
                                 HeightRequest="36"/>
                 </VerticalStackLayout>
+
                 
-                <!-- Elválasztó vonal -->
                 <BoxView HeightRequest="1" Color="#444" Margin="20,0"/>
+
                 
-                <!-- Tétel hozzáadása szekció -->
                 <VerticalStackLayout Padding="20" Spacing="12" BackgroundColor="#2b2b2b">
-                    <Label Text="Tétel hozzáadása" 
-                           FontSize="16" 
+                    <Label FontSize="16" 
                            TextColor="White"
-                           Margin="0,0,0,10"/>
-                    
+                           Margin="0,0,0,10">
+                        <Label.Text>
+                            <Binding Path="IsItemEditMode">
+                                <Binding.Converter>
+                                    <StaticResource Key="BoolToTextConverter"/>
+                                </Binding.Converter>
+                                <Binding.ConverterParameter>
+                                    <x:String>Tétel szerkesztése|Tétel hozzáadása</x:String>
+                                </Binding.ConverterParameter>
+                            </Binding>
+                        </Label.Text>
+                    </Label>
+
                     <Label Text="Megnevezés" 
                            FontSize="12" 
                            TextColor="#999"/>
                     <Entry Text="{Binding CurrentBillItem.Name}" 
-                           Placeholder=""
+                           Placeholder="pl. Laptop Dell XPS 15"
                            TextColor="White"
                            PlaceholderColor="#666"
                            BackgroundColor="#1e1e1e"
                            HeightRequest="36"/>
-                    
+
                     <Label Text="Egységár" 
                            FontSize="12" 
                            TextColor="#999"
                            Margin="0,8,0,0"/>
                     <Entry Text="{Binding CurrentBillItem.UnitPrice}" 
-                           Placeholder=""
+                           Placeholder="pl. 450000"
                            Keyboard="Numeric"
                            TextColor="White"
                            PlaceholderColor="#666"
@@ -78,13 +88,13 @@
                             <behaviors:EntryIntegerBehavior/>
                         </Entry.Behaviors>
                     </Entry>
-                    
+
                     <Label Text="Mennyiség" 
                            FontSize="12" 
                            TextColor="#999"
                            Margin="0,8,0,0"/>
                     <Entry Text="{Binding CurrentBillItem.Quantity}" 
-                           Placeholder=""
+                           Placeholder="pl. 2"
                            Keyboard="Numeric"
                            TextColor="White"
                            PlaceholderColor="#666"
@@ -94,37 +104,68 @@
                             <behaviors:EntryIntegerBehavior/>
                         </Entry.Behaviors>
                     </Entry>
-                    
-                    <Button Text="hozzáad"
-                            Command="{Binding AddOrUpdateBillItemCommand}"
-                            BackgroundColor="#3a3a3a"
-                            TextColor="White"
-                            HeightRequest="36"
-                            CornerRadius="4"
-                            Margin="0,12,0,0"/>
+
+                    <HorizontalStackLayout Spacing="8" Margin="0,12,0,0">
+                        <Button BackgroundColor="#3a3a3a"
+                                TextColor="White"
+                                HeightRequest="36"
+                                CornerRadius="4"
+                                Command="{Binding AddOrUpdateBillItemCommand}"
+                                HorizontalOptions="FillAndExpand">
+                            <Button.Text>
+                                <Binding Path="IsItemEditMode">
+                                    <Binding.Converter>
+                                        <StaticResource Key="BoolToTextConverter"/>
+                                    </Binding.Converter>
+                                    <Binding.ConverterParameter>
+                                        <x:String>Módosítás|Hozzáadás</x:String>
+                                    </Binding.ConverterParameter>
+                                </Binding>
+                            </Button.Text>
+                        </Button>
+                        
+                        <Button Text="Mégse"
+                                Command="{Binding CancelItemEditCommand}"
+                                IsVisible="{Binding IsItemEditMode}"
+                                BackgroundColor="#6c757d"
+                                TextColor="White"
+                                HeightRequest="36"
+                                CornerRadius="4"
+                                HorizontalOptions="FillAndExpand"/>
+                    </HorizontalStackLayout>
                 </VerticalStackLayout>
+
                 
-                <!-- Alsó gomb -->
                 <VerticalStackLayout Padding="20,20,20,30" Spacing="0" BackgroundColor="#2b2b2b">
-                    <Button Text="Számla adatainak mentése"
-                            Command="{Binding SaveBillCommand}"
+                    <Button Command="{Binding SaveBillCommand}"
                             BackgroundColor="#0d6efd"
                             TextColor="White"
                             HeightRequest="40"
                             CornerRadius="4"
-                            FontSize="14"/>
+                            FontSize="14">
+                        <Button.Text>
+                            <Binding Path="IsEditMode">
+                                <Binding.Converter>
+                                    <StaticResource Key="BoolToTextConverter"/>
+                                </Binding.Converter>
+                                <Binding.ConverterParameter>
+                                    <x:String>Módosítások mentése|Számla mentése</x:String>
+                                </Binding.ConverterParameter>
+                            </Binding>
+                        </Button.Text>
+                    </Button>
                 </VerticalStackLayout>
-                
+
             </VerticalStackLayout>
         </ScrollView>
 
-        <!-- JOBB OLDAL - Számla tételei lista -->
+        
         <Grid Grid.Column="1" 
               BackgroundColor="#1e1e1e"
               RowDefinitions="Auto,*"
               Padding="0">
+
             
-            <!-- Fejléc sáv -->
             <Grid Grid.Row="0" 
                   BackgroundColor="#3a3a3a" 
                   Padding="20,15"
@@ -134,8 +175,8 @@
                        FontSize="16" 
                        TextColor="White"
                        VerticalOptions="Center"/>
+
                 
-                <!-- Fejléc gombok -->
                 <Label Grid.Column="1" 
                        Text="Megnevezés" 
                        FontSize="12" 
@@ -171,8 +212,7 @@
                        VerticalOptions="Center"
                        WidthRequest="100"/>
             </Grid>
-                
-            <!-- Tételek listája -->
+
             <ScrollView Grid.Row="1" Padding="0">
                 <CollectionView ItemsSource="{Binding BillItems}" Margin="0">
                     <CollectionView.EmptyView>
@@ -186,22 +226,20 @@
                                    HorizontalOptions="Center"/>
                         </VerticalStackLayout>
                     </CollectionView.EmptyView>
-                    
+
                     <CollectionView.ItemTemplate>
                         <DataTemplate x:DataType="billItemModels:BillItemModel">
                             <Grid Padding="20,10" 
                                   ColumnDefinitions="*,150,150,150,Auto"
                                   ColumnSpacing="20"
                                   BackgroundColor="Transparent">
-                                
-                                <!-- Megnevezés -->
+
                                 <Label Grid.Column="0"
                                        Text="{Binding Name}" 
                                        FontSize="14" 
                                        TextColor="#e0e0e0"
                                        VerticalOptions="Center"/>
-                                
-                                <!-- Egységár -->
+
                                 <Label Grid.Column="1"
                                        FontSize="14" 
                                        TextColor="#e0e0e0"
@@ -213,15 +251,15 @@
                                         </FormattedString>
                                     </Label.FormattedText>
                                 </Label>
-                                
-                                <!-- Mennyiség -->
+
+                               
                                 <Label Grid.Column="2"
                                        Text="{Binding Quantity}" 
                                        FontSize="14" 
                                        TextColor="#d0d0d0"
                                        VerticalOptions="Center"/>
-                                
-                                <!-- Összesen -->
+
+                               
                                 <Label Grid.Column="3"
                                        FontSize="14" 
                                        TextColor="#e8e8e8"
@@ -234,8 +272,8 @@
                                         </FormattedString>
                                     </Label.FormattedText>
                                 </Label>
+
                                 
-                                <!-- Gombok -->
                                 <HorizontalStackLayout Grid.Column="4" 
                                                      Spacing="8"
                                                      VerticalOptions="Center">
@@ -245,7 +283,7 @@
                                                  BackgroundColor="Transparent"
                                                  WidthRequest="25"
                                                  HeightRequest="25"/>
-                                    
+
                                     <ImageButton Source="{AppThemeBinding Light=delete_dark.png, Dark=delete_light.png}"
                                                  Command="{Binding Source={RelativeSource AncestorType={x:Type viewModel:NewBillViewModel}}, Path=DeleteBillItemCommand}"
                                                  CommandParameter="{Binding .}"

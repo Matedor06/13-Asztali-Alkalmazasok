@@ -9,6 +9,7 @@ public partial class NewBillViewModel : ObservableObject
     private readonly IBillService _billService;
     private readonly IBillItemService _billItemService;
     private readonly IValidator<BillModel> _billValidator;
+    private readonly IValidator<BillItemModel> _billItemValidator;
 
     [ObservableProperty]
     private BillModel currentBill = new()
@@ -32,27 +33,37 @@ public partial class NewBillViewModel : ObservableObject
     [ObservableProperty]
     private int editingItemIndex = -1;
 
-    public NewBillViewModel(IBillService billService, IBillItemService billItemService, IValidator<BillModel> billValidator)
+    [ObservableProperty]
+    private string pageTitle = "Új Számla Létrehozása";
+
+    public NewBillViewModel(IBillService billService, IBillItemService billItemService, IValidator<BillModel> billValidator, IValidator<BillItemModel> billItemValidator)
     {
         _billService = billService;
         _billItemService = billItemService;
         _billValidator = billValidator;
+        _billItemValidator = billItemValidator;
+    }
+
+    partial void OnIsEditModeChanged(bool value)
+    {
+        PageTitle = value ? "Számla Szerkesztése" : "Új Számla Létrehozása";
     }
 
     [RelayCommand]
-    private void AddOrUpdateBillItem()
+    private async Task AddOrUpdateBillItem()
     {
-        if (string.IsNullOrWhiteSpace(CurrentBillItem.Name) || 
-            CurrentBillItem.UnitPrice <= 0 || 
-            CurrentBillItem.Quantity <= 0)
+        
+        var validationResult = await _billItemValidator.ValidateAsync(CurrentBillItem);
+        if (!validationResult.IsValid)
         {
-            Application.Current.MainPage.DisplayAlert("Hiba", "Minden mező kitöltése kötelező! Az egységár és mennyiség nem lehet kisebb mint 1.", "OK");
+            var errorMessages = string.Join("\n", validationResult.Errors.Select(e => e.ErrorMessage));
+            await Application.Current.MainPage.DisplayAlert("Hiba", errorMessages, "OK");
             return;
         }
 
         if (IsItemEditMode && EditingItemIndex >= 0)
         {
-            // Szerkesztés
+            
             BillItems[EditingItemIndex] = new BillItemModel
             {
                 Id = CurrentBillItem.Id,
@@ -67,7 +78,7 @@ public partial class NewBillViewModel : ObservableObject
         }
         else
         {
-            // Új tétel hozzáadása
+            
             BillItems.Add(new BillItemModel
             {
                 Name = CurrentBillItem.Name,
@@ -76,7 +87,7 @@ public partial class NewBillViewModel : ObservableObject
             });
         }
 
-        // Mezők törlése
+        
         CurrentBillItem = new BillItemModel();
     }
 
@@ -122,15 +133,15 @@ public partial class NewBillViewModel : ObservableObject
     [RelayCommand]
     private async Task SaveBill()
     {
-        // Frissítjük a CurrentBill BillItems-et a helyi BillItems gyűjteményből
+        
         CurrentBill.BillItems = new ObservableCollection<BillItemModel>(BillItems);
 
-        // FluentValidation használata
+        
         var validationResult = await _billValidator.ValidateAsync(CurrentBill);
         
         if (!validationResult.IsValid)
         {
-            // Hibaüzenetek összegyűjtése
+            
             var errorMessages = string.Join("\n", validationResult.Errors.Select(e => e.ErrorMessage));
             await Application.Current.MainPage.DisplayAlert("Validációs hiba", errorMessages, "OK");
             return;
@@ -140,12 +151,12 @@ public partial class NewBillViewModel : ObservableObject
 
         if (IsEditMode && CurrentBill.Id > 0)
         {
-            // UPDATE - Model használata közvetlenül
+           
             result = await _billService.UpdateAsync(CurrentBill);
         }
         else
         {
-            // CREATE - Model használata közvetlenül
+          
             result = await _billService.CreateAsync(CurrentBill);
         }
 
@@ -159,21 +170,21 @@ public partial class NewBillViewModel : ObservableObject
             IsEditMode ? "Számla sikeresen módosítva!" : "Számla sikeresen elmentve!", 
             "OK");
 
-        // Reset előtt mentsük el, hogy vissza kell-e navigálni
+     
         bool shouldNavigateBack = IsEditMode;
 
-        // Form reset
+      
         await ResetForm();
 
-        // Navigáció
+       
         if (shouldNavigateBack)
         {
-            // Visszanavigálás az áttekintéshez
+           
             await Shell.Current.GoToAsync("//MainView/BillOverview");
         }
         else
         {
-            // Új számla esetén is visszamehetünk
+         
             await Shell.Current.GoToAsync("//MainView");
         }
     }

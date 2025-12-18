@@ -131,7 +131,7 @@ public partial class BillOverviewViewModel : ObservableObject
     [RelayCommand]
     private async Task EditBill(BillModel bill)
     {
-        // Betöltjük a teljes számlát a tételekkel együtt
+       
         var result = await _billService.GetByIdAsync(bill.Id);
 
         if (result.IsError)
@@ -140,13 +140,13 @@ public partial class BillOverviewViewModel : ObservableObject
             return;
         }
 
-        // Navigálunk az új számla oldalra
+        
         await Shell.Current.GoToAsync("NewBill");
 
-        // Várakozás a view betöltésére
+        
         await Task.Delay(100);
 
-        // Megkeressük az aktuális oldal ViewModel-jét
+        
         if (Shell.Current.CurrentPage is NewBillView newBillView && 
             newBillView.BindingContext is NewBillViewModel viewModel)
         {

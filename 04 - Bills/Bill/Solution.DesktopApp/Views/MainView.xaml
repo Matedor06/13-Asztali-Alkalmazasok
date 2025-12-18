@@ -8,20 +8,16 @@
 
     <Grid RowDefinitions="Auto,*" Padding="20" BackgroundColor="Black">
         
-        <!-- Fejléc -->
+        
         <VerticalStackLayout Grid.Row="0" Spacing="10" Margin="0,20,0,40">
             <Label Text="Számla Nyilvántartó Rendszer" 
                    FontSize="32" 
                    FontAttributes="Bold" 
                    HorizontalOptions="Center"
                    TextColor="White"/>
-            <Label Text="Kezelje számláit egyszerűen és átláthatóan" 
-                   FontSize="16" 
-                   HorizontalOptions="Center"
-                   TextColor="LightGray"/>
         </VerticalStackLayout>
 
-        <!-- Menü gombok -->
+        
         <VerticalStackLayout Grid.Row="1" 
                             Spacing="20" 
                             VerticalOptions="Center"
