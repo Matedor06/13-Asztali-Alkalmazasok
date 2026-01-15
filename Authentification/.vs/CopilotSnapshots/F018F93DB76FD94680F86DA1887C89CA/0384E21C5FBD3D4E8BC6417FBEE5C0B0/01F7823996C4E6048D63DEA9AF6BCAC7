@@ -1,0 +1,21 @@
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+using Solution.Domain.Database.Builders;
+using Solution.Domain.Database.Entities;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Solution.Domain.Database;
+
+public sealed class ApplicationDbContext : IdentityDbContext<UserEntity, IdentityRole<Guid>, Guid>
+{
+    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
+
+    protected override void OnModelCreating(ModelBuilder builder)
+    {
+        base.OnModelCreating(builder);
+        builder.ConfigureUser();
+    }
+}

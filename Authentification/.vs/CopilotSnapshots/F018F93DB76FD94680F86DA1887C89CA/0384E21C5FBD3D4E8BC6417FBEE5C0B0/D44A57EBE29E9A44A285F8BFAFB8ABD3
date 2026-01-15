@@ -1,0 +1,25 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Solution.Domain.Database;
+
+namespace Solution.WebAPI.Configurations;
+
+public static class DatabaseConfiguration
+{
+    public static IHostApplicationBuilder ConfigureDatabase(this IHostApplicationBuilder builder)
+    {
+        var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+        builder.Services.AddDbContext<ApplicationDbContext>(options =>
+            options.UseLazyLoadingProxies()
+                   .UseSqlServer(connectionString, sqlOptions =>
+                   {
+                       sqlOptions.MigrationsAssembly(DomainAssemblyReference.Assembly.GetName().Name);
+                       sqlOptions.EnableRetryOnFailure();
+                       sqlOptions.CommandTimeout(300);
+                   })
+        //.LogTo(Console.WriteLine) //please let it here for debugging purposes
+        );
+
+        return builder;
+    }
+}

@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\Authentification\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8F10A7-7661-D6B1-5105-D89EED313806}|Solution.WebAPI\\Solution.WebAPI.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali lehet ez a jo\\13-asztali-alkalmazasok\\authentification\\solution.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AB8F10A7-7661-D6B1-5105-D89EED313806}|Solution.WebAPI\\Solution.WebAPI.csproj|solutionrelative:solution.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8F10A7-7661-D6B1-5105-D89EED313806}|Solution.WebAPI\\Solution.WebAPI.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali lehet ez a jo\\13-asztali-alkalmazasok\\authentification\\solution.webapi\\configurations\\databaseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB8F10A7-7661-D6B1-5105-D89EED313806}|Solution.WebAPI\\Solution.WebAPI.csproj|solutionrelative:solution.webapi\\configurations\\databaseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3582F118-801D-E0CE-A688-3DE1CF7F8AE6}|Solution.Domain\\Solution.Domain.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali lehet ez a jo\\13-asztali-alkalmazasok\\authentification\\solution.domain\\database\\builders\\userentitymodelbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3582F118-801D-E0CE-A688-3DE1CF7F8AE6}|Solution.Domain\\Solution.Domain.csproj|solutionrelative:solution.domain\\database\\builders\\userentitymodelbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\Authentification\\Solution.WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "Solution.WebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\Authentification\\Solution.WebAPI\\appsettings.json",
+              "RelativeToolTip": "Solution.WebAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-08T06:40:57.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserEntityModelBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\Authentification\\Solution.Domain\\Database\\Builders\\UserEntityModelBuilder.cs",
+              "RelativeDocumentMoniker": "Solution.Domain\\Database\\Builders\\UserEntityModelBuilder.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\Authentification\\Solution.Domain\\Database\\Builders\\UserEntityModelBuilder.cs",
+              "RelativeToolTip": "Solution.Domain\\Database\\Builders\\UserEntityModelBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T08:14:02.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DatabaseConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\Authentification\\Solution.WebAPI\\Configurations\\DatabaseConfiguration.cs",
+              "RelativeDocumentMoniker": "Solution.WebAPI\\Configurations\\DatabaseConfiguration.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\Authentification\\Solution.WebAPI\\Configurations\\DatabaseConfiguration.cs",
+              "RelativeToolTip": "Solution.WebAPI\\Configurations\\DatabaseConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T08:13:08.59Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
