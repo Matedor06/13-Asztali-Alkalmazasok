@@ -1,0 +1,29 @@
+C:\Users\Admin\Desktop\New folder (5)\Nobel\Nobel\bin\Debug\net10.0\Nobel.exe
+C:\Users\Admin\Desktop\New folder (5)\Nobel\Nobel\bin\Debug\net10.0\Nobel.deps.json
+C:\Users\Admin\Desktop\New folder (5)\Nobel\Nobel\bin\Debug\net10.0\Nobel.runtimeconfig.json
+C:\Users\Admin\Desktop\New folder (5)\Nobel\Nobel\bin\Debug\net10.0\Nobel.dll
+C:\Users\Admin\Desktop\New folder (5)\Nobel\Nobel\bin\Debug\net10.0\Nobel.pdb
+C:\Users\Admin\Desktop\New folder (5)\Nobel\Nobel\obj\Debug\net10.0\Nobel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\New folder (5)\Nobel\Nobel\obj\Debug\net10.0\Nobel.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\New folder (5)\Nobel\Nobel\obj\Debug\net10.0\Nobel.AssemblyInfo.cs
+C:\Users\Admin\Desktop\New folder (5)\Nobel\Nobel\obj\Debug\net10.0\Nobel.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\New folder (5)\Nobel\Nobel\obj\Debug\net10.0\Nobel.dll
+C:\Users\Admin\Desktop\New folder (5)\Nobel\Nobel\obj\Debug\net10.0\refint\Nobel.dll
+C:\Users\Admin\Desktop\New folder (5)\Nobel\Nobel\obj\Debug\net10.0\Nobel.pdb
+C:\Users\Admin\Desktop\New folder (5)\Nobel\Nobel\obj\Debug\net10.0\Nobel.genruntimeconfig.cache
+C:\Users\Admin\Desktop\New folder (5)\Nobel\Nobel\obj\Debug\net10.0\ref\Nobel.dll
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\26 - Nobel Dijak\Nobel\Nobel\bin\Debug\net10.0\Nobel.exe
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\26 - Nobel Dijak\Nobel\Nobel\bin\Debug\net10.0\Nobel.deps.json
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\26 - Nobel Dijak\Nobel\Nobel\bin\Debug\net10.0\Nobel.runtimeconfig.json
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\26 - Nobel Dijak\Nobel\Nobel\bin\Debug\net10.0\Nobel.dll
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\26 - Nobel Dijak\Nobel\Nobel\bin\Debug\net10.0\Nobel.pdb
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\26 - Nobel Dijak\Nobel\Nobel\obj\Debug\net10.0\Nobel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\26 - Nobel Dijak\Nobel\Nobel\obj\Debug\net10.0\Nobel.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\26 - Nobel Dijak\Nobel\Nobel\obj\Debug\net10.0\Nobel.AssemblyInfo.cs
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\26 - Nobel Dijak\Nobel\Nobel\obj\Debug\net10.0\Nobel.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\26 - Nobel Dijak\Nobel\Nobel\obj\Debug\net10.0\Nobel.sourcelink.json
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\26 - Nobel Dijak\Nobel\Nobel\obj\Debug\net10.0\Nobel.dll
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\26 - Nobel Dijak\Nobel\Nobel\obj\Debug\net10.0\refint\Nobel.dll
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\26 - Nobel Dijak\Nobel\Nobel\obj\Debug\net10.0\Nobel.pdb
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\26 - Nobel Dijak\Nobel\Nobel\obj\Debug\net10.0\Nobel.genruntimeconfig.cache
+C:\Users\Admin\Desktop\github\13-Asztali-Alkalmazasok\17 - IO feladatok\26 - Nobel Dijak\Nobel\Nobel\obj\Debug\net10.0\ref\Nobel.dll
