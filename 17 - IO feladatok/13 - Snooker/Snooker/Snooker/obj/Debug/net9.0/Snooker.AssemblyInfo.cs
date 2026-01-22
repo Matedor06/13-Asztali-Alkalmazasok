@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Snooker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+547398ea9118a351fc4f976c42227736148e627b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73c8dd42adb6bf9ace92e6ee8d3c7aa013c767b3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Snooker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Snooker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
