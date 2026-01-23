@@ -1,0 +1,14 @@
+C:\Users\b1karmat\Desktop\weatherforecast\weatherforecast\bin\Debug\net9.0\weatherforecast.exe
+C:\Users\b1karmat\Desktop\weatherforecast\weatherforecast\bin\Debug\net9.0\weatherforecast.deps.json
+C:\Users\b1karmat\Desktop\weatherforecast\weatherforecast\bin\Debug\net9.0\weatherforecast.runtimeconfig.json
+C:\Users\b1karmat\Desktop\weatherforecast\weatherforecast\bin\Debug\net9.0\weatherforecast.dll
+C:\Users\b1karmat\Desktop\weatherforecast\weatherforecast\bin\Debug\net9.0\weatherforecast.pdb
+C:\Users\b1karmat\Desktop\weatherforecast\weatherforecast\obj\Debug\net9.0\weatherforecast.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\b1karmat\Desktop\weatherforecast\weatherforecast\obj\Debug\net9.0\weatherforecast.AssemblyInfoInputs.cache
+C:\Users\b1karmat\Desktop\weatherforecast\weatherforecast\obj\Debug\net9.0\weatherforecast.AssemblyInfo.cs
+C:\Users\b1karmat\Desktop\weatherforecast\weatherforecast\obj\Debug\net9.0\weatherforecast.csproj.CoreCompileInputs.cache
+C:\Users\b1karmat\Desktop\weatherforecast\weatherforecast\obj\Debug\net9.0\weatherforecast.dll
+C:\Users\b1karmat\Desktop\weatherforecast\weatherforecast\obj\Debug\net9.0\refint\weatherforecast.dll
+C:\Users\b1karmat\Desktop\weatherforecast\weatherforecast\obj\Debug\net9.0\weatherforecast.pdb
+C:\Users\b1karmat\Desktop\weatherforecast\weatherforecast\obj\Debug\net9.0\weatherforecast.genruntimeconfig.cache
+C:\Users\b1karmat\Desktop\weatherforecast\weatherforecast\obj\Debug\net9.0\ref\weatherforecast.dll
