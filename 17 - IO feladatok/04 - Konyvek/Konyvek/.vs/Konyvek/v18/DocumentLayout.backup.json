@@ -60,7 +60,7 @@
               "RelativeDocumentMoniker": "Konyvek\\Program.cs",
               "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\17 - IO feladatok\\04 - Konyvek\\Konyvek\\Konyvek\\Program.cs",
               "RelativeToolTip": "Konyvek\\Program.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADsAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-22T10:58:35.379Z",
               "EditorCaption": ""
@@ -75,7 +75,8 @@
               "RelativeToolTip": "Konyvek\\Book.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T06:31:51.331Z"
+              "WhenOpened": "2025-12-03T06:31:51.331Z",
+              "EditorCaption": ""
             }
           ]
         }

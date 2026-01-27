@@ -27,4 +27,27 @@ Console.WriteLine("3. feladat");
 var leastTemperatureCity = weather.MinBy(x => x.Temperature);
 Console.WriteLine($"A legalacsonyabb hőmérséklet: {leastTemperatureCity.CityId} {leastTemperatureCity.Time} {leastTemperatureCity.Temperature} fok.");
 
+// 4 - 5 feladatot már megcsináltad csak nem pusholtad fel
 
+var groupByCity = weather.GroupBy(x => x.CityId).ToDictionary(g => g.Key, g => g.ToList());
+
+var stringBuilder = new StringBuilder();
+
+foreach (var group in groupByCity)
+{
+    stringBuilder.AppendLine($"{group.Key}");
+
+    foreach(var measurement in group.Value)
+    {
+        stringBuilder.Append($"   {measurement.Time} ");
+        var strength = int.Parse(measurement.Speed);
+        for(int i = 0; i < strength; i += 1)
+        {
+            stringBuilder.Append("#");
+        }
+        stringBuilder.AppendLine();
+
+    }
+}
+
+await File.WriteAllTextAsync("x.txt", stringBuilder.ToString(), Encoding.UTF8);
