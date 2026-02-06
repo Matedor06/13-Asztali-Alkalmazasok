@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\autok\\Auto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E18BB177-81BE-498F-AE50-81C1BC053148}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali lehet ez a jo\\13-asztali-alkalmazasok\\autok\\auto\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E18BB177-81BE-498F-AE50-81C1BC053148}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali lehet ez a jo\\13-asztali-alkalmazasok\\autok\\auto\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali lehet ez a jo\\13-asztali-alkalmazasok\\autok\\auto\\consoleapp1\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,13 +54,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Trip.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\autok\\Auto\\ConsoleApp1\\Trip.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Trip.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\autok\\Auto\\ConsoleApp1\\Trip.cs",
+              "RelativeToolTip": "ConsoleApp1\\Trip.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T10:20:42.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\autok\\Auto\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
               "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\autok\\Auto\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAtwH8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-27T09:19:47.881Z",
               "EditorCaption": ""

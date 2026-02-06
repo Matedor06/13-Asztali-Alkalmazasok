@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Services\\Solution.Services.csproj": {}
+    "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Services\\Solution.Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Core\\Solution.Core.csproj": {
+    "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Core\\Solution.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Core\\Solution.Core.csproj",
+        "projectUniqueName": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Core\\Solution.Core.csproj",
         "projectName": "Solution.Core",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Core\\Solution.Core.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Core\\obj\\",
+        "projectPath": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Core\\Solution.Core.csproj",
+        "packagesPath": "C:\\Users\\b1karmat\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\b1karmat\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,8 +33,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Database\\Solution.Database.csproj": {
-                "projectPath": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Database\\Solution.Database.csproj"
+              "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Database\\Solution.Database.csproj": {
+                "projectPath": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Database\\Solution.Database.csproj"
               }
             }
           }
@@ -49,7 +49,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -170,24 +170,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Database\\Solution.Database.csproj": {
+    "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Database\\Solution.Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Database\\Solution.Database.csproj",
+        "projectUniqueName": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Database\\Solution.Database.csproj",
         "projectName": "Solution.Database",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Database\\Solution.Database.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Database\\obj\\",
+        "projectPath": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Database\\Solution.Database.csproj",
+        "packagesPath": "C:\\Users\\b1karmat\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Database\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\b1karmat\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -215,7 +215,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -336,24 +336,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Services\\Solution.Services.csproj": {
+    "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Services\\Solution.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Services\\Solution.Services.csproj",
+        "projectUniqueName": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Services\\Solution.Services.csproj",
         "projectName": "Solution.Services",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Services\\Solution.Services.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Services\\obj\\",
+        "projectPath": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Services\\Solution.Services.csproj",
+        "packagesPath": "C:\\Users\\b1karmat\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\b1karmat\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -369,11 +369,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Core\\Solution.Core.csproj": {
-                "projectPath": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Core\\Solution.Core.csproj"
+              "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Core\\Solution.Core.csproj": {
+                "projectPath": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Core\\Solution.Core.csproj"
               },
-              "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Database\\Solution.Database.csproj": {
-                "projectPath": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Database\\Solution.Database.csproj"
+              "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Database\\Solution.Database.csproj": {
+                "projectPath": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Database\\Solution.Database.csproj"
               }
             }
           }
@@ -388,7 +388,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -509,7 +509,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

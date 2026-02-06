@@ -1,0 +1,105 @@
+﻿using ConsoleApp1;
+using System.Text;
+
+var fileData = await File.ReadAllLinesAsync("autok.txt", Encoding.UTF8);
+var lend = new List<Lend>();
+foreach(var line in fileData)
+{
+    var data = line.Split(' ');
+    lend.Add(new Lend
+    {
+        day = int.Parse(data[0]),
+        dayTime = data[1],
+        registrationNumber = data[2],
+        employeeNumber = int.Parse(data[3]),
+        kmCounter = int.Parse(data[4]),
+        inOut = int.Parse(data[5]),
+    });
+}
+var lastLend = lend.MaxBy(x => x.day);
+Console.WriteLine($"{lastLend.day}. nap rendszám : {lastLend.registrationNumber}");
+Console.WriteLine("szia");
+
+Console.Write("Nap: ");
+int day = int.Parse(Console.ReadLine());
+var specificDay = lend.Where(x => x.day == day);
+foreach (var item in specificDay)
+{
+    Console.Write($"{item.dayTime} {item.registrationNumber} {item.employeeNumber} ");
+    if (item.inOut == 0)
+    {
+        Console.Write("ki");
+    }
+    else
+    {
+        Console.WriteLine("be");
+    }
+    Console.WriteLine();
+}
+
+var countNotBroughtBackCars = lend
+    .GroupBy(x => x.registrationNumber)
+    .Where(g => g.OrderByDescending(x => x.day).ThenByDescending(x => x.dayTime).First().inOut == 0)
+    .Count();
+Console.WriteLine($"A hónap végén {countNotBroughtBackCars} autó nem volt bent a parkolóban.");
+
+
+Console.WriteLine("6. feladat");
+var carsWithMinKm = lend
+    .GroupBy(x => x.registrationNumber)
+    .Select(g => new
+    {
+        RegistrationNumber = g.Key,
+        MinKm = g.Min(x => x.kmCounter),
+    })
+    .OrderBy(x => x.RegistrationNumber)
+    .ToList();
+
+var carsWithMaxKm = lend
+    .GroupBy(x => x.registrationNumber)
+    .Select(g => new
+    {
+        RegistrationNumber = g.Key,
+        MinKm = g.Max(x => x.kmCounter),
+    })
+    .OrderBy(x=> x.RegistrationNumber)
+    .ToList();
+
+for(int i = 0; i < carsWithMinKm.Count; i++)
+{
+    Console.WriteLine($"{carsWithMaxKm[i].RegistrationNumber} , {carsWithMaxKm[i].MinKm - carsWithMinKm[i].MinKm}");
+}
+
+var maxTraveledOnce = lend
+    .Where(x => x.inOut == 1) // Csak a visszahozatali rekordok
+    .Select((record, index) =>
+    {
+        // Megkeressük az előző OUT rekordot ehhez a visszahozatalhoz
+        var previousOut = lend
+            .Where(r => r.registrationNumber == record.registrationNumber && 
+                       r.employeeNumber == record.employeeNumber &&
+                       (r.day < record.day || (r.day == record.day && r.dayTime.CompareTo(record.dayTime) < 0)) &&
+                       r.inOut == 0)
+            .OrderByDescending(r => r.day)
+            .ThenByDescending(r => r.dayTime)
+            .FirstOrDefault();
+        
+        if (previousOut != null)
+        {
+            return new
+            {
+                EmployeeNumber = record.employeeNumber,
+                Distance = record.kmCounter - previousOut.kmCounter,
+                RegistrationNumber = record.registrationNumber
+            };
+        }
+        return null;
+    })
+    .Where(x => x != null)
+    .OrderByDescending(x => x.Distance)
+    .FirstOrDefault();
+
+if (maxTraveledOnce != null)
+{
+    Console.WriteLine($"Leghosszabb távolság egy úton: {maxTraveledOnce.EmployeeNumber} személy, {maxTraveledOnce.Distance} km");
+}

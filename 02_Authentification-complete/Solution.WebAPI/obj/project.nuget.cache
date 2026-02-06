@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JerDXjdRKak=",
+  "dgSpecHash": "0g/Z65Uo5UU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\b1karmat\\Desktop\\restapi-orak\\02_Authentification-complete\\Solution.WebAPI\\Solution.WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\02_Authentification-complete\\Solution.WebAPI\\Solution.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\b1karmat\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\b1karmat\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

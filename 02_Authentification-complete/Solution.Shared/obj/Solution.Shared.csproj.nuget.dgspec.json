@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\b1karmat\\Desktop\\restapi-orak\\02_Authentification-complete\\Solution.Shared\\Solution.Shared.csproj": {}
+    "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\02_Authentification-complete\\Solution.Shared\\Solution.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\b1karmat\\Desktop\\restapi-orak\\02_Authentification-complete\\Solution.Shared\\Solution.Shared.csproj": {
+    "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\02_Authentification-complete\\Solution.Shared\\Solution.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\b1karmat\\Desktop\\restapi-orak\\02_Authentification-complete\\Solution.Shared\\Solution.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\02_Authentification-complete\\Solution.Shared\\Solution.Shared.csproj",
         "projectName": "Solution.Shared",
-        "projectPath": "C:\\Users\\b1karmat\\Desktop\\restapi-orak\\02_Authentification-complete\\Solution.Shared\\Solution.Shared.csproj",
+        "projectPath": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\02_Authentification-complete\\Solution.Shared\\Solution.Shared.csproj",
         "packagesPath": "C:\\Users\\b1karmat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\b1karmat\\Desktop\\restapi-orak\\02_Authentification-complete\\Solution.Shared\\obj\\",
+        "outputPath": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\02_Authentification-complete\\Solution.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

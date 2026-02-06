@@ -12217,24 +12217,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Users\\b1karmat\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.DesktopApp\\Solution.DesktopApp.csproj",
+      "projectUniqueName": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.DesktopApp\\Solution.DesktopApp.csproj",
       "projectName": "Solution.DesktopApp",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.DesktopApp\\Solution.DesktopApp.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.DesktopApp\\obj\\",
+      "projectPath": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.DesktopApp\\Solution.DesktopApp.csproj",
+      "packagesPath": "C:\\Users\\b1karmat\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.DesktopApp\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\b1karmat\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -12250,17 +12250,17 @@
         "net9.0-windows10.0.19041": {
           "targetAlias": "net9.0-windows10.0.19041.0",
           "projectReferences": {
-            "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Core\\Solution.Core.csproj": {
-              "projectPath": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Core\\Solution.Core.csproj"
+            "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Core\\Solution.Core.csproj": {
+              "projectPath": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Core\\Solution.Core.csproj"
             },
-            "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Database\\Solution.Database.csproj": {
-              "projectPath": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Database\\Solution.Database.csproj"
+            "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Database\\Solution.Database.csproj": {
+              "projectPath": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Database\\Solution.Database.csproj"
             },
-            "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Services\\Solution.Services.csproj": {
-              "projectPath": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Services\\Solution.Services.csproj"
+            "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Services\\Solution.Services.csproj": {
+              "projectPath": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Services\\Solution.Services.csproj"
             },
-            "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Validators\\Solution.Validators.csproj": {
-              "projectPath": "C:\\Users\\Admin\\Desktop\\github\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Validators\\Solution.Validators.csproj"
+            "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Validators\\Solution.Validators.csproj": {
+              "projectPath": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\03\\03 - Cars\\Solution.Validators\\Solution.Validators.csproj"
             }
           }
         }
@@ -12275,7 +12275,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net9.0-windows10.0.19041": {
@@ -12433,7 +12433,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

@@ -1,21 +1,57 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\b1karmat\\Desktop\\restapi-orak\\02_Authentification-complete\\",
+  "WorkspaceRootPath": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\02_Authentification-complete\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AB8F10A7-7661-D6B1-5105-D89EED313806}|Solution.WebAPI\\Solution.WebAPI.csproj|c:\\users\\b1karmat\\desktop\\restapi-orak\\02_authentification-complete\\solution.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AB8F10A7-7661-D6B1-5105-D89EED313806}|Solution.WebAPI\\Solution.WebAPI.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali lehet ez a jo\\13-asztali-alkalmazasok\\02_authentification-complete\\solution.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB8F10A7-7661-D6B1-5105-D89EED313806}|Solution.WebAPI\\Solution.WebAPI.csproj|solutionrelative:solution.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8F10A7-7661-D6B1-5105-D89EED313806}|Solution.WebAPI\\Solution.WebAPI.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali lehet ez a jo\\13-asztali-alkalmazasok\\02_authentification-complete\\solution.webapi\\controllers\\securitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB8F10A7-7661-D6B1-5105-D89EED313806}|Solution.WebAPI\\Solution.WebAPI.csproj|solutionrelative:solution.webapi\\controllers\\securitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05FA63A1-840D-DAA4-56F6-D41F51470F24}|Solution.Services\\Solution.Services.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali lehet ez a jo\\13-asztali-alkalmazasok\\02_authentification-complete\\solution.services\\globalimports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05FA63A1-840D-DAA4-56F6-D41F51470F24}|Solution.Services\\Solution.Services.csproj|solutionrelative:solution.services\\globalimports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05FA63A1-840D-DAA4-56F6-D41F51470F24}|Solution.Services\\Solution.Services.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali lehet ez a jo\\13-asztali-alkalmazasok\\02_authentification-complete\\solution.services\\user\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05FA63A1-840D-DAA4-56F6-D41F51470F24}|Solution.Services\\Solution.Services.csproj|solutionrelative:solution.services\\user\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05FA63A1-840D-DAA4-56F6-D41F51470F24}|Solution.Services\\Solution.Services.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali lehet ez a jo\\13-asztali-alkalmazasok\\02_authentification-complete\\solution.services\\user\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05FA63A1-840D-DAA4-56F6-D41F51470F24}|Solution.Services\\Solution.Services.csproj|solutionrelative:solution.services\\user\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8F10A7-7661-D6B1-5105-D89EED313806}|Solution.WebAPI\\Solution.WebAPI.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali lehet ez a jo\\13-asztali-alkalmazasok\\02_authentification-complete\\solution.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB8F10A7-7661-D6B1-5105-D89EED313806}|Solution.WebAPI\\Solution.WebAPI.csproj|solutionrelative:solution.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB8F10A7-7661-D6B1-5105-D89EED313806}|Solution.WebAPI\\Solution.WebAPI.csproj|c:\\users\\b1karmat\\desktop\\restapi-orak\\02_authentification-complete\\solution.webapi\\configurations\\configureredocopenapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AB8F10A7-7661-D6B1-5105-D89EED313806}|Solution.WebAPI\\Solution.WebAPI.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali lehet ez a jo\\13-asztali-alkalmazasok\\02_authentification-complete\\solution.webapi\\globalimports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB8F10A7-7661-D6B1-5105-D89EED313806}|Solution.WebAPI\\Solution.WebAPI.csproj|solutionrelative:solution.webapi\\globalimports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8F10A7-7661-D6B1-5105-D89EED313806}|Solution.WebAPI\\Solution.WebAPI.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali lehet ez a jo\\13-asztali-alkalmazasok\\02_authentification-complete\\solution.webapi\\solution.webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{AB8F10A7-7661-D6B1-5105-D89EED313806}|Solution.WebAPI\\Solution.WebAPI.csproj|solutionrelative:solution.webapi\\solution.webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8F10A7-7661-D6B1-5105-D89EED313806}|Solution.WebAPI\\Solution.WebAPI.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali lehet ez a jo\\13-asztali-alkalmazasok\\02_authentification-complete\\solution.webapi\\middlewares\\globalexceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB8F10A7-7661-D6B1-5105-D89EED313806}|Solution.WebAPI\\Solution.WebAPI.csproj|solutionrelative:solution.webapi\\middlewares\\globalexceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5191C28C-1035-3A00-ACD6-FF1C0CEEDA13}|Solution.Shared\\Solution.Shared.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali lehet ez a jo\\13-asztali-alkalmazasok\\02_authentification-complete\\solution.shared\\extensions\\errororextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5191C28C-1035-3A00-ACD6-FF1C0CEEDA13}|Solution.Shared\\Solution.Shared.csproj|solutionrelative:solution.shared\\extensions\\errororextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8F10A7-7661-D6B1-5105-D89EED313806}|Solution.WebAPI\\Solution.WebAPI.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali lehet ez a jo\\13-asztali-alkalmazasok\\02_authentification-complete\\solution.webapi\\configurations\\configureredocopenapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB8F10A7-7661-D6B1-5105-D89EED313806}|Solution.WebAPI\\Solution.WebAPI.csproj|solutionrelative:solution.webapi\\configurations\\configureredocopenapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB8F10A7-7661-D6B1-5105-D89EED313806}|Solution.WebAPI\\Solution.WebAPI.csproj|c:\\users\\b1karmat\\desktop\\restapi-orak\\02_authentification-complete\\solution.webapi\\configurations\\configureswaggeropenapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AB8F10A7-7661-D6B1-5105-D89EED313806}|Solution.WebAPI\\Solution.WebAPI.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali lehet ez a jo\\13-asztali-alkalmazasok\\02_authentification-complete\\solution.webapi\\configurations\\configureswaggeropenapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB8F10A7-7661-D6B1-5105-D89EED313806}|Solution.WebAPI\\Solution.WebAPI.csproj|solutionrelative:solution.webapi\\configurations\\configureswaggeropenapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB8F10A7-7661-D6B1-5105-D89EED313806}|Solution.WebAPI\\Solution.WebAPI.csproj|c:\\users\\b1karmat\\desktop\\restapi-orak\\02_authentification-complete\\solution.webapi\\configurations\\exceptionhandlingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AB8F10A7-7661-D6B1-5105-D89EED313806}|Solution.WebAPI\\Solution.WebAPI.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali lehet ez a jo\\13-asztali-alkalmazasok\\02_authentification-complete\\solution.webapi\\configurations\\exceptionhandlingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB8F10A7-7661-D6B1-5105-D89EED313806}|Solution.WebAPI\\Solution.WebAPI.csproj|solutionrelative:solution.webapi\\configurations\\exceptionhandlingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,59 +62,205 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GlobalImports.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\02_Authentification-complete\\Solution.Services\\GlobalImports.cs",
+              "RelativeDocumentMoniker": "Solution.Services\\GlobalImports.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\02_Authentification-complete\\Solution.Services\\GlobalImports.cs",
+              "RelativeToolTip": "Solution.Services\\GlobalImports.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T08:04:09.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\02_Authentification-complete\\Solution.Services\\User\\IUserService.cs",
+              "RelativeDocumentMoniker": "Solution.Services\\User\\IUserService.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\02_Authentification-complete\\Solution.Services\\User\\IUserService.cs",
+              "RelativeToolTip": "Solution.Services\\User\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T08:03:57.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\02_Authentification-complete\\Solution.Services\\User\\UserService.cs",
+              "RelativeDocumentMoniker": "Solution.Services\\User\\UserService.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\02_Authentification-complete\\Solution.Services\\User\\UserService.cs",
+              "RelativeToolTip": "Solution.Services\\User\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T08:03:57.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GlobalImports.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\02_Authentification-complete\\Solution.WebAPI\\GlobalImports.cs",
+              "RelativeDocumentMoniker": "Solution.WebAPI\\GlobalImports.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\02_Authentification-complete\\Solution.WebAPI\\GlobalImports.cs",
+              "RelativeToolTip": "Solution.WebAPI\\GlobalImports.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T08:03:48.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Solution.WebAPI.http",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\02_Authentification-complete\\Solution.WebAPI\\Solution.WebAPI.http",
+              "RelativeDocumentMoniker": "Solution.WebAPI\\Solution.WebAPI.http",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\02_Authentification-complete\\Solution.WebAPI\\Solution.WebAPI.http",
+              "RelativeToolTip": "Solution.WebAPI\\Solution.WebAPI.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-02-06T08:03:38.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\02_Authentification-complete\\Solution.WebAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Solution.WebAPI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\02_Authentification-complete\\Solution.WebAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Solution.WebAPI\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T08:00:59.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SecurityController.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\02_Authentification-complete\\Solution.WebAPI\\Controllers\\SecurityController.cs",
+              "RelativeDocumentMoniker": "Solution.WebAPI\\Controllers\\SecurityController.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\02_Authentification-complete\\Solution.WebAPI\\Controllers\\SecurityController.cs",
+              "RelativeToolTip": "Solution.WebAPI\\Controllers\\SecurityController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T08:00:57.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GlobalExceptionHandlerMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\02_Authentification-complete\\Solution.WebAPI\\Middlewares\\GlobalExceptionHandlerMiddleware.cs",
+              "RelativeDocumentMoniker": "Solution.WebAPI\\Middlewares\\GlobalExceptionHandlerMiddleware.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\02_Authentification-complete\\Solution.WebAPI\\Middlewares\\GlobalExceptionHandlerMiddleware.cs",
+              "RelativeToolTip": "Solution.WebAPI\\Middlewares\\GlobalExceptionHandlerMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T08:00:56.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ErrorOrExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\02_Authentification-complete\\Solution.Shared\\Extensions\\ErrorOrExtensions.cs",
+              "RelativeDocumentMoniker": "Solution.Shared\\Extensions\\ErrorOrExtensions.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\02_Authentification-complete\\Solution.Shared\\Extensions\\ErrorOrExtensions.cs",
+              "RelativeToolTip": "Solution.Shared\\Extensions\\ErrorOrExtensions.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T08:00:46.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\restapi-orak\\02_Authentification-complete\\Solution.WebAPI\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\02_Authentification-complete\\Solution.WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "Solution.WebAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\restapi-orak\\02_Authentification-complete\\Solution.WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\02_Authentification-complete\\Solution.WebAPI\\Program.cs",
               "RelativeToolTip": "Solution.WebAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-15T07:25:06.406Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "ConfigureRedocOpenApi.cs",
-              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\restapi-orak\\02_Authentification-complete\\Solution.WebAPI\\Configurations\\ConfigureRedocOpenApi.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\02_Authentification-complete\\Solution.WebAPI\\Configurations\\ConfigureRedocOpenApi.cs",
               "RelativeDocumentMoniker": "Solution.WebAPI\\Configurations\\ConfigureRedocOpenApi.cs",
-              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\restapi-orak\\02_Authentification-complete\\Solution.WebAPI\\Configurations\\ConfigureRedocOpenApi.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\02_Authentification-complete\\Solution.WebAPI\\Configurations\\ConfigureRedocOpenApi.cs",
               "RelativeToolTip": "Solution.WebAPI\\Configurations\\ConfigureRedocOpenApi.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAIwCMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T07:39:09.642Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-15T07:39:09.642Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "ConfigureSwaggerOpenApi.cs",
-              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\restapi-orak\\02_Authentification-complete\\Solution.WebAPI\\Configurations\\ConfigureSwaggerOpenApi.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\02_Authentification-complete\\Solution.WebAPI\\Configurations\\ConfigureSwaggerOpenApi.cs",
               "RelativeDocumentMoniker": "Solution.WebAPI\\Configurations\\ConfigureSwaggerOpenApi.cs",
-              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\restapi-orak\\02_Authentification-complete\\Solution.WebAPI\\Configurations\\ConfigureSwaggerOpenApi.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\02_Authentification-complete\\Solution.WebAPI\\Configurations\\ConfigureSwaggerOpenApi.cs",
               "RelativeToolTip": "Solution.WebAPI\\Configurations\\ConfigureSwaggerOpenApi.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAgwEYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T07:24:39.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-15T07:24:39.884Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "ExceptionHandlingConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\restapi-orak\\02_Authentification-complete\\Solution.WebAPI\\Configurations\\ExceptionHandlingConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\02_Authentification-complete\\Solution.WebAPI\\Configurations\\ExceptionHandlingConfiguration.cs",
               "RelativeDocumentMoniker": "Solution.WebAPI\\Configurations\\ExceptionHandlingConfiguration.cs",
-              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\restapi-orak\\02_Authentification-complete\\Solution.WebAPI\\Configurations\\ExceptionHandlingConfiguration.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\02_Authentification-complete\\Solution.WebAPI\\Configurations\\ExceptionHandlingConfiguration.cs",
               "RelativeToolTip": "Solution.WebAPI\\Configurations\\ExceptionHandlingConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T07:24:26.47Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-15T07:24:26.47Z"
             }
           ]
         }
