@@ -1,0 +1,15 @@
+C:\Users\b1nagmat2\Desktop\Asztalalk\HeroWars\HeroWars.Database\obj\Debug\net10.0\HeroWars.Database.csproj.AssemblyReference.cache
+C:\Users\b1nagmat2\Desktop\Asztalalk\HeroWars\HeroWars.Database\obj\Debug\net10.0\HeroWars.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\b1nagmat2\Desktop\Asztalalk\HeroWars\HeroWars.Database\obj\Debug\net10.0\HeroWars.Database.AssemblyInfoInputs.cache
+C:\Users\b1nagmat2\Desktop\Asztalalk\HeroWars\HeroWars.Database\obj\Debug\net10.0\HeroWars.Database.AssemblyInfo.cs
+C:\Users\b1nagmat2\Desktop\Asztalalk\HeroWars\HeroWars.Database\obj\Debug\net10.0\HeroWars.Database.csproj.CoreCompileInputs.cache
+C:\Users\b1nagmat2\Desktop\Asztalalk\HeroWars\HeroWars.Database\obj\Debug\net10.0\HeroWars.Database.sourcelink.json
+C:\Users\b1nagmat2\Desktop\Asztalalk\HeroWars\HeroWars.Database\bin\Debug\net10.0\HeroWars.Database.deps.json
+C:\Users\b1nagmat2\Desktop\Asztalalk\HeroWars\HeroWars.Database\bin\Debug\net10.0\HeroWars.Database.runtimeconfig.json
+C:\Users\b1nagmat2\Desktop\Asztalalk\HeroWars\HeroWars.Database\bin\Debug\net10.0\HeroWars.Database.dll
+C:\Users\b1nagmat2\Desktop\Asztalalk\HeroWars\HeroWars.Database\bin\Debug\net10.0\HeroWars.Database.pdb
+C:\Users\b1nagmat2\Desktop\Asztalalk\HeroWars\HeroWars.Database\obj\Debug\net10.0\HeroWars.Database.dll
+C:\Users\b1nagmat2\Desktop\Asztalalk\HeroWars\HeroWars.Database\obj\Debug\net10.0\refint\HeroWars.Database.dll
+C:\Users\b1nagmat2\Desktop\Asztalalk\HeroWars\HeroWars.Database\obj\Debug\net10.0\HeroWars.Database.pdb
+C:\Users\b1nagmat2\Desktop\Asztalalk\HeroWars\HeroWars.Database\obj\Debug\net10.0\HeroWars.Database.genruntimeconfig.cache
+C:\Users\b1nagmat2\Desktop\Asztalalk\HeroWars\HeroWars.Database\obj\Debug\net10.0\ref\HeroWars.Database.dll

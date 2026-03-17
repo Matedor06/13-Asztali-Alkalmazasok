@@ -1,0 +1,6 @@
+@HeroWars.Api_HostAddress = http://localhost:5233
+
+GET {{HeroWars.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,15 @@
+C:\Users\b1karmat\Desktop\github\13-asztali lehet ez a jo\13-Asztali-Alkalmazasok\17 - IO feladatok\38 - Tarsalgo\Tarsalgo\Tarsalgo\bin\Debug\net10.0\Tarsalgo.exe
+C:\Users\b1karmat\Desktop\github\13-asztali lehet ez a jo\13-Asztali-Alkalmazasok\17 - IO feladatok\38 - Tarsalgo\Tarsalgo\Tarsalgo\bin\Debug\net10.0\Tarsalgo.deps.json
+C:\Users\b1karmat\Desktop\github\13-asztali lehet ez a jo\13-Asztali-Alkalmazasok\17 - IO feladatok\38 - Tarsalgo\Tarsalgo\Tarsalgo\bin\Debug\net10.0\Tarsalgo.runtimeconfig.json
+C:\Users\b1karmat\Desktop\github\13-asztali lehet ez a jo\13-Asztali-Alkalmazasok\17 - IO feladatok\38 - Tarsalgo\Tarsalgo\Tarsalgo\bin\Debug\net10.0\Tarsalgo.dll
+C:\Users\b1karmat\Desktop\github\13-asztali lehet ez a jo\13-Asztali-Alkalmazasok\17 - IO feladatok\38 - Tarsalgo\Tarsalgo\Tarsalgo\bin\Debug\net10.0\Tarsalgo.pdb
+C:\Users\b1karmat\Desktop\github\13-asztali lehet ez a jo\13-Asztali-Alkalmazasok\17 - IO feladatok\38 - Tarsalgo\Tarsalgo\Tarsalgo\obj\Debug\net10.0\Tarsalgo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\b1karmat\Desktop\github\13-asztali lehet ez a jo\13-Asztali-Alkalmazasok\17 - IO feladatok\38 - Tarsalgo\Tarsalgo\Tarsalgo\obj\Debug\net10.0\Tarsalgo.AssemblyInfoInputs.cache
+C:\Users\b1karmat\Desktop\github\13-asztali lehet ez a jo\13-Asztali-Alkalmazasok\17 - IO feladatok\38 - Tarsalgo\Tarsalgo\Tarsalgo\obj\Debug\net10.0\Tarsalgo.AssemblyInfo.cs
+C:\Users\b1karmat\Desktop\github\13-asztali lehet ez a jo\13-Asztali-Alkalmazasok\17 - IO feladatok\38 - Tarsalgo\Tarsalgo\Tarsalgo\obj\Debug\net10.0\Tarsalgo.csproj.CoreCompileInputs.cache
+C:\Users\b1karmat\Desktop\github\13-asztali lehet ez a jo\13-Asztali-Alkalmazasok\17 - IO feladatok\38 - Tarsalgo\Tarsalgo\Tarsalgo\obj\Debug\net10.0\Tarsalgo.sourcelink.json
+C:\Users\b1karmat\Desktop\github\13-asztali lehet ez a jo\13-Asztali-Alkalmazasok\17 - IO feladatok\38 - Tarsalgo\Tarsalgo\Tarsalgo\obj\Debug\net10.0\Tarsalgo.dll
+C:\Users\b1karmat\Desktop\github\13-asztali lehet ez a jo\13-Asztali-Alkalmazasok\17 - IO feladatok\38 - Tarsalgo\Tarsalgo\Tarsalgo\obj\Debug\net10.0\refint\Tarsalgo.dll
+C:\Users\b1karmat\Desktop\github\13-asztali lehet ez a jo\13-Asztali-Alkalmazasok\17 - IO feladatok\38 - Tarsalgo\Tarsalgo\Tarsalgo\obj\Debug\net10.0\Tarsalgo.pdb
+C:\Users\b1karmat\Desktop\github\13-asztali lehet ez a jo\13-Asztali-Alkalmazasok\17 - IO feladatok\38 - Tarsalgo\Tarsalgo\Tarsalgo\obj\Debug\net10.0\Tarsalgo.genruntimeconfig.cache
+C:\Users\b1karmat\Desktop\github\13-asztali lehet ez a jo\13-Asztali-Alkalmazasok\17 - IO feladatok\38 - Tarsalgo\Tarsalgo\Tarsalgo\obj\Debug\net10.0\ref\Tarsalgo.dll

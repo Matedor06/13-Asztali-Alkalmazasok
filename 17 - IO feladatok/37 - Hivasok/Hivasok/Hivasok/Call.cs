@@ -28,7 +28,6 @@ public class Call
         int endInSeconds = EndHour * 3600 + EndMinute * 60 + EndSecond;
         int durationInSeconds = endInSeconds - startInSeconds;
         
-        // Minden megkezdett perc egy egész percnek számít
         int minutes = durationInSeconds / 60;
         if (durationInSeconds % 60 > 0)
         {
@@ -40,10 +39,9 @@ public class Call
 
     public bool IsPeakTime()
     {
-        // Csúcsidő 7:00:00 - 18:00:00
         int startInSeconds = StartHour * 3600 + StartMinute * 60 + StartSecond;
-        int peakStart = 7 * 3600; // 7:00:00
-        int peakEnd = 18 * 3600;  // 18:00:00
+        int peakStart = 7 * 3600; 
+        int peakEnd = 18 * 3600;  
         
         return startInSeconds >= peakStart && startInSeconds < peakEnd;
     }
