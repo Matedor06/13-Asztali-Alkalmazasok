@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\b1karmat\\Desktop\\HeroWars\\HeroWars.Services\\HeroWars.Services.csproj": {}
+    "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\HeroWars\\HeroWars.Services\\HeroWars.Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\b1karmat\\Desktop\\HeroWars\\HeroWars.Database\\HeroWars.Database.csproj": {
+    "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\HeroWars\\HeroWars.Database\\HeroWars.Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\b1karmat\\Desktop\\HeroWars\\HeroWars.Database\\HeroWars.Database.csproj",
+        "projectUniqueName": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\HeroWars\\HeroWars.Database\\HeroWars.Database.csproj",
         "projectName": "HeroWars.Database",
-        "projectPath": "C:\\Users\\b1karmat\\Desktop\\HeroWars\\HeroWars.Database\\HeroWars.Database.csproj",
+        "projectPath": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\HeroWars\\HeroWars.Database\\HeroWars.Database.csproj",
         "packagesPath": "C:\\Users\\b1karmat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\b1karmat\\Desktop\\HeroWars\\HeroWars.Database\\obj\\",
+        "outputPath": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\HeroWars\\HeroWars.Database\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -368,14 +368,14 @@
         }
       }
     },
-    "C:\\Users\\b1karmat\\Desktop\\HeroWars\\HeroWars.Services\\HeroWars.Services.csproj": {
+    "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\HeroWars\\HeroWars.Services\\HeroWars.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\b1karmat\\Desktop\\HeroWars\\HeroWars.Services\\HeroWars.Services.csproj",
+        "projectUniqueName": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\HeroWars\\HeroWars.Services\\HeroWars.Services.csproj",
         "projectName": "HeroWars.Services",
-        "projectPath": "C:\\Users\\b1karmat\\Desktop\\HeroWars\\HeroWars.Services\\HeroWars.Services.csproj",
+        "projectPath": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\HeroWars\\HeroWars.Services\\HeroWars.Services.csproj",
         "packagesPath": "C:\\Users\\b1karmat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\b1karmat\\Desktop\\HeroWars\\HeroWars.Services\\obj\\",
+        "outputPath": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\HeroWars\\HeroWars.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -397,8 +397,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\b1karmat\\Desktop\\HeroWars\\HeroWars.Database\\HeroWars.Database.csproj": {
-                "projectPath": "C:\\Users\\b1karmat\\Desktop\\HeroWars\\HeroWars.Database\\HeroWars.Database.csproj"
+              "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\HeroWars\\HeroWars.Database\\HeroWars.Database.csproj": {
+                "projectPath": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\HeroWars\\HeroWars.Database\\HeroWars.Database.csproj"
               }
             }
           }

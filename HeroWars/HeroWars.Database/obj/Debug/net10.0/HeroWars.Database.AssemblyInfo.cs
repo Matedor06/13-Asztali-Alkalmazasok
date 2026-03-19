@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HeroWars.Database")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f81f9dce5f25fcde848f4c8cdf9f5ebd678b3865")]
 [assembly: System.Reflection.AssemblyProductAttribute("HeroWars.Database")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HeroWars.Database")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

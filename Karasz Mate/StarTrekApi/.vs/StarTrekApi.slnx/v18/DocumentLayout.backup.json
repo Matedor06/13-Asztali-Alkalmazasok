@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\Karasz Mate\\StarTrekApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C8392BFF-BE07-4E83-BB5F-B9D3F038225A}|StarTrekApi\\StarTrekApi.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali lehet ez a jo\\13-asztali-alkalmazasok\\karasz mate\\startrekapi\\startrekapi\\controllers\\shipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8392BFF-BE07-4E83-BB5F-B9D3F038225A}|StarTrekApi\\StarTrekApi.csproj|solutionrelative:startrekapi\\controllers\\shipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A5F5C97-94F6-4141-8878-827E05FFE6ED}|StarTrekDatabase\\StarTrekDatabase.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali lehet ez a jo\\13-asztali-alkalmazasok\\karasz mate\\startrekapi\\startrekdatabase\\models\\shipmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A5F5C97-94F6-4141-8878-827E05FFE6ED}|StarTrekDatabase\\StarTrekDatabase.csproj|solutionrelative:startrekdatabase\\models\\shipmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A5F5C97-94F6-4141-8878-827E05FFE6ED}|StarTrekDatabase\\StarTrekDatabase.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali lehet ez a jo\\13-asztali-alkalmazasok\\karasz mate\\startrekapi\\startrekdatabase\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A5F5C97-94F6-4141-8878-827E05FFE6ED}|StarTrekDatabase\\StarTrekDatabase.csproj|solutionrelative:startrekdatabase\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShipController.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\Karasz Mate\\StarTrekApi\\StarTrekApi\\Controllers\\ShipController.cs",
+              "RelativeDocumentMoniker": "StarTrekApi\\Controllers\\ShipController.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\Karasz Mate\\StarTrekApi\\StarTrekApi\\Controllers\\ShipController.cs*",
+              "RelativeToolTip": "StarTrekApi\\Controllers\\ShipController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T07:24:13.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\Karasz Mate\\StarTrekApi\\StarTrekDatabase\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "StarTrekDatabase\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\Karasz Mate\\StarTrekApi\\StarTrekDatabase\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "StarTrekDatabase\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T07:13:34.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShipModel.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\Karasz Mate\\StarTrekApi\\StarTrekDatabase\\Models\\ShipModel.cs",
+              "RelativeDocumentMoniker": "StarTrekDatabase\\Models\\ShipModel.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\Karasz Mate\\StarTrekApi\\StarTrekDatabase\\Models\\ShipModel.cs",
+              "RelativeToolTip": "StarTrekDatabase\\Models\\ShipModel.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA0wC4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T07:12:23.846Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

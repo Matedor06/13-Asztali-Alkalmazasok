@@ -1,0 +1,124 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\Karasz Mate\\StarTrek\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EA500EAC-3EF6-4997-A42A-F1EB3B37FC15}|StarTrek\\StarTrek.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali lehet ez a jo\\13-asztali-alkalmazasok\\karasz mate\\startrek\\startrek\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA500EAC-3EF6-4997-A42A-F1EB3B37FC15}|StarTrek\\StarTrek.csproj|solutionrelative:startrek\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA500EAC-3EF6-4997-A42A-F1EB3B37FC15}|StarTrek\\StarTrek.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali lehet ez a jo\\13-asztali-alkalmazasok\\karasz mate\\startrek\\startrek\\ship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA500EAC-3EF6-4997-A42A-F1EB3B37FC15}|StarTrek\\StarTrek.csproj|solutionrelative:startrek\\ship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA500EAC-3EF6-4997-A42A-F1EB3B37FC15}|StarTrek\\StarTrek.csproj|c:\\users\\b1karmat\\desktop\\github\\13-asztali lehet ez a jo\\13-asztali-alkalmazasok\\karasz mate\\startrek\\startrek\\shiproleenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA500EAC-3EF6-4997-A42A-F1EB3B37FC15}|StarTrek\\StarTrek.csproj|solutionrelative:startrek\\shiproleenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShipRoleEnum.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\Karasz Mate\\StarTrek\\StarTrek\\ShipRoleEnum.cs",
+              "RelativeDocumentMoniker": "StarTrek\\ShipRoleEnum.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\Karasz Mate\\StarTrek\\StarTrek\\ShipRoleEnum.cs",
+              "RelativeToolTip": "StarTrek\\ShipRoleEnum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T06:25:40.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\Karasz Mate\\StarTrek\\StarTrek\\Program.cs",
+              "RelativeDocumentMoniker": "StarTrek\\Program.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\Karasz Mate\\StarTrek\\StarTrek\\Program.cs",
+              "RelativeToolTip": "StarTrek\\Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAwwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T06:22:39.927Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "b71fdf74-1604-4d1e-b19b-17b6695632cc",
+        "Display": 0,
+        "X": 818,
+        "Y": 87,
+        "Width": 1563,
+        "Height": 770,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ship.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\Karasz Mate\\StarTrek\\StarTrek\\Ship.cs",
+              "RelativeDocumentMoniker": "StarTrek\\Ship.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\github\\13-asztali lehet ez a jo\\13-Asztali-Alkalmazasok\\Karasz Mate\\StarTrek\\StarTrek\\Ship.cs",
+              "RelativeToolTip": "StarTrek\\Ship.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAwAsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T06:23:26.533Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+@StarTrekApi_HostAddress = http://localhost:5207
+
+GET {{StarTrekApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

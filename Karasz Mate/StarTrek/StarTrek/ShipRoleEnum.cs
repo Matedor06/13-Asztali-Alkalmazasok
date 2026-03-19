@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace StarTrek
+{
+    public enum ShipRole
+    {
+        Explorer,
+        Battlecruiser,
+        Warbird,
+        Scout,
+        Carrier,
+        Interceptor,
+        ScienceVessel,
+        Destroyer,
+        Frigate,
+        Transport
+    }
+
+}

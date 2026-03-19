@@ -1,26 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\b1nagmat2\\Desktop\\Asztalalk\\HeroWars\\",
+  "WorkspaceRootPath": "C:\\Users\\b1karmat\\Desktop\\HeroWars\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{990B1B62-E518-4204-94D9-80732F59F483}|HeroWars.Api\\HeroWars.Api.csproj|c:\\users\\b1nagmat2\\desktop\\asztalalk\\herowars\\herowars.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{990B1B62-E518-4204-94D9-80732F59F483}|HeroWars.Api\\HeroWars.Api.csproj|solutionrelative:herowars.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E040406-4B70-0459-DCC3-5A693C10D078}|HeroWars.Database\\HeroWars.Database.csproj|c:\\users\\b1karmat\\desktop\\herowars\\herowars.database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E040406-4B70-0459-DCC3-5A693C10D078}|HeroWars.Database\\HeroWars.Database.csproj|solutionrelative:herowars.database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{990B1B62-E518-4204-94D9-80732F59F483}|HeroWars.Api\\HeroWars.Api.csproj|c:\\users\\b1nagmat2\\desktop\\asztalalk\\herowars\\herowars.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{990B1B62-E518-4204-94D9-80732F59F483}|HeroWars.Api\\HeroWars.Api.csproj|solutionrelative:herowars.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{6E040406-4B70-0459-DCC3-5A693C10D078}|HeroWars.Database\\HeroWars.Database.csproj|c:\\users\\b1karmat\\desktop\\herowars\\herowars.database\\enums\\herorole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E040406-4B70-0459-DCC3-5A693C10D078}|HeroWars.Database\\HeroWars.Database.csproj|solutionrelative:herowars.database\\enums\\herorole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B138F67-B1DC-4D87-85B4-68C3B556D02C}|HeroWars.Database\\HeroWars.Database.csproj|c:\\users\\b1nagmat2\\desktop\\asztalalk\\herowars\\herowars.database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B138F67-B1DC-4D87-85B4-68C3B556D02C}|HeroWars.Database\\HeroWars.Database.csproj|solutionrelative:herowars.database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E040406-4B70-0459-DCC3-5A693C10D078}|HeroWars.Database\\HeroWars.Database.csproj|c:\\users\\b1karmat\\desktop\\herowars\\herowars.database\\entities\\heroentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E040406-4B70-0459-DCC3-5A693C10D078}|HeroWars.Database\\HeroWars.Database.csproj|solutionrelative:herowars.database\\entities\\heroentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B138F67-B1DC-4D87-85B4-68C3B556D02C}|HeroWars.Database\\HeroWars.Database.csproj|c:\\users\\b1nagmat2\\desktop\\asztalalk\\herowars\\herowars.database\\enums\\herorole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B138F67-B1DC-4D87-85B4-68C3B556D02C}|HeroWars.Database\\HeroWars.Database.csproj|solutionrelative:herowars.database\\enums\\herorole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F585E1B-F857-6E03-CA52-6B833606BC39}|HeroWars.Api\\HeroWars.Api.csproj|c:\\users\\b1karmat\\desktop\\herowars\\herowars.api\\controllers\\herocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F585E1B-F857-6E03-CA52-6B833606BC39}|HeroWars.Api\\HeroWars.Api.csproj|solutionrelative:herowars.api\\controllers\\herocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B138F67-B1DC-4D87-85B4-68C3B556D02C}|HeroWars.Database\\HeroWars.Database.csproj|c:\\users\\b1nagmat2\\desktop\\asztalalk\\herowars\\herowars.database\\entities\\heroentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B138F67-B1DC-4D87-85B4-68C3B556D02C}|HeroWars.Database\\HeroWars.Database.csproj|solutionrelative:herowars.database\\entities\\heroentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F585E1B-F857-6E03-CA52-6B833606BC39}|HeroWars.Api\\HeroWars.Api.csproj|c:\\users\\b1karmat\\desktop\\herowars\\herowars.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F585E1B-F857-6E03-CA52-6B833606BC39}|HeroWars.Api\\HeroWars.Api.csproj|solutionrelative:herowars.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F585E1B-F857-6E03-CA52-6B833606BC39}|HeroWars.Api\\HeroWars.Api.csproj|c:\\users\\b1karmat\\desktop\\herowars\\herowars.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5F585E1B-F857-6E03-CA52-6B833606BC39}|HeroWars.Api\\HeroWars.Api.csproj|solutionrelative:herowars.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,37 +70,49 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\b1nagmat2\\Desktop\\Asztalalk\\HeroWars\\HeroWars.Api\\appsettings.json",
-              "RelativeDocumentMoniker": "HeroWars.Api\\appsettings.json",
-              "ToolTip": "C:\\Users\\b1nagmat2\\Desktop\\Asztalalk\\HeroWars\\HeroWars.Api\\appsettings.json",
-              "RelativeToolTip": "HeroWars.Api\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-11T07:40:24.393Z",
+              "DocumentIndex": 3,
+              "Title": "HeroController.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\HeroWars\\HeroWars.Api\\Controllers\\HeroController.cs",
+              "RelativeDocumentMoniker": "HeroWars.Api\\Controllers\\HeroController.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\HeroWars\\HeroWars.Api\\Controllers\\HeroController.cs",
+              "RelativeToolTip": "HeroWars.Api\\Controllers\\HeroController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T09:01:26.837Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\HeroWars\\HeroWars.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "HeroWars.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\HeroWars\\HeroWars.Api\\appsettings.json",
+              "RelativeToolTip": "HeroWars.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-11T07:40:24.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "HeroEntity.cs",
-              "DocumentMoniker": "C:\\Users\\b1nagmat2\\Desktop\\Asztalalk\\HeroWars\\HeroWars.Database\\Entities\\HeroEntity.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\HeroWars\\HeroWars.Database\\Entities\\HeroEntity.cs",
               "RelativeDocumentMoniker": "HeroWars.Database\\Entities\\HeroEntity.cs",
-              "ToolTip": "C:\\Users\\b1nagmat2\\Desktop\\Asztalalk\\HeroWars\\HeroWars.Database\\Entities\\HeroEntity.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\HeroWars\\HeroWars.Database\\Entities\\HeroEntity.cs",
               "RelativeToolTip": "HeroWars.Database\\Entities\\HeroEntity.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBEAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBEAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-11T07:33:38.989Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\b1nagmat2\\Desktop\\Asztalalk\\HeroWars\\HeroWars.Api\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\HeroWars\\HeroWars.Api\\Program.cs",
               "RelativeDocumentMoniker": "HeroWars.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\b1nagmat2\\Desktop\\Asztalalk\\HeroWars\\HeroWars.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\HeroWars\\HeroWars.Api\\Program.cs",
               "RelativeToolTip": "HeroWars.Api\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -105,11 +121,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "HeroRole.cs",
-              "DocumentMoniker": "C:\\Users\\b1nagmat2\\Desktop\\Asztalalk\\HeroWars\\HeroWars.Database\\Enums\\HeroRole.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\HeroWars\\HeroWars.Database\\Enums\\HeroRole.cs",
               "RelativeDocumentMoniker": "HeroWars.Database\\Enums\\HeroRole.cs",
-              "ToolTip": "C:\\Users\\b1nagmat2\\Desktop\\Asztalalk\\HeroWars\\HeroWars.Database\\Enums\\HeroRole.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\HeroWars\\HeroWars.Database\\Enums\\HeroRole.cs",
               "RelativeToolTip": "HeroWars.Database\\Enums\\HeroRole.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -118,13 +134,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\b1nagmat2\\Desktop\\Asztalalk\\HeroWars\\HeroWars.Database\\AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\b1karmat\\Desktop\\HeroWars\\HeroWars.Database\\AppDbContext.cs",
               "RelativeDocumentMoniker": "HeroWars.Database\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\b1nagmat2\\Desktop\\Asztalalk\\HeroWars\\HeroWars.Database\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\b1karmat\\Desktop\\HeroWars\\HeroWars.Database\\AppDbContext.cs",
               "RelativeToolTip": "HeroWars.Database\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-11T07:09:17.491Z",
               "EditorCaption": ""

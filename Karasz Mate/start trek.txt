@@ -1,0 +1,94 @@
+| Mező         | Jelentés                  |
+| ------------ | ------------------------- |
+| Name         | A hajó neve               |
+| Class        | A hajó osztálya           |
+| RaceFaction  | A faj vagy frakció        |
+| Length       | A hajó hossza méterben    |
+| Crew         | A személyzet létszáma     |
+| MaxWarp      | A maximális warp sebesség |
+| Armament     | A fegyverzet típusa       |
+| ShieldType   | A pajzs típusa            |
+| HullMaterial | A hajótest anyaga         |
+| Role         | A hajó szerepe            |
+
+A Role mező enumként kezelendő:
+public enum ShipRole
+{
+    Explorer,
+    Battlecruiser,
+    Warbird,
+    Scout,
+    Carrier,
+    Interceptor,
+    ScienceVessel,
+    Destroyer,
+    Frigate,
+    Transport
+}
+
+Feladatok
+---------
+
+1. CSV fájl beolvasása (1 pont)
+Olvasd be a CSV fájlt, és tárold az adatokat egy Ship osztály példányaiból álló listában.
+A Role mezőt alakítsd át a megfelelő ShipRole enum értékre.
+(1 pont)
+
+2. Hajók számának meghatározása (1 pont)
+Írd ki a konzolra:
+Hány hajó található az adatbázisban.
+(1 pont)
+
+3. Legénység összlétszáma (1 pont)
+Számold ki és írd ki:
+Az összes hajón szolgáló legénység összesített létszámát.
+(1 pont)
+
+4. Legnagyobb hajó keresése (1 pont)
+Határozd meg:
+Melyik hajó a leghosszabb (Length alapján).
+Írd ki a nevét és hosszát.
+(1 pont)
+
+5. Hajók száma frakciónként (1 pont)
+Számold meg:
+Hány hajó tartozik az egyes RaceFaction értékekhez.
+Írd ki a konzolra például:
+Federation: 50
+Klingon: 40
+Romulan: 35
+(1 pont)
+
+6. Warp 9 feletti hajók listázása (1 pont)
+Listázd ki azokat a hajókat, amelyek:
+Írd ki a hajó nevét és warp sebességét.
+(1 pont)
+
+7. Szerepkör (role) szerinti csoportosítás (1 pont)
+Csoportosítsd a hajókat a Role enum alapján.
+Írd ki például:
+Explorer: 25
+Destroyer: 30
+Carrier: 12
+(1 pont)
+
+8. Átlagos hajóhossz kiszámítása (1 pont)
+Számold ki:
+Az összes hajó átlagos hosszát méterben.
+(1 pont)
+
+9. Legnagyobb legénységű hajó frakciónként (1 pont)
+Határozd meg minden RaceFaction esetén:
+melyik hajón van a legtöbb legénység.
+Írd ki például:
+Federation: USS-2043 (Crew: 1200)
+Klingon: IKS-3311 (Crew: 800)
+(1 pont)
+
+10. Top 5 leggyorsabb hajó (1 pont)
+Rendezd a hajókat warp szerint csökkenő sorrendbe, majd írd ki az első 5 hajót.
+Példa:
+1. Borg-9999 - Warp 9.99
+2. USS-4500 - Warp 9.97
+...
+(1 pont)

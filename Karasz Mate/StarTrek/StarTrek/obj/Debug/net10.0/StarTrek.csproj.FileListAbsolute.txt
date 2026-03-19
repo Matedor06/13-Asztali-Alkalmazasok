@@ -1,0 +1,15 @@
+C:\Users\b1karmat\Desktop\github\13-asztali lehet ez a jo\13-Asztali-Alkalmazasok\Karasz Mate\StarTrek\StarTrek\bin\Debug\net10.0\StarTrek.exe
+C:\Users\b1karmat\Desktop\github\13-asztali lehet ez a jo\13-Asztali-Alkalmazasok\Karasz Mate\StarTrek\StarTrek\bin\Debug\net10.0\StarTrek.deps.json
+C:\Users\b1karmat\Desktop\github\13-asztali lehet ez a jo\13-Asztali-Alkalmazasok\Karasz Mate\StarTrek\StarTrek\bin\Debug\net10.0\StarTrek.runtimeconfig.json
+C:\Users\b1karmat\Desktop\github\13-asztali lehet ez a jo\13-Asztali-Alkalmazasok\Karasz Mate\StarTrek\StarTrek\bin\Debug\net10.0\StarTrek.dll
+C:\Users\b1karmat\Desktop\github\13-asztali lehet ez a jo\13-Asztali-Alkalmazasok\Karasz Mate\StarTrek\StarTrek\bin\Debug\net10.0\StarTrek.pdb
+C:\Users\b1karmat\Desktop\github\13-asztali lehet ez a jo\13-Asztali-Alkalmazasok\Karasz Mate\StarTrek\StarTrek\obj\Debug\net10.0\StarTrek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\b1karmat\Desktop\github\13-asztali lehet ez a jo\13-Asztali-Alkalmazasok\Karasz Mate\StarTrek\StarTrek\obj\Debug\net10.0\StarTrek.AssemblyInfoInputs.cache
+C:\Users\b1karmat\Desktop\github\13-asztali lehet ez a jo\13-Asztali-Alkalmazasok\Karasz Mate\StarTrek\StarTrek\obj\Debug\net10.0\StarTrek.AssemblyInfo.cs
+C:\Users\b1karmat\Desktop\github\13-asztali lehet ez a jo\13-Asztali-Alkalmazasok\Karasz Mate\StarTrek\StarTrek\obj\Debug\net10.0\StarTrek.csproj.CoreCompileInputs.cache
+C:\Users\b1karmat\Desktop\github\13-asztali lehet ez a jo\13-Asztali-Alkalmazasok\Karasz Mate\StarTrek\StarTrek\obj\Debug\net10.0\StarTrek.sourcelink.json
+C:\Users\b1karmat\Desktop\github\13-asztali lehet ez a jo\13-Asztali-Alkalmazasok\Karasz Mate\StarTrek\StarTrek\obj\Debug\net10.0\StarTrek.dll
+C:\Users\b1karmat\Desktop\github\13-asztali lehet ez a jo\13-Asztali-Alkalmazasok\Karasz Mate\StarTrek\StarTrek\obj\Debug\net10.0\refint\StarTrek.dll
+C:\Users\b1karmat\Desktop\github\13-asztali lehet ez a jo\13-Asztali-Alkalmazasok\Karasz Mate\StarTrek\StarTrek\obj\Debug\net10.0\StarTrek.pdb
+C:\Users\b1karmat\Desktop\github\13-asztali lehet ez a jo\13-Asztali-Alkalmazasok\Karasz Mate\StarTrek\StarTrek\obj\Debug\net10.0\StarTrek.genruntimeconfig.cache
+C:\Users\b1karmat\Desktop\github\13-asztali lehet ez a jo\13-Asztali-Alkalmazasok\Karasz Mate\StarTrek\StarTrek\obj\Debug\net10.0\ref\StarTrek.dll
